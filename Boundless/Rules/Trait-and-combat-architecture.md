@@ -143,3 +143,239 @@ Dice-driven
 AP-throttled
 Open-ended
 Structurally contained
+
+
+Core Rules
+Trait Costs
+Sequential Tier Costs (when applicable):
+Tier
+Total Cost
+Simple
+3
+Basic
+9
+Intermediate
+18
+Advanced
+30
+Master
+45
+Fixed traits use:
+Simple: 3
+Basic: 6
+Intermediate: 9
+Advanced: 12
+General Rules
+Traits never grant automatic success.
+Traits never modify AP thresholds.
+Traits only add dice, replace profiles, or grant defined capabilities.
+Only one Dominant Skin may provide combat benefits.
+Extra limbs and extra heads do not grant additional actions or AP.
+Hunger Dice may be used on any roll and are capped at tier.
+Creature Type (Tag Only — Cost 0)
+Draconic
+Elemental
+Fae
+Giant
+Ooze
+Plant
+Undead
+Creature Types suggest trait clusters but do not cost points or grant mechanical bonuses.
+Torso (Fixed Intermediate — 9)
+All Torso traits cost 9.
+Cephalothorax
+Cephalopod
+Gastropod
+Multiple (Centaur)
+Unconventional
+None (no torso)
+Torso traits alter anatomy but do not grant combat dice.
+Limbs
+Extra Arms/Legs
+Cost: +9 per purchase
+Each purchase grants +2 limbs
+Does not grant additional actions or AP
+Fewer Arms/Legs (Creation Only)
+–9 per purchase
+Removes 2 limbs
+May be taken multiple times
+Natural Weapon Profiles (Tiered Sequential)
+Applies to:
+Claws
+Talons
+Fangs
+Toothy Maw
+Chelicerae
+Tusks
+Hooves
+Horns
+Pincers
+Tail (Spiked)
+Each tier grants +1d10 to attacks using that profile.
+Only one weapon profile may be used per attack.
+Tentacles
+Fixed Basic (6)
+Replaces a limb or limb pair
+Grants +2 dice to grapple/hold-based components
+Prerequisite for Pseudopod
+Pseudopod (Localized) — Tiered Sequential
+Prerequisite: Tentacles
+Each tier grants +1d10 to:
+Grapple retention
+Mechanism overwhelm (with time)
+Climbing & anchoring
+Seam infiltration
+Organic absorption
+Once per turn:
+Convert one limb to amorphous or return it to normal.
+While Amorphous:
+Gain 10 ft proximity sense
+Elemental Weakness (chosen at creation): If struck by chosen element while Amorphous:
+Action canceled
+Double elemental damage
+Suppressed for rounds equal to base damage
+Extra Heads
+Cost: +9 per head
+Grants +1 die to awareness/perception checks
+Prevents blind-angle flanking
+Does not grant extra actions or AP
+Skin
+You may select multiple Skin traits at creation.
+You must select one Dominant Skin.
+Only the Dominant Skin grants combat benefits.
+Defensive Dominant Skins (Tiered Sequential)
+Bark
+Exoskeleton
+Scales
+Shell
+Thick Hide
+Elemental → Crystalline (Full)
+Each tier grants +1d10 passive defense dice.
+Reactive/Offensive Dominant Skins
+Barbed
+Quills
+Secretion
+Corrosive
+Poison
+Slime
+Spores
+Pheromones
+Mucus
+Adhesive (Tiered Sequential)
+Reactive skins grant dice only in appropriate triggered contexts.
+Only one Dominant Skin applies combat effects.
+Utility Skin Traits (No Combat Dice Unless Dominant)
+Hairless
+Hirsute
+Feathers
+Photosynthetic
+Crystalline (Partial)
+None
+Mouth
+Tiered Natural Weapon Profiles
+Beak
+Fangs
+Toothy Maw
+Chelicerae
+Tusks
+Each tier grants +1d10 when using that profile.
+Fixed Mouth Traits
+Bill
+Elongated
+Proboscis
+Tentacles
+Tongue
+Long
+Prehensile (Prereq: Long)
+Forked
+Nose
+Slitted
+Trunk
+Prehensile Trunk
+Venomous:
+Fixed (6)
+Requires Fangs or Toothy Maw
+Senses (Fixed)
+Low-Light Vision (6)
+Night Vision (9)
+Keen Hearing (6) — Requires Ears
+Keen Scent (6)
+Hyperesthesia (6)
+Super-Tasting (6)
+Blind (–9)
+Deaf (–6)
+Speechless (–6)
+Mindless (–12)
+Emotionless (–6)
+Telepathy is not a trait (magic component only).
+Eyes
+Eyestalks (6)
+Mobile (9) — Prereq: Eyestalks
+Retractable (12) — Prereq: Mobile
+Gills
+Gills (6) — Water breathing only
+Amphibious (9) — Prereq: Gills
+Size (Tiered Sequential)
+Medium (Base): 5–7 ft
+Tier
+Smaller
+Larger
+Simple
+4–5 ft
+7–9 ft
+Basic
+3–4 ft
+9–11 ft
+Intermediate
+2–3 ft
+11–13 ft
+Advanced
+1–2 ft
+13–15 ft
+Master
+<1 ft
+15–17 ft
+Extreme sizes may require environmental rule considerations.
+Movement
+Wings (Tiered Sequential)
+Tier 1: Vestigial — reduces fall damage
+Tier 2: Glide — Flight speed = MS, must move, descend 5 ft/round
+Tier 3: Flight — Flight speed = MS, can hover
+Tier 4: Fast Flight — 2× MS
+Tier 5: Dominance — 3× MS
+Wingless Flight
+Replaces movement speed
+Requires Incorporeal
+Uses same tier ladder
+Swim Movement
+Webbed Fingers/Toes (6) — Swim = MS
+Fins (6) — Swim = 2× MS (Prereq: Webbed)
+Paddle Tail (6) — Swim = 2× MS
+Prehensile Tail
+Fixed (6)
+Can hold items
+Assists balance
+Not an additional combat limb
+Spinneret
+Fixed (3)
+Allows climbing webs that support your weight
+Unnatural Hunger (Tiered Sequential)
+Types:
+Predatory
+Emotional
+Each Tier Grants:
++1d10 Hunger Die capacity
+Max stored dice = tier
+–1 AP per tier per day denied
+Feeding:
+Target Helpless or Willing
+1 uninterrupted round
+Gain +1d10 per tier (up to cap)
+Spending:
+Hunger Dice may be added to any roll
+Must declare before roll
+Dice are consumed
+Denial:
+–1 AP per tier per day
+Persists until fed
+Feeding restores 1 day’s penalty
