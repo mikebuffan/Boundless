@@ -36,7 +36,7 @@ Older non-CLEAN material was not needed to construct this pass. No older source 
 1. **Core Resolution, Tiers, AP, Luck & Universal Mechanics** — current engine and cross-system rules.
 2. **Specialists, Character Creation & Advancement** — stats, creation, experience, advancement, possessions, and creation-economy conflicts.
 3. **Combat, Defense, Movement, Health & Armor** — opposed combat, defense paths, criticals, movement, Vitality/Fatigue, armor review, Berserk/Meginserk.
-4. **Skills** — current Skill architecture, threshold stress test, legacy usage modes, and the complete recovered Skill catalog.
+4. **Skills** — confirmed Skill thresholds and outcome framework, Hasty/Meticulous, extended checks, remaining Teamwork/combat-use questions, and the complete recovered Skill catalog.
 5. **Martial** — current Martial architecture plus the complete recovered Component and Training catalog, each retained for conversion.
 6. **Magic** — current spell architecture plus the complete recovered Magic catalog and a formula-free structure/energy index from the workbook.
 7. **Creatures & Traits** — current modular Trait framework plus recovered creature types and trait material.
@@ -91,17 +91,21 @@ The paths are mutually exclusive **per defense roll**. A Specialist can know/use
 - Unarmored Training is unavailable while wearing armor.
 - Evasion is unavailable in medium or heavy armor.
 - The selected defensive Stat uses the universal Stat-dice formula and the selected Training adds +1d10 per degree.
-- Passive Defense costs no AP and cannot critically succeed.
+- Passive Defense costs no AP. Whether Passive Defense can critically succeed or fail has been deliberately reopened for stress testing; do not assume either prohibition or permission until that pass is complete.
 - Active Defense costs AP, replaces Passive Defense, and can incorporate eligible Components and other modifiers.
 
 ### ✅ / ⚠️ Critical framework
 
-- A Critical Success requires the underlying action to succeed and the required natural **10s**: 1 / 2 / 3 / 4 / 5 by tier.
+- Every qualifying roll contains one identifiable **Critical Die**: the persistent base +1d10 already included in the normal dice pool. It is not an extra die.
+- A **Critical Success** requires the underlying action to succeed and the Critical Die to show a natural **10**.
+- A **Critical Failure** requires the underlying action to fail and the Critical Die to show a natural **1**.
+- Other natural 10s or 1s do not trigger a critical by themselves, though a specific critical effect may still use the total number of natural 1s or 10s showing to determine severity.
 - An attack Critical Success doubles the **damage dice**, not the rolled damage result.
 - A provisional defensive Critical Success imposes **-1d10 per excess defensive success** on the attacker's next attack **against that same defender**. This remains pinned for stress testing.
-- An attacker Critical Failure uses qualifying natural **1s**. The attacker cannot move for the remainder of the turn and takes **-1d10 to their next defensive action per natural 1 showing** on the critically failed attack. This remains subject to stress testing.
-- A defender Critical Failure grants the attacker **+1 damage per damage die rolled**, retaining the appropriate damage type/provenance.
-- **Overwhelming Success** is currently defined as every die in the available pool showing a success (6–10). It may coexist with a Critical Success. Its exact Skill effects are not yet defined.
+- On an attacker Critical Failure, **-1d10 to the next defensive action per natural 1 showing** is confirmed. The old "no further movement" consequence has been reopened; **half Movement Speed** is the current stress-test candidate.
+- A defender Critical Failure grants the attacker **+1 damage per damage die rolled**, retaining the appropriate damage type/provenance. Applying the same half-Movement consequence to the defender is under stress test.
+- Passive Defense critical eligibility is separately reopened for stress testing.
+- For **Skills**, Overwhelming Success occurs at **150% of the normal threshold, rounded up**; Overwhelming Failure occurs when a failed check misses its threshold by **3 or more successes**. Skill-specific consequences are contextual, while extended checks use the confirmed mark values in Chapter 4.
 
 ### ✅ Luck
 
@@ -112,4 +116,4 @@ The paths are mutually exclusive **per defense roll**. A Specialist can know/use
 
 ## Systems that are intentionally not declared finished
 
-The largest remaining design packages are Skills, Martial Component conversion, the armor/mitigation ecosystem, creation/advancement economy, individual Magic conversion, Crafting/Quality/Durability, and detailed Traits. The chapter files preserve the source material so decisions can be made entry-by-entry without losing anything.
+The largest remaining design packages are individual Skill conversion plus Teamwork/combat use, Martial Component conversion, the armor/mitigation ecosystem, creation/advancement economy, individual Magic conversion, Crafting/Quality/Durability, and detailed Traits. The chapter files preserve the source material so decisions can be made entry-by-entry without losing anything.

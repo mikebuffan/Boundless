@@ -21,7 +21,7 @@
 - Minimum governing Stats for those degrees are 15 / 30 / 45 / 60 / 75.
 - Training contributes +1d10 per degree.
 - The governing Stat contributes (1 + floor(Stat/10))d10.
-- CLEAN restrictions that require an untrained Specialist's Stat to qualify for the attempted degree, halve untrained dice, forbid meticulous attempts, or automatically make untrained failure disastrous are **🔄 superseded** by the modern "anyone can attempt" principle unless explicitly reintroduced later.
+- CLEAN restrictions that require an untrained Specialist's Stat to qualify for the attempted degree, halve untrained dice, forbid Meticulous attempts, or automatically make untrained failure disastrous are **🔄 superseded** and remain in the graveyard. They are not part of the modern Skill system.
 
 ## 2. CLEAN thresholds and why they cannot be used directly
 

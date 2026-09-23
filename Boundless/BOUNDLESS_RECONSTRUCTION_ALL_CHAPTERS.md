@@ -36,7 +36,7 @@ Older non-CLEAN material was not needed to construct this pass. No older source 
 1. **Core Resolution, Tiers, AP, Luck & Universal Mechanics** — current engine and cross-system rules.
 2. **Specialists, Character Creation & Advancement** — stats, creation, experience, advancement, possessions, and creation-economy conflicts.
 3. **Combat, Defense, Movement, Health & Armor** — opposed combat, defense paths, criticals, movement, Vitality/Fatigue, armor review, Berserk/Meginserk.
-4. **Skills** — current Skill architecture, threshold stress test, legacy usage modes, and the complete recovered Skill catalog.
+4. **Skills** — confirmed Skill thresholds and outcome framework, Hasty/Meticulous, extended checks, remaining Teamwork/combat-use questions, and the complete recovered Skill catalog.
 5. **Martial** — current Martial architecture plus the complete recovered Component and Training catalog, each retained for conversion.
 6. **Magic** — current spell architecture plus the complete recovered Magic catalog and a formula-free structure/energy index from the workbook.
 7. **Creatures & Traits** — current modular Trait framework plus recovered creature types and trait material.
@@ -91,17 +91,21 @@ The paths are mutually exclusive **per defense roll**. A Specialist can know/use
 - Unarmored Training is unavailable while wearing armor.
 - Evasion is unavailable in medium or heavy armor.
 - The selected defensive Stat uses the universal Stat-dice formula and the selected Training adds +1d10 per degree.
-- Passive Defense costs no AP and cannot critically succeed.
+- Passive Defense costs no AP. Whether Passive Defense can critically succeed or fail has been deliberately reopened for stress testing; do not assume either prohibition or permission until that pass is complete.
 - Active Defense costs AP, replaces Passive Defense, and can incorporate eligible Components and other modifiers.
 
 ### ✅ / ⚠️ Critical framework
 
-- A Critical Success requires the underlying action to succeed and the required natural **10s**: 1 / 2 / 3 / 4 / 5 by tier.
+- Every qualifying roll contains one identifiable **Critical Die**: the persistent base +1d10 already included in the normal dice pool. It is not an extra die.
+- A **Critical Success** requires the underlying action to succeed and the Critical Die to show a natural **10**.
+- A **Critical Failure** requires the underlying action to fail and the Critical Die to show a natural **1**.
+- Other natural 10s or 1s do not trigger a critical by themselves, though a specific critical effect may still use the total number of natural 1s or 10s showing to determine severity.
 - An attack Critical Success doubles the **damage dice**, not the rolled damage result.
 - A provisional defensive Critical Success imposes **-1d10 per excess defensive success** on the attacker's next attack **against that same defender**. This remains pinned for stress testing.
-- An attacker Critical Failure uses qualifying natural **1s**. The attacker cannot move for the remainder of the turn and takes **-1d10 to their next defensive action per natural 1 showing** on the critically failed attack. This remains subject to stress testing.
-- A defender Critical Failure grants the attacker **+1 damage per damage die rolled**, retaining the appropriate damage type/provenance.
-- **Overwhelming Success** is currently defined as every die in the available pool showing a success (6–10). It may coexist with a Critical Success. Its exact Skill effects are not yet defined.
+- On an attacker Critical Failure, **-1d10 to the next defensive action per natural 1 showing** is confirmed. The old "no further movement" consequence has been reopened; **half Movement Speed** is the current stress-test candidate.
+- A defender Critical Failure grants the attacker **+1 damage per damage die rolled**, retaining the appropriate damage type/provenance. Applying the same half-Movement consequence to the defender is under stress test.
+- Passive Defense critical eligibility is separately reopened for stress testing.
+- For **Skills**, Overwhelming Success occurs at **150% of the normal threshold, rounded up**; Overwhelming Failure occurs when a failed check misses its threshold by **3 or more successes**. Skill-specific consequences are contextual, while extended checks use the confirmed mark values in Chapter 4.
 
 ### ✅ Luck
 
@@ -112,12 +116,10 @@ The paths are mutually exclusive **per defense roll**. A Specialist can know/use
 
 ## Systems that are intentionally not declared finished
 
-The largest remaining design packages are Skills, Martial Component conversion, the armor/mitigation ecosystem, creation/advancement economy, individual Magic conversion, Crafting/Quality/Durability, and detailed Traits. The chapter files preserve the source material so decisions can be made entry-by-entry without losing anything.
-
+The largest remaining design packages are individual Skill conversion plus Teamwork/combat use, Martial Component conversion, the armor/mitigation ecosystem, creation/advancement economy, individual Magic conversion, Crafting/Quality/Durability, and detailed Traits. The chapter files preserve the source material so decisions can be made entry-by-entry without losing anything.
 
 
 ---
-
 
 # Chapter 1 — Core Resolution, Tiers, AP, Luck & Universal Mechanics
 
@@ -146,13 +148,13 @@ This preserves the minimum +1d10 at every Stat value. Examples: Stat 1–9 = 1d1
 
 Applicable Training contributes **+1d10 per degree**. Other applicable dice sources may stack unless a rule explicitly makes them mutually exclusive.
 
-There are no automatic successes. Critical Success and Overwhelming Success are special roll states rather than automatic successes.
+There are no automatic successes. Critical Success, Critical Failure, and subsystem-specific Overwhelming outcomes are special roll states rather than automatic successes.
 
 ## 2. Opposed and threshold checks
 
 **✅ Opposed checks:** higher successes wins. Combat ties become Glancing Blows in the attacker's favor. Noncombat ties default to the minimum successful outcome unless the relevant subsystem specifies otherwise.
 
-**⚠️ Threshold checks:** meeting or exceeding the threshold succeeds. The universal/Skill difficulty ladder is under active reconstruction. A provisional 2/3/4/5/6 success ladder is stress-tested in the Skills chapter but is **not yet canon**.
+**✅ Threshold checks:** meeting or exceeding the threshold succeeds. For Skills, the confirmed difficulty ladder is **2 / 3 / 4 / 5 / 6 successes** for Simple / Basic / Intermediate / Advanced / Master. Other subsystems may define their own threshold structures where explicitly required.
 
 ## 3. Universal tiers and prerequisites
 
@@ -238,19 +240,33 @@ On an unlucky roll, the damage is reduced by an amount equal to the luck used, p
 
 When used to on a skill roll, the player chooses an amount of luck, flips the luck coin, and rolls as normal. On a lucky flip, the luck, up to an amount equal to the natural roll, is added to the skill roll. On an unlucky flip, the skill roll is reduced by an amount equal to the luck used, potentially to zero. In the case of an unlucky critical failure, any skill with negative consequences for failure has double the negative consequences. For example, if a Specialist is working with gun powder, the gun powder would not only explode, but it would deal double damage to the Specialist and nearby equipment. Any tools being used in an unlucky critical failure have a chance of breaking equal to the amount of luck used.
 
-## 7. Critical Success, Critical Failure, and Overwhelming Success
+## 7. Critical Success, Critical Failure, and Overwhelming outcomes
 
-**✅ Critical Success trigger:** the underlying action must succeed and must show the required natural 10s for its tier: Simple 1, Basic 2, Intermediate 3, Advanced 4, Master 5.
+**✅ Universal Critical Die:** every qualifying roll contains one identifiable **Critical Die**: the persistent base +1d10 already included in the normal dice pool. The Critical Die is not an additional die.
+
+- **Critical Success (Crit+):** the underlying action succeeds and the Critical Die shows a natural **10**.
+- **Critical Failure (Crit-):** the underlying action fails and the Critical Die shows a natural **1**.
+- A natural 10 on the Critical Die does not create Crit+ if the action fails.
+- A natural 1 on the Critical Die does not create Crit- if the action succeeds.
+- Other natural 10s or 1s do not trigger a critical by themselves, though a specific critical effect may use the total number showing to determine severity.
+
+At a physical table, the Critical Die should be visually distinguishable. In digital resolution, the engine identifies it internally.
 
 **✅ Attack Critical Success:** double the damage dice.
 
-**⚠️ Provisional defensive Critical Success:** when an active defender wins and qualifies for a Critical Success, the attacker takes -1d10 per excess defensive success on their next attack against that same defender. Passive Defense cannot critically succeed.
+**⚠️ Provisional defensive Critical Success:** when a defender wins and qualifies for Crit+, the attacker takes -1d10 per excess defensive success on their next attack against that same defender. Whether Passive Defense can critically succeed or fail has been reopened for stress testing.
 
-**⚠️ Provisional attacker Critical Failure:** once the attack qualifies for Critical Failure using natural 1s, the attacker cannot move for the remainder of that turn and suffers -1d10 to their next defensive action per natural 1 showing on the failed attack.
+**✅ / ⚠️ Attacker Critical Failure:** the confirmed penalty is -1d10 to the attacker's next defensive action **per natural 1 showing anywhere in the failed attack pool**. The previous "no further movement" consequence has been reopened; **half Movement Speed** is the current stress-test candidate.
 
-**✅ Defender Critical Failure concept:** attacker gains +1 damage per damage die rolled, preserving the appropriate damage type.
+**✅ Defender Critical Failure concept:** attacker gains +1 damage per damage die rolled, preserving the appropriate damage type. Applying the same half-Movement consequence to the defender is under stress test.
 
-**⚠️ Overwhelming Success:** every die in the available pool shows a success (6–10). It may occur with or without Critical Success. Mechanical effects outside ordinary success remain undefined, especially for Skills.
+### Skill Overwhelming outcomes
+
+**✅ Overwhelming Success (OwS):** on a Skill check, OwS occurs when the roll reaches **150% of the normal success threshold, rounded up**. With Skill thresholds 2 / 3 / 4 / 5 / 6, the OwS thresholds are 3 / 5 / 6 / 8 / 9.
+
+**✅ Overwhelming Failure (OwF):** on a failed Skill check, OwF occurs when the roll falls short of the normal threshold by **3 or more successes**. Simple Skill checks cannot produce OwF under this rule.
+
+OwS may coexist with Crit+; OwF may coexist with Crit-. Their Skill-specific consequences are contextual, while Chapter 4 defines their confirmed effects on extended checks.
 
 ### Recovered CLEAN critical rules
 
@@ -299,9 +315,7 @@ Magic, martial and skill improvisation are slightly different than item improvis
 **⬜ NEEDS DEVELOPMENT:** a canonical Conditions glossary does not yet exist.
 
 
-
 ---
-
 
 # Chapter 2 — Specialists, Character Creation & Advancement
 
@@ -731,9 +745,7 @@ Wealth generally refers to the amount of Qwartz a Specialist carries, but can al
 The notes space on the Specialist Record is provided for players to make note of anything they feel is important. Many players like to quickly jot notes about ideas they have, adventures they’ve had, non-player Specialists (NPS), or even expand when other areas have run out of room. It’s also a good place to write down the final judgments of the Keeper any time a rules question crops up. The bottom line is, if it’s not written down, it’s not true. For example, if you intended to sew a lock pick into your tunic, but you didn’t write it down, you never did it.
 
 
-
 ---
-
 
 # Chapter 3 — Combat, Defense, Movement, Health & Armor
 
@@ -787,7 +799,7 @@ A Specialist may know multiple defensive approaches, but **only one path contrib
 
 The chosen Stat contributes (1 + floor(Stat/10))d10. The chosen Training contributes +1d10 per degree.
 
-**Passive Defense:** no AP; always available when a valid path exists; cannot critically succeed.
+**Passive Defense:** no AP; always available when a valid path exists. Whether Passive Defense can critically succeed or critically fail has been deliberately reopened for stress testing.
 
 **Active Defense:** costs AP; replaces rather than stacks with Passive Defense; may add eligible defensive Components/Traits/equipment/modifiers. The same three base paths are available subject to equipment restrictions.
 
@@ -809,13 +821,17 @@ Current anchors:
 
 ## 5. Critical combat effects
 
-**✅ Attack Critical Success:** successful attack + qualifying natural 10s; double damage dice.
+**✅ Universal trigger:** combat uses the Critical Die from the core resolution engine. A successful action is Crit+ when its Critical Die shows a natural 10; a failed action is Crit- when its Critical Die shows a natural 1.
 
-**⚠️ Provisional defensive Critical Success:** successful active defense + qualifying natural 10s; -1d10 to the attacker's next attack against this same defender per excess defensive success.
+**✅ Attack Critical Success:** successful attack + Critical Die 10; double damage dice.
 
-**⚠️ Provisional attacker Critical Failure:** qualifying failed attack; attacker cannot move for the rest of that turn and takes -1d10 to the next defensive action per natural 1 showing on the failed attack.
+**⚠️ Provisional defensive Critical Success:** successful defense + Critical Die 10; -1d10 to the attacker's next attack against this same defender per excess defensive success. The effect remains under stress test, and Passive Defense eligibility is separately reopened for review.
 
-**✅ Defender Critical Failure concept:** +1 damage per damage die rolled for the attacker, retaining damage type.
+**✅ / ⚠️ Attacker Critical Failure:** failed attack + Critical Die 1. The attacker takes **-1d10 to their next defensive action per natural 1 showing anywhere in the failed attack pool**. The previous "no further movement" consequence is no longer treated as settled; **half Movement Speed** is the current stress-test candidate.
+
+**✅ / ⚠️ Defender Critical Failure:** failed defense + Critical Die 1. The attacker gains **+1 damage per damage die rolled**, retaining damage type/provenance. Applying the same half-Movement consequence to the defender is under stress test.
+
+Natural 1s outside the Critical Die do not trigger Crit- by themselves, but they still scale an effect when a confirmed rule explicitly counts total natural 1s.
 
 ## 6. Movement in combat
 
@@ -1069,9 +1085,7 @@ Specialists who take doses with higher concentration tiers than they’re traine
 For Specialists that use projectile weapons, ammunition has the potential to be fairly expensive. There is also a possibility that ammunition that hasn’t been damaged may be recovered. Certain circumstances may make a particular arrow, bolt, rock, etc. unable to be recovered, such as a troll fleeing with an arrow sticking out of his shoulder. In general, though, about 10% of used ammunition should be able to be recovered by the owner (or left to be recovered by scavengers, if the owner doesn’t take the time to recover it).
 
 
-
 ---
-
 
 # Chapter 4 — Skills
 
@@ -1096,7 +1110,7 @@ For Specialists that use projectile weapons, ammunition has the potential to be 
 - Minimum governing Stats for those degrees are 15 / 30 / 45 / 60 / 75.
 - Training contributes +1d10 per degree.
 - The governing Stat contributes (1 + floor(Stat/10))d10.
-- CLEAN restrictions that require an untrained Specialist's Stat to qualify for the attempted degree, halve untrained dice, forbid meticulous attempts, or automatically make untrained failure disastrous are **🔄 superseded** by the modern "anyone can attempt" principle unless explicitly reintroduced later.
+- CLEAN restrictions that require an untrained Specialist's Stat to qualify for the attempted degree, halve untrained dice, forbid Meticulous attempts, or automatically make untrained failure disastrous are **🔄 superseded** and remain in the graveyard. They are not part of the modern Skill system.
 
 ## 2. CLEAN thresholds and why they cannot be used directly
 
@@ -1106,45 +1120,116 @@ CLEAN uses summed face values of the d10s. Its normal success targets are record
 
 No silent numerical translation is made here.
 
-## 3. Current threshold stress test — NOT YET CANON
+## 3. Skill difficulty thresholds
 
-For testing, assume a Specialist has exactly the minimum governing Stat required for the degree and is trained exactly to that degree. The resulting pools are 3 / 6 / 8 / 11 / 13 d10.
+**✅ CONFIRMED**
 
-Current candidate difficulty thresholds are **2 / 3 / 4 / 5 / 6 successes**. Because a d10 succeeds on 6–10, each die has a 50% success probability.
+Skill difficulty is independent of the Specialist's Training degree. A task has an inherent tier; Training and governing Stat determine the dice available to meet that threshold.
 
-| Degree/task tier | Minimum Stat | Stat dice | Training dice | Total pool | Candidate threshold | Chance to meet threshold | Chance every die succeeds |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Simple | 15 | 2d10 | +1d10 | **3d10** | **2** | **50.00%** | 12.5000% |
-| Basic | 30 | 4d10 | +2d10 | **6d10** | **3** | **65.62%** | 1.5625% |
-| Intermediate | 45 | 5d10 | +3d10 | **8d10** | **4** | **63.67%** | 0.3906% |
-| Advanced | 60 | 7d10 | +4d10 | **11d10** | **5** | **72.56%** | 0.0488% |
-| Master | 75 | 8d10 | +5d10 | **13d10** | **6** | **70.95%** | 0.0122% |
+| Task tier | Successes required |
+| --- | ---: |
+| Simple | **2** |
+| Basic | **3** |
+| Intermediate | **4** |
+| Advanced | **5** |
+| Master | **6** |
 
-**💡 Observation:** Basic through Master sit roughly in the mid-60s to low-70s for a minimum-qualified, exactly-trained Specialist. Simple is exactly 50%. This is substantially more demanding than the earlier 1/2/3/4/5 candidate.
+At the minimum governing Stat and matching Training degree, baseline pools and success rates are:
 
-**⚠️ Important Overwhelming Success consequence:** because Overwhelming Success currently requires **every die** to succeed, adding more dice makes it dramatically rarer. At the baseline pools above it falls from 12.5% at Simple to roughly 0.0122% at Master. That may fit the "jackpot" intent, but it also means greater expertise reduces the chance of this special state. Keep this pinned for design review rather than silently changing it.
+| Tier | Minimum Stat | Stat dice | Training dice | Total pool | Success chance |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Simple | 15 | 2d10 | +1d10 | **3d10** | **50.00%** |
+| Basic | 30 | 4d10 | +2d10 | **6d10** | **65.63%** |
+| Intermediate | 45 | 5d10 | +3d10 | **8d10** | **63.67%** |
+| Advanced | 60 | 7d10 | +4d10 | **11d10** | **72.56%** |
+| Master | 75 | 8d10 | +5d10 | **13d10** | **70.95%** |
+
+The higher baseline reliability at Advanced and Master is intentional. The threshold progression remains the simple 2 / 3 / 4 / 5 / 6 ladder rather than introducing irregular exceptions merely to flatten percentages.
+
+Anyone may attempt any Skill. A Specialist may simply have too few dice for a particular task to be realistically or mathematically achievable; this is an emergent limit rather than an explicit permission gate.
 
 ## 4. Critical and Overwhelming Skill outcomes
 
-**✅ Trigger definitions / ⬜ effects**
+**✅ CONFIRMED**
 
-- Critical Success: the Skill attempt succeeds and shows the required natural 10s for the applicable tier (1/2/3/4/5).
-- Overwhelming Success: every die in the available pool is a success.
-- Both may occur on the same check.
-- Exact mechanical/narrative effects are not defined. CLEAN "spectacular success" language may provide inspiration, but its all-10s trigger has been superseded.
+Every Skill roll includes one identifiable **Critical Die**: the persistent base +1d10 already included in the normal dice pool. It is not an additional die.
+
+- **Critical Success (Crit+):** the Skill check succeeds and the Critical Die shows a natural 10.
+- **Critical Failure (Crit-):** the Skill check fails and the Critical Die shows a natural 1.
+- A 10 on the Critical Die does not create Crit+ if the underlying check fails.
+- A 1 on the Critical Die does not create Crit- if the underlying check succeeds.
+
+At a physical table, use a visually distinct die. In digital resolution, identify the Critical Die internally.
+
+**Overwhelming Success (OwS)** occurs when the roll reaches 150% of the normal success threshold, rounded up:
+
+| Tier | Normal threshold | OwS threshold |
+| --- | ---: | ---: |
+| Simple | 2 | **3** |
+| Basic | 3 | **5** |
+| Intermediate | 4 | **6** |
+| Advanced | 5 | **8** |
+| Master | 6 | **9** |
+
+**Overwhelming Failure (OwF)** occurs when a failed Skill check falls short of the normal success threshold by **3 or more successes**:
+
+| Tier | Normal threshold | OwF result |
+| --- | ---: | ---: |
+| Simple | 2 | **Impossible** |
+| Basic | 3 | **0 successes** |
+| Intermediate | 4 | **0-1 successes** |
+| Advanced | 5 | **0-2 successes** |
+| Master | 6 | **0-3 successes** |
+
+OwS and Crit+ may occur together. OwF and Crit- may occur together.
+
+Outside the universal classification of these outcomes and their extended-check values, their exact consequences are Skill-specific and situation-specific. The Keeper should use judgment based on the task, tools, materials, environment, and stakes. Individual Skills should provide concrete examples of suitable exceptional results without turning those examples into a rigid universal consequence table.
 
 ## 5. Hasty, Meticulous, Progressive/Productive, and Ongoing use
 
-**⚠️ REVIEW / CONVERSION**
+### Hasty and Meticulous
 
-These modes are valuable design concepts but mathematically tied to the old Skill engine.
+**✅ CONFIRMED**
 
-- Hasty: reduced time at increased risk / fewer dice. Needs modern scaling.
-- Meticulous: increased time for bonus dice and failure protection. Current +1d10 / cumulative +3d10 structure may be too math-heavy and should be evaluated rather than automatically retained.
-- Progressive/Productive: accumulate progress over repeated checks. Needs new success-count targets/failure handling.
-- Ongoing: routine sustained actions need infrequent or no rerolls until conditions change; concept remains strong.
-- Teamwork: not fully reconstructed and needs a modern rule.
-- Skills in combat: CLEAN charges 1 AP per check and forbids a Skill if it cannot fit all required checks in the round. This must be reconciled with the modern AP ceiling and no-normal-multi-turn-enactment rule.
+**Hasty:** complete the task in half the normal time and apply **-1d10 per tier of task difficulty**.
+
+**Meticulous:** take double the normal time and gain **+1d10 per tier of task difficulty**.
+
+| Tier | Hasty | Meticulous |
+| --- | ---: | ---: |
+| Simple | -1d10 | +1d10 |
+| Basic | -2d10 | +2d10 |
+| Intermediate | -3d10 | +3d10 |
+| Advanced | -4d10 | +4d10 |
+| Master | -5d10 | +5d10 |
+
+The Keeper has final authority over whether Hasty or Meticulous is possible in the circumstances, and circumstances may effectively require one mode. These are the universal pace-based Skill modifiers.
+
+The CLEAN-era generic favorable/unfavorable circumstance ladder is **🔄 superseded and removed**. Other advantages or disadvantages should come from concrete sources such as tools, equipment, Traits, Magic, Conditions, assistance, environmental rules, or Skill-specific rules. The Keeper may instead assign a different task tier when circumstances fundamentally change the task itself.
+
+### Progressive / Productive / Ongoing checks
+
+**✅ CONFIRMED**
+
+Extended tasks use the same normal Skill thresholds as ordinary checks. A current task or stage succeeds when the Specialist accumulates **4 success marks before 4 failure marks**; it fails when 4 failure marks are accumulated first.
+
+| Roll result | Extended-check effect |
+| --- | ---: |
+| Ordinary Success | +1 success mark |
+| Ordinary Failure | +1 failure mark |
+| OwS | +2 success marks |
+| Crit+ | +2 success marks |
+| OwF | +2 failure marks |
+| Crit- | +2 failure marks |
+| OwS + Crit+ | **Automatic success/completion of the current task or stage** |
+| OwF + Crit- | **Automatic failure of the current task or stage** |
+
+Checks occur at the end of the Skill's appropriate time interval and/or when a meaningful unexpected event or disruption threatens progress. Individual Skills and degrees should specify reasonable intervals wherever practical.
+
+Routine sustained activity does not require constant rerolling solely to manufacture failure. For very large projects, divide the work into stages; automatic completion or failure resolves the current stage rather than necessarily resolving the entire project.
+
+- **Teamwork:** not fully reconstructed and still needs a modern rule.
+- **Skills in combat:** CLEAN's 1 AP-per-check concept remains under review and has not yet been converted.
 
 ## 6. Complete recovered Skill catalog
 
@@ -2839,9 +2924,7 @@ Advanced: Able to shape metal into knives, swords, axes, arrow heads, and other 
 Master: Able to fold, layer, and properly quench items to make them sturdy and resilient.
 
 
-
 ---
-
 
 # Chapter 5 — Martial
 
@@ -2861,6 +2944,8 @@ Master: Able to fold, layer, and properly quench items to make them sturdy and r
 **✅ CONFIRMED**
 
 Martial uses the same universal engine as the rest of Boundless. A Specialist builds an action from known Components, applicable Training, the relevant Stat, equipment/weapon profile, Traits, situational modifiers, and AP expenditure. Components are tiered Simple through Master. Martial and Magic may be combined into hybrid actions.
+
+The universal **Critical Die** applies to Martial resolution: a successful qualifying action with a natural 10 on its Critical Die is Crit+; a failed qualifying action with a natural 1 on its Critical Die is Crit-. Specific Martial critical effects are defined by the combat/core rules or by an explicit Component.
 
 **✅ Current tier prerequisites:** 15 / 30 / 45 / 60 / 75 in the relevant governing Stat.
 
@@ -3438,9 +3523,7 @@ The final stage of withdrawal symptoms is the dying stage. This stage begins aft
 If a Specialist manages to survive their withdrawal period, they are still addicted to Heift, and continue to have an addiction level, though they no longer suffer withdrawal symptoms until such time as they take another dose. A Specialist who has survived the withdrawal is still an addict, albeit a reformed addict.
 
 
-
 ---
-
 
 # Chapter 6 — Magic
 
@@ -3460,6 +3543,8 @@ If a Specialist manages to survive their withdrawal period, they are still addic
 **✅ CONFIRMED**
 
 Magic uses the same success-counting d10 engine as Martial and Skills. It does not use a parallel resolution system.
+
+The universal **Critical Die** applies to qualifying Magic resolution rolls: a successful action with a natural 10 on its Critical Die is Crit+; a failed action with a natural 1 on its Critical Die is Crit-. Specific spell or subsystem effects still require their own converted rules.
 
 A spell is assembled from **Energy + Structure (+ optional/modifying Components)**. CLEAN expresses Structure through Target, Duration, Shape, and Optional elements; the exact final vocabulary should be preserved unless an entry is deliberately renamed.
 
@@ -4857,9 +4942,7 @@ To cast a controlled spell, the caster determines the effects of the spell, and 
 To cast a seeking spell, the caster gathers energy into a small, semisolid, ball-like object. The object appears to be made of the energy used, and forms roughly the shape of a ping pong ball. Once formed, the ball speeds toward the target as though it had been fired from a bow in 2 movement unit increments, appropriately sized for the caster. The seeking spell will make course corrections of up to 90 degrees for each 2 movement units it flies, as needed. A Seeking spell can’t turn 90 degrees within a corner connecting 2 sections of a hallway if each is only 1 movement unit wide, for example. The spell can hit any known target that isn’t completely encompassed by a barrier. Even a thin sheet of glass can prevent a seeking spell from reaching its target. A target inside a completely closed room, surrounded by a sphere-shaped spell of Solid Force energy, or even completely enclosed in a sphere made of shaped glass can’t be hit by a seeking spell. In such a case, the spell will hit an intervening barrier as close to the target as it can.
 
 
-
 ---
-
 
 # Chapter 7 — Creatures & Traits
 
@@ -6301,9 +6384,7 @@ Telepathic
 Unnatural hunger
 
 
-
 ---
-
 
 # Chapter 8 — Crafting, Materials, Equipment, Quality & Durability
 
@@ -6510,9 +6591,7 @@ An item's Durability score serves two purposes. First, it represents the inheren
 **⚠️ IMPORTANT:** do not finalize armor material ratings, item mitigation, shield mitigation, Penetration, or durability-based protection until the Combat/Armor review determines whether and how mitigation survives.
 
 
-
 ---
-
 
 # Chapter 9 — World, Social, Travel & Miscellaneous Rules
 
@@ -6828,9 +6907,7 @@ For Specialists that use projectile weapons, ammunition has the potential to be 
 Improvisation is catalogued in the Core chapter because it crosses Items, Magic, Martial, and Skills. It should remain available here as a world-facing principle once exact modifiers are modernized.
 
 
-
 ---
-
 
 # Chapter 10 — Open Questions, Contradictions & Work Queue
 
@@ -6849,11 +6926,13 @@ This file is deliberately blunt. These are the places where the reconstruction c
 
 ## A. RED — blocks multiple other systems
 
-### A1. Skill difficulty ladder
+### A1. Skill core resolution
 
-**⚠️ Current candidate:** 2 / 3 / 4 / 5 / 6 successes for Simple through Master.
+**✅ RESOLVED:** Skill thresholds are **2 / 3 / 4 / 5 / 6 successes** for Simple through Master. Skill difficulty is independent of Training degree. Anyone may attempt a Skill; mathematical capability emerges from the dice available rather than from permission gates.
 
-**Still required:** test untrained, under-degree, equal-degree, over-degree, high-Stat, favorable/unfavorable, Hasty, Meticulous, repeated/progressive, and opposed Skill use. Decide whether every Skill difficulty uses the same five thresholds or whether situational difficulty modifies the pool/threshold.
+**✅ RESOLVED:** generic favorable/unfavorable circumstance modifiers are removed. Hasty and Meticulous are the universal pace-based Skill modifiers. Concrete advantages/disadvantages come from actual rules sources such as tools, Traits, Magic, Conditions, assistance, environment, or Skill-specific text.
+
+**Remaining Skill work:** Teamwork, Skills in combat, individual Skill timing/examples, and entry-by-entry cleanup. These no longer block the core threshold engine.
 
 ### A2. Character creation economy
 
@@ -6877,13 +6956,21 @@ The paths themselves are confirmed: Agility/Unarmored, Insight/Evasion, Stamina/
 
 ### B2. Critical effects stress test
 
-- Defensive Critical Success: -1d10 per excess defense success to next attack against same defender — test severity and duration.
-- Attacker Critical Failure: no further movement + -1d10 next defense per natural 1 — test high-pool failure spikes.
-- Defender Critical Failure: +1 damage per damage die — define exact order with doubled crit damage and mixed damage.
+**✅ Trigger resolved:** all qualifying systems use the universal **Critical Die**. Success + Critical Die 10 = Crit+; failure + Critical Die 1 = Crit-. Other natural 10s/1s do not trigger a critical by themselves.
 
-### B3. Overwhelming Success
+Remaining effect questions:
+- Defensive Crit+: -1d10 per excess defensive success to the attacker's next attack against the same defender — test severity and duration.
+- Passive Defense: critical success/failure eligibility has been reopened for stress testing.
+- Attacker Crit-: -1d10 to next defense per natural 1 showing is confirmed; test **half Movement Speed** as the movement consequence instead of the previous no-further-movement rule.
+- Defender Crit-: +1 damage per damage die is confirmed; define exact order with doubled crit damage and mixed damage, and test whether the defender also suffers the half-Movement consequence.
 
-Current trigger = all dice succeed. Effects undefined. Larger pools make the event rarer; decide whether this rarity is intentional. Determine interaction with Critical Success, Skill quality, time, materials, social outcomes, and opposed checks (if Overwhelming remains Skill/unopposed-only).
+### B3. Overwhelming outcomes
+
+**✅ Skills resolved:** OwS occurs at **150% of the normal Skill threshold, rounded up** (3 / 5 / 6 / 8 / 9). OwF occurs when a failed Skill check misses the normal threshold by **3 or more successes**. Simple Skill checks cannot produce OwF.
+
+**✅ Combined Skill outcomes:** OwS may combine with Crit+; OwF may combine with Crit-. In extended checks, OwS/Crit+ are +2 success marks each, OwF/Crit- are +2 failure marks each, same-sign combinations automatically resolve the current stage.
+
+**Still required:** determine whether Overwhelming outcomes need a generalized rule outside Skills/opposed systems, and finish Skill-specific examples for quality, time, materials, social outcomes, and other contextual consequences.
 
 ### B4. Reaction/timing rules
 
@@ -6911,9 +6998,15 @@ Decide whether 1/2/3/4/5 remains the purchase ladder for Magic/Martial/Skills wh
 
 Preserve degree capabilities but review outdated assumptions, fixed numbers, catastrophic/spectacular language, time increments, materials damage, and Skill-specific target numbers.
 
-### C2. Hasty / Meticulous / Progressive / Ongoing / Teamwork
+### C2. Skill modes and Teamwork
 
-Rebuild on success counting. Avoid unnecessary arithmetic layers.
+**✅ Hasty:** half normal time, -1d10 per task tier.
+
+**✅ Meticulous:** double normal time, +1d10 per task tier.
+
+**✅ Progressive/Productive/Ongoing:** use the same Skill thresholds; resolve the current task/stage at 4 success marks before 4 failure marks. Meaningful disruptions may force additional checks; routine sustained activity does not require pointless rerolls.
+
+**⬜ Remaining:** Teamwork still needs a modern rule. Skills in combat remain under review.
 
 ### C3. Magic Energy and Structure entries
 
@@ -6954,9 +7047,14 @@ Create one shared set of Conditions used by Martial, Magic, Traits, Crafting, an
 - Initiative rolled once and remains static.
 - Luck failure has no penalty; no Initiative-specific Luck cap.
 - One defense path per roll: Agility/Unarmored, Insight/Evasion, Stamina/Armor.
-- Passive Defense no AP and cannot crit; Active replaces Passive.
+- Passive Defense costs no AP; Active replaces Passive. Passive critical eligibility is intentionally reopened for stress testing.
 - Single weapon profile unless explicit dual/hybrid construction.
+- Universal Critical Die: success + Critical Die 10 = Crit+; failure + Critical Die 1 = Crit-.
 - Attack Critical Success doubles damage dice.
+- Skill thresholds = 2/3/4/5/6.
+- Hasty = half time and -1d10 per task tier; Meticulous = double time and +1d10 per task tier.
+- Extended Skill checks resolve at 4 success marks before 4 failure marks, with confirmed Critical/Overwhelming mark values.
+- Generic favorable/unfavorable Skill modifiers are removed.
 - Magic and Martial use the same base resolution engine.
 - Creature Type is a Trait-based classification; Traits carry the cost.
 - Negative Traits grant points only when taken at creation.
@@ -6964,21 +7062,19 @@ Create one shared set of Conditions used by Martial, Magic, Traits, Crafting, an
 
 ## Recommended editing order
 
-1. Skill thresholds and Skill modes.
+1. Finish Skill Teamwork, Skills-in-combat, and individual Skill timing/examples.
 2. Armor/mitigation/defense equipment pass.
 3. Martial Component conversion.
 4. Character creation + Advancement economy.
 5. Size/MU and reaction timing.
-6. Critical stress testing.
+6. Critical-effect stress testing, including Passive Defense and movement consequences.
 7. Magic Component/Energy conversion, including counterspelling and maintenance.
 8. Trait-by-Trait pass.
 9. Crafting/Quality/Durability.
 10. World/social/travel cleanup and final prose integration.
 
 
-
 ---
-
 
 # Chapter 11 — Source Map & Provenance
 
@@ -7031,8 +7127,3 @@ No older non-CLEAN file was necessary for this pass. They remain available as ar
 ## Preservation principle
 
 When a recovered entry contains both a strong concept and obsolete math, keep the concept and the obsolete math visible until the replacement is explicitly approved. The reconstruction should make it impossible to accidentally forget why a later rule exists.
-
-
-
----
-

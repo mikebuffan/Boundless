@@ -25,13 +25,13 @@ This preserves the minimum +1d10 at every Stat value. Examples: Stat 1–9 = 1d1
 
 Applicable Training contributes **+1d10 per degree**. Other applicable dice sources may stack unless a rule explicitly makes them mutually exclusive.
 
-There are no automatic successes. Critical Success and Overwhelming Success are special roll states rather than automatic successes.
+There are no automatic successes. Critical Success, Critical Failure, and subsystem-specific Overwhelming outcomes are special roll states rather than automatic successes.
 
 ## 2. Opposed and threshold checks
 
 **✅ Opposed checks:** higher successes wins. Combat ties become Glancing Blows in the attacker's favor. Noncombat ties default to the minimum successful outcome unless the relevant subsystem specifies otherwise.
 
-**⚠️ Threshold checks:** meeting or exceeding the threshold succeeds. The universal/Skill difficulty ladder is under active reconstruction. A provisional 2/3/4/5/6 success ladder is stress-tested in the Skills chapter but is **not yet canon**.
+**✅ Threshold checks:** meeting or exceeding the threshold succeeds. For Skills, the confirmed difficulty ladder is **2 / 3 / 4 / 5 / 6 successes** for Simple / Basic / Intermediate / Advanced / Master. Other subsystems may define their own threshold structures where explicitly required.
 
 ## 3. Universal tiers and prerequisites
 
@@ -117,19 +117,33 @@ On an unlucky roll, the damage is reduced by an amount equal to the luck used, p
 
 When used to on a skill roll, the player chooses an amount of luck, flips the luck coin, and rolls as normal. On a lucky flip, the luck, up to an amount equal to the natural roll, is added to the skill roll. On an unlucky flip, the skill roll is reduced by an amount equal to the luck used, potentially to zero. In the case of an unlucky critical failure, any skill with negative consequences for failure has double the negative consequences. For example, if a Specialist is working with gun powder, the gun powder would not only explode, but it would deal double damage to the Specialist and nearby equipment. Any tools being used in an unlucky critical failure have a chance of breaking equal to the amount of luck used.
 
-## 7. Critical Success, Critical Failure, and Overwhelming Success
+## 7. Critical Success, Critical Failure, and Overwhelming outcomes
 
-**✅ Critical Success trigger:** the underlying action must succeed and must show the required natural 10s for its tier: Simple 1, Basic 2, Intermediate 3, Advanced 4, Master 5.
+**✅ Universal Critical Die:** every qualifying roll contains one identifiable **Critical Die**: the persistent base +1d10 already included in the normal dice pool. The Critical Die is not an additional die.
+
+- **Critical Success (Crit+):** the underlying action succeeds and the Critical Die shows a natural **10**.
+- **Critical Failure (Crit-):** the underlying action fails and the Critical Die shows a natural **1**.
+- A natural 10 on the Critical Die does not create Crit+ if the action fails.
+- A natural 1 on the Critical Die does not create Crit- if the action succeeds.
+- Other natural 10s or 1s do not trigger a critical by themselves, though a specific critical effect may use the total number showing to determine severity.
+
+At a physical table, the Critical Die should be visually distinguishable. In digital resolution, the engine identifies it internally.
 
 **✅ Attack Critical Success:** double the damage dice.
 
-**⚠️ Provisional defensive Critical Success:** when an active defender wins and qualifies for a Critical Success, the attacker takes -1d10 per excess defensive success on their next attack against that same defender. Passive Defense cannot critically succeed.
+**⚠️ Provisional defensive Critical Success:** when a defender wins and qualifies for Crit+, the attacker takes -1d10 per excess defensive success on their next attack against that same defender. Whether Passive Defense can critically succeed or fail has been reopened for stress testing.
 
-**⚠️ Provisional attacker Critical Failure:** once the attack qualifies for Critical Failure using natural 1s, the attacker cannot move for the remainder of that turn and suffers -1d10 to their next defensive action per natural 1 showing on the failed attack.
+**✅ / ⚠️ Attacker Critical Failure:** the confirmed penalty is -1d10 to the attacker's next defensive action **per natural 1 showing anywhere in the failed attack pool**. The previous "no further movement" consequence has been reopened; **half Movement Speed** is the current stress-test candidate.
 
-**✅ Defender Critical Failure concept:** attacker gains +1 damage per damage die rolled, preserving the appropriate damage type.
+**✅ Defender Critical Failure concept:** attacker gains +1 damage per damage die rolled, preserving the appropriate damage type. Applying the same half-Movement consequence to the defender is under stress test.
 
-**⚠️ Overwhelming Success:** every die in the available pool shows a success (6–10). It may occur with or without Critical Success. Mechanical effects outside ordinary success remain undefined, especially for Skills.
+### Skill Overwhelming outcomes
+
+**✅ Overwhelming Success (OwS):** on a Skill check, OwS occurs when the roll reaches **150% of the normal success threshold, rounded up**. With Skill thresholds 2 / 3 / 4 / 5 / 6, the OwS thresholds are 3 / 5 / 6 / 8 / 9.
+
+**✅ Overwhelming Failure (OwF):** on a failed Skill check, OwF occurs when the roll falls short of the normal threshold by **3 or more successes**. Simple Skill checks cannot produce OwF under this rule.
+
+OwS may coexist with Crit+; OwF may coexist with Crit-. Their Skill-specific consequences are contextual, while Chapter 4 defines their confirmed effects on extended checks.
 
 ### Recovered CLEAN critical rules
 

@@ -17,6 +17,8 @@
 
 Martial uses the same universal engine as the rest of Boundless. A Specialist builds an action from known Components, applicable Training, the relevant Stat, equipment/weapon profile, Traits, situational modifiers, and AP expenditure. Components are tiered Simple through Master. Martial and Magic may be combined into hybrid actions.
 
+The universal **Critical Die** applies to Martial resolution: a successful qualifying action with a natural 10 on its Critical Die is Crit+; a failed qualifying action with a natural 1 on its Critical Die is Crit-. Specific Martial critical effects are defined by the combat/core rules or by an explicit Component.
+
 **✅ Current tier prerequisites:** 15 / 30 / 45 / 60 / 75 in the relevant governing Stat.
 
 **✅ Later primary-Martial Stat set:** Proficiency / Agility / Toughness. Individual Components may still call on other Stats for opposed checks or effects; CLEAN's blanket Proficiency-ranged / Toughness-melee / Stamina-defensive assignment must be audited rather than automatically applied.

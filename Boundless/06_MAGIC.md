@@ -17,6 +17,8 @@
 
 Magic uses the same success-counting d10 engine as Martial and Skills. It does not use a parallel resolution system.
 
+The universal **Critical Die** applies to qualifying Magic resolution rolls: a successful action with a natural 10 on its Critical Die is Crit+; a failed action with a natural 1 on its Critical Die is Crit-. Specific spell or subsystem effects still require their own converted rules.
+
 A spell is assembled from **Energy + Structure (+ optional/modifying Components)**. CLEAN expresses Structure through Target, Duration, Shape, and Optional elements; the exact final vocabulary should be preserved unless an entry is deliberately renamed.
 
 The highest-tier Energy/Structure/Component involved determines the spell's tier for prerequisites and AP ceiling. Modern action ceilings are 3/6/9/12/15.

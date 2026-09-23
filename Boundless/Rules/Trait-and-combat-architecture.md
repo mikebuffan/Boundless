@@ -1,4 +1,7 @@
 Boundless — Trait & Combat Architecture (Draft Lock)
+
+> **⚠️ Historical working draft:** the reconstructed chapter files are authoritative where they conflict with this document. In particular, the Passive/Active Defense formulas in Section III predate the confirmed Agility/Unarmored, Insight/Evasion, and Stamina/Armor defense paths and must not be treated as current canon. Trait-specific material remains useful evidence pending the Trait pass.
+
 I. Core Combat Philosophy
 1. Dice vs AP
 Dice represent capacity.
@@ -11,7 +14,7 @@ Traits never grant automatic successes.
 Traits never alter success thresholds.
 Traits never bypass dice mechanics.
 All resolution is dice-based.
-Automatic successes exist only within the core dice system.
+There are no automatic successes; success is determined through the core dice system.
 II. Natural Equipment Doctrine
 Traits that provide natural weapons or armor (Claws, Fangs, Scales, Shell, Exoskeleton, etc.) function as natural equipment profiles.
 1. Weapons

@@ -50,7 +50,7 @@ A Specialist may know multiple defensive approaches, but **only one path contrib
 
 The chosen Stat contributes (1 + floor(Stat/10))d10. The chosen Training contributes +1d10 per degree.
 
-**Passive Defense:** no AP; always available when a valid path exists; cannot critically succeed.
+**Passive Defense:** no AP; always available when a valid path exists. Whether Passive Defense can critically succeed or critically fail has been deliberately reopened for stress testing.
 
 **Active Defense:** costs AP; replaces rather than stacks with Passive Defense; may add eligible defensive Components/Traits/equipment/modifiers. The same three base paths are available subject to equipment restrictions.
 
@@ -72,13 +72,17 @@ Current anchors:
 
 ## 5. Critical combat effects
 
-**✅ Attack Critical Success:** successful attack + qualifying natural 10s; double damage dice.
+**✅ Universal trigger:** combat uses the Critical Die from the core resolution engine. A successful action is Crit+ when its Critical Die shows a natural 10; a failed action is Crit- when its Critical Die shows a natural 1.
 
-**⚠️ Provisional defensive Critical Success:** successful active defense + qualifying natural 10s; -1d10 to the attacker's next attack against this same defender per excess defensive success.
+**✅ Attack Critical Success:** successful attack + Critical Die 10; double damage dice.
 
-**⚠️ Provisional attacker Critical Failure:** qualifying failed attack; attacker cannot move for the rest of that turn and takes -1d10 to the next defensive action per natural 1 showing on the failed attack.
+**⚠️ Provisional defensive Critical Success:** successful defense + Critical Die 10; -1d10 to the attacker's next attack against this same defender per excess defensive success. The effect remains under stress test, and Passive Defense eligibility is separately reopened for review.
 
-**✅ Defender Critical Failure concept:** +1 damage per damage die rolled for the attacker, retaining damage type.
+**✅ / ⚠️ Attacker Critical Failure:** failed attack + Critical Die 1. The attacker takes **-1d10 to their next defensive action per natural 1 showing anywhere in the failed attack pool**. The previous "no further movement" consequence is no longer treated as settled; **half Movement Speed** is the current stress-test candidate.
+
+**✅ / ⚠️ Defender Critical Failure:** failed defense + Critical Die 1. The attacker gains **+1 damage per damage die rolled**, retaining damage type/provenance. Applying the same half-Movement consequence to the defender is under stress test.
+
+Natural 1s outside the Critical Die do not trigger Crit- by themselves, but they still scale an effect when a confirmed rule explicitly counts total natural 1s.
 
 ## 6. Movement in combat
 

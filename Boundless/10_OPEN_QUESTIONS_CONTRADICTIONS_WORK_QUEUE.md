@@ -15,11 +15,13 @@ This file is deliberately blunt. These are the places where the reconstruction c
 
 ## A. RED — blocks multiple other systems
 
-### A1. Skill difficulty ladder
+### A1. Skill core resolution
 
-**⚠️ Current candidate:** 2 / 3 / 4 / 5 / 6 successes for Simple through Master.
+**✅ RESOLVED:** Skill thresholds are **2 / 3 / 4 / 5 / 6 successes** for Simple through Master. Skill difficulty is independent of Training degree. Anyone may attempt a Skill; mathematical capability emerges from the dice available rather than from permission gates.
 
-**Still required:** test untrained, under-degree, equal-degree, over-degree, high-Stat, favorable/unfavorable, Hasty, Meticulous, repeated/progressive, and opposed Skill use. Decide whether every Skill difficulty uses the same five thresholds or whether situational difficulty modifies the pool/threshold.
+**✅ RESOLVED:** generic favorable/unfavorable circumstance modifiers are removed. Hasty and Meticulous are the universal pace-based Skill modifiers. Concrete advantages/disadvantages come from actual rules sources such as tools, Traits, Magic, Conditions, assistance, environment, or Skill-specific text.
+
+**Remaining Skill work:** Teamwork, Skills in combat, individual Skill timing/examples, and entry-by-entry cleanup. These no longer block the core threshold engine.
 
 ### A2. Character creation economy
 
@@ -43,13 +45,21 @@ The paths themselves are confirmed: Agility/Unarmored, Insight/Evasion, Stamina/
 
 ### B2. Critical effects stress test
 
-- Defensive Critical Success: -1d10 per excess defense success to next attack against same defender — test severity and duration.
-- Attacker Critical Failure: no further movement + -1d10 next defense per natural 1 — test high-pool failure spikes.
-- Defender Critical Failure: +1 damage per damage die — define exact order with doubled crit damage and mixed damage.
+**✅ Trigger resolved:** all qualifying systems use the universal **Critical Die**. Success + Critical Die 10 = Crit+; failure + Critical Die 1 = Crit-. Other natural 10s/1s do not trigger a critical by themselves.
 
-### B3. Overwhelming Success
+Remaining effect questions:
+- Defensive Crit+: -1d10 per excess defensive success to the attacker's next attack against the same defender — test severity and duration.
+- Passive Defense: critical success/failure eligibility has been reopened for stress testing.
+- Attacker Crit-: -1d10 to next defense per natural 1 showing is confirmed; test **half Movement Speed** as the movement consequence instead of the previous no-further-movement rule.
+- Defender Crit-: +1 damage per damage die is confirmed; define exact order with doubled crit damage and mixed damage, and test whether the defender also suffers the half-Movement consequence.
 
-Current trigger = all dice succeed. Effects undefined. Larger pools make the event rarer; decide whether this rarity is intentional. Determine interaction with Critical Success, Skill quality, time, materials, social outcomes, and opposed checks (if Overwhelming remains Skill/unopposed-only).
+### B3. Overwhelming outcomes
+
+**✅ Skills resolved:** OwS occurs at **150% of the normal Skill threshold, rounded up** (3 / 5 / 6 / 8 / 9). OwF occurs when a failed Skill check misses the normal threshold by **3 or more successes**. Simple Skill checks cannot produce OwF.
+
+**✅ Combined Skill outcomes:** OwS may combine with Crit+; OwF may combine with Crit-. In extended checks, OwS/Crit+ are +2 success marks each, OwF/Crit- are +2 failure marks each, same-sign combinations automatically resolve the current stage.
+
+**Still required:** determine whether Overwhelming outcomes need a generalized rule outside Skills/opposed systems, and finish Skill-specific examples for quality, time, materials, social outcomes, and other contextual consequences.
 
 ### B4. Reaction/timing rules
 
@@ -77,9 +87,15 @@ Decide whether 1/2/3/4/5 remains the purchase ladder for Magic/Martial/Skills wh
 
 Preserve degree capabilities but review outdated assumptions, fixed numbers, catastrophic/spectacular language, time increments, materials damage, and Skill-specific target numbers.
 
-### C2. Hasty / Meticulous / Progressive / Ongoing / Teamwork
+### C2. Skill modes and Teamwork
 
-Rebuild on success counting. Avoid unnecessary arithmetic layers.
+**✅ Hasty:** half normal time, -1d10 per task tier.
+
+**✅ Meticulous:** double normal time, +1d10 per task tier.
+
+**✅ Progressive/Productive/Ongoing:** use the same Skill thresholds; resolve the current task/stage at 4 success marks before 4 failure marks. Meaningful disruptions may force additional checks; routine sustained activity does not require pointless rerolls.
+
+**⬜ Remaining:** Teamwork still needs a modern rule. Skills in combat remain under review.
 
 ### C3. Magic Energy and Structure entries
 
@@ -120,9 +136,14 @@ Create one shared set of Conditions used by Martial, Magic, Traits, Crafting, an
 - Initiative rolled once and remains static.
 - Luck failure has no penalty; no Initiative-specific Luck cap.
 - One defense path per roll: Agility/Unarmored, Insight/Evasion, Stamina/Armor.
-- Passive Defense no AP and cannot crit; Active replaces Passive.
+- Passive Defense costs no AP; Active replaces Passive. Passive critical eligibility is intentionally reopened for stress testing.
 - Single weapon profile unless explicit dual/hybrid construction.
+- Universal Critical Die: success + Critical Die 10 = Crit+; failure + Critical Die 1 = Crit-.
 - Attack Critical Success doubles damage dice.
+- Skill thresholds = 2/3/4/5/6.
+- Hasty = half time and -1d10 per task tier; Meticulous = double time and +1d10 per task tier.
+- Extended Skill checks resolve at 4 success marks before 4 failure marks, with confirmed Critical/Overwhelming mark values.
+- Generic favorable/unfavorable Skill modifiers are removed.
 - Magic and Martial use the same base resolution engine.
 - Creature Type is a Trait-based classification; Traits carry the cost.
 - Negative Traits grant points only when taken at creation.
@@ -130,12 +151,12 @@ Create one shared set of Conditions used by Martial, Magic, Traits, Crafting, an
 
 ## Recommended editing order
 
-1. Skill thresholds and Skill modes.
+1. Finish Skill Teamwork, Skills-in-combat, and individual Skill timing/examples.
 2. Armor/mitigation/defense equipment pass.
 3. Martial Component conversion.
 4. Character creation + Advancement economy.
 5. Size/MU and reaction timing.
-6. Critical stress testing.
+6. Critical-effect stress testing, including Passive Defense and movement consequences.
 7. Magic Component/Energy conversion, including counterspelling and maintenance.
 8. Trait-by-Trait pass.
 9. Crafting/Quality/Durability.
