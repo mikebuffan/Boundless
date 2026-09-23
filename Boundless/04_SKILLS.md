@@ -31,45 +31,116 @@ CLEAN uses summed face values of the d10s. Its normal success targets are record
 
 No silent numerical translation is made here.
 
-## 3. Current threshold stress test — NOT YET CANON
+## 3. Skill difficulty thresholds
 
-For testing, assume a Specialist has exactly the minimum governing Stat required for the degree and is trained exactly to that degree. The resulting pools are 3 / 6 / 8 / 11 / 13 d10.
+**✅ CONFIRMED**
 
-Current candidate difficulty thresholds are **2 / 3 / 4 / 5 / 6 successes**. Because a d10 succeeds on 6–10, each die has a 50% success probability.
+Skill difficulty is independent of the Specialist's Training degree. A task has an inherent tier; Training and governing Stat determine the dice available to meet that threshold.
 
-| Degree/task tier | Minimum Stat | Stat dice | Training dice | Total pool | Candidate threshold | Chance to meet threshold | Chance every die succeeds |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Simple | 15 | 2d10 | +1d10 | **3d10** | **2** | **50.00%** | 12.5000% |
-| Basic | 30 | 4d10 | +2d10 | **6d10** | **3** | **65.62%** | 1.5625% |
-| Intermediate | 45 | 5d10 | +3d10 | **8d10** | **4** | **63.67%** | 0.3906% |
-| Advanced | 60 | 7d10 | +4d10 | **11d10** | **5** | **72.56%** | 0.0488% |
-| Master | 75 | 8d10 | +5d10 | **13d10** | **6** | **70.95%** | 0.0122% |
+| Task tier | Successes required |
+| --- | ---: |
+| Simple | **2** |
+| Basic | **3** |
+| Intermediate | **4** |
+| Advanced | **5** |
+| Master | **6** |
 
-**💡 Observation:** Basic through Master sit roughly in the mid-60s to low-70s for a minimum-qualified, exactly-trained Specialist. Simple is exactly 50%. This is substantially more demanding than the earlier 1/2/3/4/5 candidate.
+At the minimum governing Stat and matching Training degree, baseline pools and success rates are:
 
-**⚠️ Important Overwhelming Success consequence:** because Overwhelming Success currently requires **every die** to succeed, adding more dice makes it dramatically rarer. At the baseline pools above it falls from 12.5% at Simple to roughly 0.0122% at Master. That may fit the "jackpot" intent, but it also means greater expertise reduces the chance of this special state. Keep this pinned for design review rather than silently changing it.
+| Tier | Minimum Stat | Stat dice | Training dice | Total pool | Success chance |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Simple | 15 | 2d10 | +1d10 | **3d10** | **50.00%** |
+| Basic | 30 | 4d10 | +2d10 | **6d10** | **65.63%** |
+| Intermediate | 45 | 5d10 | +3d10 | **8d10** | **63.67%** |
+| Advanced | 60 | 7d10 | +4d10 | **11d10** | **72.56%** |
+| Master | 75 | 8d10 | +5d10 | **13d10** | **70.95%** |
+
+The higher baseline reliability at Advanced and Master is intentional. The threshold progression remains the simple 2 / 3 / 4 / 5 / 6 ladder rather than introducing irregular exceptions merely to flatten percentages.
+
+Anyone may attempt any Skill. A Specialist may simply have too few dice for a particular task to be realistically or mathematically achievable; this is an emergent limit rather than an explicit permission gate.
 
 ## 4. Critical and Overwhelming Skill outcomes
 
-**✅ Trigger definitions / ⬜ effects**
+**✅ CONFIRMED**
 
-- Critical Success: the Skill attempt succeeds and shows the required natural 10s for the applicable tier (1/2/3/4/5).
-- Overwhelming Success: every die in the available pool is a success.
-- Both may occur on the same check.
-- Exact mechanical/narrative effects are not defined. CLEAN "spectacular success" language may provide inspiration, but its all-10s trigger has been superseded.
+Every Skill roll includes one identifiable **Critical Die**: the persistent base +1d10 already included in the normal dice pool. It is not an additional die.
+
+- **Critical Success (Crit+):** the Skill check succeeds and the Critical Die shows a natural 10.
+- **Critical Failure (Crit-):** the Skill check fails and the Critical Die shows a natural 1.
+- A 10 on the Critical Die does not create Crit+ if the underlying check fails.
+- A 1 on the Critical Die does not create Crit- if the underlying check succeeds.
+
+At a physical table, use a visually distinct die. In digital resolution, identify the Critical Die internally.
+
+**Overwhelming Success (OwS)** occurs when the roll reaches 150% of the normal success threshold, rounded up:
+
+| Tier | Normal threshold | OwS threshold |
+| --- | ---: | ---: |
+| Simple | 2 | **3** |
+| Basic | 3 | **5** |
+| Intermediate | 4 | **6** |
+| Advanced | 5 | **8** |
+| Master | 6 | **9** |
+
+**Overwhelming Failure (OwF)** occurs when a failed Skill check falls short of the normal success threshold by **3 or more successes**:
+
+| Tier | Normal threshold | OwF result |
+| --- | ---: | ---: |
+| Simple | 2 | **Impossible** |
+| Basic | 3 | **0 successes** |
+| Intermediate | 4 | **0-1 successes** |
+| Advanced | 5 | **0-2 successes** |
+| Master | 6 | **0-3 successes** |
+
+OwS and Crit+ may occur together. OwF and Crit- may occur together.
+
+Outside the universal classification of these outcomes and their extended-check values, their exact consequences are Skill-specific and situation-specific. The Keeper should use judgment based on the task, tools, materials, environment, and stakes. Individual Skills should provide concrete examples of suitable exceptional results without turning those examples into a rigid universal consequence table.
 
 ## 5. Hasty, Meticulous, Progressive/Productive, and Ongoing use
 
-**⚠️ REVIEW / CONVERSION**
+### Hasty and Meticulous
 
-These modes are valuable design concepts but mathematically tied to the old Skill engine.
+**✅ CONFIRMED**
 
-- Hasty: reduced time at increased risk / fewer dice. Needs modern scaling.
-- Meticulous: increased time for bonus dice and failure protection. Current +1d10 / cumulative +3d10 structure may be too math-heavy and should be evaluated rather than automatically retained.
-- Progressive/Productive: accumulate progress over repeated checks. Needs new success-count targets/failure handling.
-- Ongoing: routine sustained actions need infrequent or no rerolls until conditions change; concept remains strong.
-- Teamwork: not fully reconstructed and needs a modern rule.
-- Skills in combat: CLEAN charges 1 AP per check and forbids a Skill if it cannot fit all required checks in the round. This must be reconciled with the modern AP ceiling and no-normal-multi-turn-enactment rule.
+**Hasty:** complete the task in half the normal time and apply **-1d10 per tier of task difficulty**.
+
+**Meticulous:** take double the normal time and gain **+1d10 per tier of task difficulty**.
+
+| Tier | Hasty | Meticulous |
+| --- | ---: | ---: |
+| Simple | -1d10 | +1d10 |
+| Basic | -2d10 | +2d10 |
+| Intermediate | -3d10 | +3d10 |
+| Advanced | -4d10 | +4d10 |
+| Master | -5d10 | +5d10 |
+
+The Keeper has final authority over whether Hasty or Meticulous is possible in the circumstances, and circumstances may effectively require one mode. These are the universal pace-based Skill modifiers.
+
+The CLEAN-era generic favorable/unfavorable circumstance ladder is **🔄 superseded and removed**. Other advantages or disadvantages should come from concrete sources such as tools, equipment, Traits, Magic, Conditions, assistance, environmental rules, or Skill-specific rules. The Keeper may instead assign a different task tier when circumstances fundamentally change the task itself.
+
+### Progressive / Productive / Ongoing checks
+
+**✅ CONFIRMED**
+
+Extended tasks use the same normal Skill thresholds as ordinary checks. A current task or stage succeeds when the Specialist accumulates **4 success marks before 4 failure marks**; it fails when 4 failure marks are accumulated first.
+
+| Roll result | Extended-check effect |
+| --- | ---: |
+| Ordinary Success | +1 success mark |
+| Ordinary Failure | +1 failure mark |
+| OwS | +2 success marks |
+| Crit+ | +2 success marks |
+| OwF | +2 failure marks |
+| Crit- | +2 failure marks |
+| OwS + Crit+ | **Automatic success/completion of the current task or stage** |
+| OwF + Crit- | **Automatic failure of the current task or stage** |
+
+Checks occur at the end of the Skill's appropriate time interval and/or when a meaningful unexpected event or disruption threatens progress. Individual Skills and degrees should specify reasonable intervals wherever practical.
+
+Routine sustained activity does not require constant rerolling solely to manufacture failure. For very large projects, divide the work into stages; automatic completion or failure resolves the current stage rather than necessarily resolving the entire project.
+
+- **Teamwork:** not fully reconstructed and still needs a modern rule.
+- **Skills in combat:** CLEAN's 1 AP-per-check concept remains under review and has not yet been converted.
 
 ## 6. Complete recovered Skill catalog
 
