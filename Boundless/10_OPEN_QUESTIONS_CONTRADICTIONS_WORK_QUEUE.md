@@ -21,7 +21,7 @@ This file is deliberately blunt. These are the places where the reconstruction c
 
 **✅ RESOLVED:** generic favorable/unfavorable circumstance modifiers are removed. Hasty and Meticulous are the universal pace-based Skill modifiers. Concrete advantages/disadvantages come from actual rules sources such as tools, Traits, Magic, Conditions, assistance, environment, or Skill-specific text.
 
-**Remaining Skill work:** Teamwork, Skills in combat, individual Skill timing/examples, and entry-by-entry cleanup. These no longer block the core threshold engine.
+**Remaining Skill work:** individual Skill timing/examples and entry-by-entry cleanup. Teamwork and Skills in combat are resolved.
 
 ### A2. Character creation economy
 
@@ -95,7 +95,11 @@ Preserve degree capabilities but review outdated assumptions, fixed numbers, cat
 
 **✅ Progressive/Productive/Ongoing:** use the same Skill thresholds; resolve the current task/stage at 4 success marks before 4 failure marks. Meaningful disruptions may force additional checks; routine sustained activity does not require pointless rerolls.
 
-**⬜ Remaining:** Teamwork still needs a modern rule. Skills in combat remain under review.
+**✅ Teamwork:** assistance grants rerolls rather than bonus dice; normally one Helper, with 1 reroll untrained and 1 reroll per Training degree when trained. Each die can be rerolled only once, the new result replaces the old result, and the Critical Die may be rerolled.
+
+**✅ Skills in combat:** active checks cost 1 AP, passive/reflexive checks cost 0 AP, helping costs 1 AP, actual task time still matters, and Hasty/Meticulous retain their normal time rules. A non-ongoing Meticulous check is the Specialist's only proactive action for the turn but does not prevent Active Defense or eligible reactions. Ongoing Skill use may restrict Active Defense when simultaneous performance is unreasonable, subject to Keeper judgment.
+
+**✅ Skill/attack interaction:** independent Skill actions do not fail as a chain and do not grant generic attack bonuses. A Specialist may instead declare Skill checks as part of an integrated attack maneuver; each Skill AP grants +1d10 to the attack if every linked Skill check succeeds, while failure of any linked Skill check causes the integrated maneuver and attack to fail.
 
 ### C3. Magic Energy and Structure entries
 
@@ -151,7 +155,7 @@ Create one shared set of Conditions used by Martial, Magic, Traits, Crafting, an
 
 ## Recommended editing order
 
-1. Finish Skill Teamwork, Skills-in-combat, and individual Skill timing/examples.
+1. Finish individual Skill timing/examples and entry-by-entry Skill cleanup.
 2. Armor/mitigation/defense equipment pass.
 3. Martial Component conversion.
 4. Character creation + Advancement economy.

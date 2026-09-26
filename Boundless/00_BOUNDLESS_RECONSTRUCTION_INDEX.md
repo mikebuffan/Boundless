@@ -36,7 +36,7 @@ Older non-CLEAN material was not needed to construct this pass. No older source 
 1. **Core Resolution, Tiers, AP, Luck & Universal Mechanics** — current engine and cross-system rules.
 2. **Specialists, Character Creation & Advancement** — stats, creation, experience, advancement, possessions, and creation-economy conflicts.
 3. **Combat, Defense, Movement, Health & Armor** — opposed combat, defense paths, criticals, movement, Vitality/Fatigue, armor review, Berserk/Meginserk.
-4. **Skills** — confirmed Skill thresholds and outcome framework, Hasty/Meticulous, extended checks, remaining Teamwork/combat-use questions, and the complete recovered Skill catalog.
+4. **Skills** — confirmed Skill thresholds and outcome framework, Hasty/Meticulous, extended checks, Teamwork, combat Skill use, integrated Skill maneuvers, and the complete recovered Skill catalog.
 5. **Martial** — current Martial architecture plus the complete recovered Component and Training catalog, each retained for conversion.
 6. **Magic** — current spell architecture plus the complete recovered Magic catalog and a formula-free structure/energy index from the workbook.
 7. **Creatures & Traits** — current modular Trait framework plus recovered creature types and trait material.
@@ -116,4 +116,4 @@ The paths are mutually exclusive **per defense roll**. A Specialist can know/use
 
 ## Systems that are intentionally not declared finished
 
-The largest remaining design packages are individual Skill conversion plus Teamwork/combat use, Martial Component conversion, the armor/mitigation ecosystem, creation/advancement economy, individual Magic conversion, Crafting/Quality/Durability, and detailed Traits. The chapter files preserve the source material so decisions can be made entry-by-entry without losing anything.
+The largest remaining design packages are individual Skill conversion and cleanup, Martial Component conversion, the armor/mitigation ecosystem, creation/advancement economy, individual Magic conversion, Crafting/Quality/Durability, and detailed Traits. The chapter files preserve the source material so decisions can be made entry-by-entry without losing anything.

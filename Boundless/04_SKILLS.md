@@ -96,15 +96,15 @@ OwS and Crit+ may occur together. OwF and Crit- may occur together.
 
 Outside the universal classification of these outcomes and their extended-check values, their exact consequences are Skill-specific and situation-specific. The Keeper should use judgment based on the task, tools, materials, environment, and stakes. Individual Skills should provide concrete examples of suitable exceptional results without turning those examples into a rigid universal consequence table.
 
-## 5. Hasty, Meticulous, Progressive/Productive, and Ongoing use
+## 5. Hasty, Meticulous, Progressive/Productive, Ongoing use, and Teamwork
 
 ### Hasty and Meticulous
 
 **✅ CONFIRMED**
 
-**Hasty:** complete the task in half the normal time and apply **-1d10 per tier of task difficulty**.
+**Hasty:** complete the task in **half the normal time** and apply **-1d10 per tier of task difficulty**.
 
-**Meticulous:** take double the normal time and gain **+1d10 per tier of task difficulty**.
+**Meticulous:** take **double the normal time** and gain **+1d10 per tier of task difficulty**.
 
 | Tier | Hasty | Meticulous |
 | --- | ---: | ---: |
@@ -122,7 +122,7 @@ The CLEAN-era generic favorable/unfavorable circumstance ladder is **🔄 supers
 
 **✅ CONFIRMED**
 
-Extended tasks use the same normal Skill thresholds as ordinary checks. A current task or stage succeeds when the Specialist accumulates **4 success marks before 4 failure marks**; it fails when 4 failure marks are accumulated first.
+Extended tasks use the same normal Skill thresholds as ordinary checks. A current task or stage succeeds when the Specialist accumulates **4 success marks before 4 failure marks**; it fails when **4 failure marks** are accumulated first.
 
 | Roll result | Extended-check effect |
 | --- | ---: |
@@ -139,8 +139,95 @@ Checks occur at the end of the Skill's appropriate time interval and/or when a m
 
 Routine sustained activity does not require constant rerolling solely to manufacture failure. For very large projects, divide the work into stages; automatic completion or failure resolves the current stage rather than necessarily resolving the entire project.
 
-- **Teamwork:** not fully reconstructed and still needs a modern rule.
-- **Skills in combat:** CLEAN's 1 AP-per-check concept remains under review and has not yet been converted.
+### Teamwork / Assistance
+
+**✅ CONFIRMED**
+
+When a Skill reasonably allows another Specialist to help, one Specialist is the **Primary** and makes the Skill check. Assistance does **not** add dice to the Primary's pool. Instead, it grants rerolls after the Primary's initial roll.
+
+#### Helper limit
+
+- Normally, only **one Helper** may assist a Skill check.
+- The Keeper may allow more than one Helper in edge cases where the Skill and task naturally allow several people to contribute.
+- A particular die may **never be rerolled more than once**, even when multiple Helpers are permitted.
+
+#### Assistance rerolls
+
+| Helper Training | Rerolls granted |
+| --- | ---: |
+| Untrained | **1d10** |
+| Simple | **1d10** |
+| Basic | **2d10** |
+| Intermediate | **3d10** |
+| Advanced | **4d10** |
+| Master | **5d10** |
+
+The Primary chooses which eligible dice to reroll.
+
+#### Reroll restrictions
+
+- Each die may be rerolled **only once**.
+- A reroll **replaces the original result**, even if the new result is worse.
+- The **Critical Die may be rerolled**.
+- If the Critical Die is rerolled, its new face determines whether Crit+ or Crit- applies.
+- Assistance can therefore improve or worsen ordinary success, Critical outcomes, and Overwhelming outcomes.
+
+For extended tasks, assistance applies only to the checks for which the Helper is actually participating.
+
+### Skills in combat
+
+**✅ CONFIRMED**
+
+Using a Skill actively during structured combat normally costs **1 AP per Skill check**, unless the Skill or another explicit rule states otherwise. The Skill's tier does **not** change that AP cost.
+
+- **Active Skill check:** 1 AP.
+- **Passive or reflexive Keeper-triggered Skill check:** 0 AP.
+- **Assisting another Specialist:** the Helper spends 1 AP to provide Teamwork rerolls.
+- A Specialist may make more than one Skill check in a turn if they have the AP and the actions make sense; there is no universal one-Skill-check-per-turn limit.
+- The actual time required by the task still matters. A Skill may only be used in combat if the task can reasonably be performed on that timescale.
+- Hasty still halves the task's normal time and applies its normal dice penalty. Hasty does not turn a long-form task into an instantaneous combat action.
+- The Keeper may rule that a task cannot be attempted under current combat conditions when it requires sustained concentration, workspace, access, tools, or time that are not available.
+- Extended and ongoing Skill tasks may continue through combat when circumstances allow. AP is spent when a check is actually made; AP is never banked across turns toward a future Skill check.
+
+#### Meticulous use during combat
+
+A non-ongoing Meticulous Skill check may be attempted during structured combat when the task and circumstances allow it.
+
+- The check still costs **1 AP**.
+- Meticulous remains subject to its normal **double-time** requirement and **+1d10 per task tier** bonus.
+- The Meticulous Skill check is the Specialist's **only proactive action on that turn**.
+- The Specialist may still reserve and spend available AP for **Active Defense or other eligible reactions** after the check.
+- Passive Defense remains available as normal.
+
+If a Meticulous task becomes an ongoing or extended Skill task because of its actual time requirement, use the normal ongoing/extended Skill rules instead. On a turn when an ongoing Skill task demands the Specialist's sustained attention, **Active Defense is normally unavailable unless it is reasonable to perform both at once**. The Keeper has final say based on the task and circumstances.
+
+#### Independent Skill actions and attacks
+
+Skill checks may be used independently during the same turn as an attack. Resolve each as its own action and pay its normal AP cost.
+
+For example, a Specialist might attempt an Acrobatics check, then a Jumping check, then make a 6 AP attack. All costs come from the same turn's available AP, but the checks and attack are independent.
+
+Failure on an earlier independent Skill check does **not** automatically cause later actions to fail. If the situation still permits it, the Specialist may adapt and continue. A failed wall-run or jump might leave the Specialist on the ground, after which they can move normally and make the planned attack if they still have the AP and opportunity to do so.
+
+Independent Skill checks do not grant a generic bonus to a later attack.
+
+#### Integrated Skill maneuvers
+
+A Specialist may instead declare one or more meaningful Skill checks as **part of an attack setup**. This creates a higher-risk, higher-reward integrated maneuver.
+
+- Each integrated Skill check costs **1 AP**.
+- The attack also costs whatever AP the Specialist invests in it under the normal attack rules.
+- All costs come from the Specialist's normal AP for that turn.
+- For **each AP spent on integrated Skill checks**, the attack gains **+1d10** if every required setup Skill check succeeds.
+- The Skill checks must be materially relevant to creating the attack opportunity. Ordinary movement or trivial actions do not qualify merely to manufacture bonus dice.
+- Resolve the integrated Skill checks in sequence before the attack.
+- If **any** required integrated Skill check fails, the **entire integrated maneuver fails** and the attack is not made.
+- AP committed to the integrated maneuver is spent even if the maneuver fails.
+- A successful integrated Skill check does not create any additional generic bonus beyond the confirmed **+1d10 per Skill AP spent**; other benefits must come from an existing rule, Condition, Martial Component, Skill-specific rule, or the actual fictional position created.
+
+This gives Specialists a choice between cautious sequencing and flashy commitment: independent Skill actions are safer and recoverable, while integrated Skill maneuvers risk the whole sequence in exchange for bonus attack dice.
+
+A Meticulous Skill check cannot be used as part of an integrated attack maneuver because Meticulous use consumes the Specialist's proactive focus for the turn.
 
 ## 6. Complete recovered Skill catalog
 
