@@ -1405,19 +1405,29 @@ Advanced training in explosives renders a Specialist able to create shaped charg
 With master training in explosives, a Specialist is able to sense explosive devices via minute signs, such as the smell of particular chemicals and explosive components. This also allows Specialists to identify chemicals and substances that can be made into explosives. Explosives made with master degree skill deal 10d10 damage in a radius of up to 10 movement unit radius appropriately sized for the creator when used in combat. Finally, this allows all applications of this skill to be used in conjunction with the trap-making skill.
 
 ### Fishing:
-> **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
+> **Status:** ✅ CONFIRMED — capability progression and modern Skill handling locked.
 
-Specialists with Fishing skill gain knowledge of techniques used to catch aquatic wildlife.
+Specialists with Fishing skill gain knowledge of techniques used to catch fish and other aquatic wildlife. Fishing is normally treated as an **Ongoing Skill** rather than requiring a check for every cast or minor attempt.
 
-Specialists with simple degree training are able to use basic tools for catching fish and other aquatic life, including basic fishing poles, hooks, lures, bait, and nets.
+**Default interval:** approximately **1 hour per check** when a check is needed. The Keeper may adjust the interval when the fishing method clearly operates on a different timescale, such as traps, nets, spearfishing, hatchery work, or other specialized methods.
 
-Basic training grants a Specialist the ability to use improvised tools to simulate those listed in simple fishing.
+Task tier is determined by the prey, environment, method, scarcity, conditions, and objective rather than by the Specialist's Training degree. Training unlocks capabilities; it does not automatically set task difficulty.
 
-Intermediate training allows a Specialist to create lures and baits to attract various aquatic wildlife.
+- **Simple:** Able to use ordinary fishing equipment and methods, including rods, hooks, standard bait and lures, and nets.
+- **Basic:** Able to improvise functional substitutes for ordinary fishing equipment when proper gear is unavailable.
+- **Intermediate — I know where it is:** Able to read water, terrain, season, weather, depth, current, habitat, signs, and similar clues to identify where particular types of aquatic wildlife are most likely to be found.
+- **Advanced — I know how this kind of fish behaves:** Understands feeding habits, activity cycles, preferred prey, responses to light, temperature and current, spawning behavior, and similar patterns well enough to choose appropriate bait, lure, presentation, timing, depth, and fishing method.
+- **Master — I know specifically how to get that fish to bite:** Able to deliberately target a specific species, narrow category of prey, or potentially an individual specimen by tailoring bait, lure, presentation, and technique to its specific behavior, while reducing unwanted catches when circumstances permit.
 
-Advanced training gives a Specialist understanding of how to quickly identify the most probable places to catch specific types of aquatic wildlife.
+A higher Training degree does not automatically make the check a higher-tier task. For example, a Master-trained Specialist deliberately targeting a common species in a stocked lake may still face a Simple or Basic task.
 
-Master training enables a Specialist to create targeted baits to attract specific types of aquatic wildlife.
+**Hasty Fishing:** normally unavailable. Fishing generally cannot be made twice as fast merely by trying harder. The Keeper may allow Hasty use only when the method and circumstances can genuinely be accelerated, such as certain hatchery, netting, collection, or similarly obvious cases.
+
+**Meticulous Fishing:** allowed when circumstances permit and uses the normal Meticulous rules.
+
+Routine fishing does not require repeated checks merely to manufacture failure. Make checks at meaningful intervals or when conditions change enough to threaten progress.
+
+The amount or exact nature of the catch is contextual rather than fixed to a universal quantity table. Exceptional outcomes should follow the circumstances. Appropriate examples include a better-than-expected catch, reduced time, an unusually desirable specimen, preserved bait or materials, useful information about the area, damaged tackle, lost bait, a fouled net, spooked prey, or attracting an unwanted catch. These are examples rather than mandatory universal results.
 
 ### Hunting:
 > **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
