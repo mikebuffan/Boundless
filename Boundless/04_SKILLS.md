@@ -237,6 +237,8 @@ The following pairings are being retained as candidates for later rulebook margi
 - **Calligraphy + Counterfeiting:** reproduce handwriting or formal script as one component of a convincing forged document.
 - **Calligraphy + Scribe:** accurately reproduce lengthy written material while preserving a formal or decorative hand.
 - **Calligraphy + History/Research:** interpret difficult historical handwriting or script when visual script expertise materially aids the inquiry.
+- **Carpentry + Wood Carving:** construct a functional wooden object while intricate carved ornamentation materially contributes to the same project.
+- **Carpentry + Engineering:** fabricate wooden components for a genuine mechanical system whose function depends on both precise woodworking and mechanical design.
 
 A useful finished callout should show the **Primary Skill**, the **Supporting Skill**, why both apply, the Supporting Skill's Training dice, and—where useful—why another superficially related Skill does not apply.
 
@@ -622,19 +624,35 @@ Lengthy manuscripts or similarly substantial projects should use the normal exte
 As with other professional Skills, **Training degree unlocks capability; it does not automatically determine task difficulty or finished-item Quality**.
 
 ### Carpentry:
-> **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
+> **Status:** ✅ CONFIRMED — capability progression, professional boundaries, and common Synergy relationships locked.
 
-Specialists with the Carpentry skill are able to use various woodworking tools to construct objects, primarily out of wood.
+Carpentry governs functional woodworking through measuring, cutting, shaping, fitting, joining, assembling, repairing, and modifying wooden objects. It is distinct from Wood Carving, which focuses on detailed subtractive shaping and sculpture, and from Construction, which will govern erecting complete structures from plans, materials, labor, and site conditions.
 
-Simple: Able to cut, smooth, and assemble misshapen, rickety, uncomfortable furniture. Simple furniture often tends to be shoddy, and breaks if used for anything other than its intended purpose (and sometimes when used for its intended purpose).
+- **Simple — Basic woodworking and maintenance:** Measure, mark, cut, plane, sand, bore, fasten, maintain, and perform minor repairs on wooden objects. Construct straightforward functional pieces using simple joints and fasteners, such as crates, shelves, stools, frames, handles, simple tables, doors, and similar work.
+- **Basic — Conventional construction and repair:** Construct and repair ordinary furniture, cabinetry, fixtures, doors, windows, frames, chests, workbenches, partitions, and similar wooden objects. Use established joinery reliably rather than depending entirely on crude fastening.
+- **Intermediate — Complex joinery and fitted work:** Produce more complicated assemblies requiring precise fit, compound joints, fitted cabinetry, stairs, curved or angled components, complex furniture, built-ins, and similar work. The Specialist can also perform substantial repairs or alterations without rebuilding the entire object.
+- **Advanced — Master joinery:** Construct complex wooden objects using hidden, locking, interlocking, or self-supporting joints. Where the design and material permit, the Specialist can produce durable work with little or no nails, screws, glue, or other external fasteners. Hidden joints, sliding dovetails, pegged joinery, concealed fasteners, nested assemblies, knock-down construction, and similar techniques belong here.
+- **Master — Intricate wooden mechanisms:** Create extraordinarily precise interlocking wooden constructions such as puzzle boxes, secret compartments, hidden latches, complex folding or transforming furniture, sequential locks, nested mechanisms, and similar devices whose operation comes primarily from woodworking geometry and joinery rather than machinery.
 
-Basic: Able to more adequately assemble basic, though still ugly and uncomfortable furniture. Furniture made with the basic skill is more sturdy, and has to be intentionally abused (or greatly overused) to break.
+Advanced or Master Carpentry does not require avoiding fasteners when fasteners are the correct solution. The capability is the ability to solve difficult woodworking problems without them when practical, not an obligation to reject sensible materials or hardware.
 
-Intermediate: Able to make smooth, polished, attractive furniture. Only excessive abuse breaks this furniture.
+#### Boundaries with related Skills
 
-Advanced: Able to work with lumber to fashion buildings in addition to furniture.
+**Carpentry and Wood Carving:** Carpentry primarily governs functional construction through cutting, shaping, joining, and assembly. Wood Carving governs detailed sculptural, ornamental, and intricate subtractive shaping. A carved ceremonial chair may use Carpentry as the Primary Skill with Wood Carving providing Synergy for the ornamentation.
 
-Master: Able to make mechanisms out of wood, such as gears and pulleys, or even extremely basic automatons and clockworks.
+**Carpentry and Architecture:** Architecture governs building design, layout, and planning. Carpentry governs fabrication and assembly of wooden components. Carpentry does not grant architectural design expertise.
+
+**Carpentry and Engineering:** Engineering governs machines, mechanisms, and mechanical systems. Carpentry may fabricate wooden gears, frames, housings, tracks, or other components from an existing design without granting understanding of the machine as a whole. A wooden puzzle box whose operation depends on joinery may be Carpentry alone; a device whose operation depends on gears, springs, cams, or other mechanical systems is Engineering territory and may use Carpentry Synergy when wooden fabrication materially contributes.
+
+**Carpentry and Construction:** Carpentry creates and fits wooden components. Construction governs turning plans, materials, labor, and site conditions into a completed structure. Large-scale structural erection belongs to Construction, while the fabrication and joining of its wooden elements remains Carpentry.
+
+#### Capability, difficulty, and Quality
+
+As with other professional Skills, Training degree determines **what the Specialist knows how to do**; it does not automatically determine task difficulty or finished-item Quality. The actual job, materials, tools, conditions, and circumstances determine task tier. Quality, reliability, durability, and related crafting outcomes remain part of the future Crafting/Quality rules.
+
+#### Pace
+
+Hasty and Meticulous use follow the normal Skill rules when physically meaningful. Routine repairs or simple fabrication may be rushed, while precision fitting, complex joinery, hidden joints, and intricate mechanisms are natural Meticulous applications. Hasty use halves actual working time; it does not turn multi-hour or multi-day woodworking into an instantaneous action.
 
 ### Cartography:
 > **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.

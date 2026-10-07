@@ -1,7 +1,7 @@
 # Boundless Reconstruction Package Manifest
 
-- Total chapter words: **110,642**
-- Rough equivalent at 500 words/page: **221.3 pages**
+- Total chapter words: **111,131**
+- Rough equivalent at 500 words/page: **222.3 pages**
 - Complete source catalogs retained: Skills, Martial, Magic, Creatures/Traits, Specialist Basics, Combat, Crafting/Materials.
 - General Rules sections distributed to the relevant reconstructed chapters.
 - Magic spreadsheet formulas intentionally excluded from rules authority; names/tier relationships indexed instead.
@@ -12,7 +12,7 @@
 - `01_CORE_RESOLUTION_TIERS_AP_LUCK.md` — 2,433 words
 - `02_SPECIALISTS_CHARACTER_CREATION_ADVANCEMENT.md` — 6,816 words
 - `03_COMBAT_DEFENSE_MOVEMENT_HEALTH_ARMOR.md` — 5,618 words
-- `04_SKILLS.md` — 22,547 words
+- `04_SKILLS.md` — 23,036 words
 - `05_MARTIAL.md` — 13,592 words
 - `06_MAGIC.md` — 36,853 words
 - `07_CREATURES_AND_TRAITS.md` — 12,159 words
