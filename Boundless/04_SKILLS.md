@@ -239,6 +239,9 @@ The following pairings are being retained as candidates for later rulebook margi
 - **Calligraphy + History/Research:** interpret difficult historical handwriting or script when visual script expertise materially aids the inquiry.
 - **Carpentry + Wood Carving:** construct a functional wooden object while intricate carved ornamentation materially contributes to the same project.
 - **Carpentry + Engineering:** fabricate wooden components for a genuine mechanical system whose function depends on both precise woodworking and mechanical design.
+- **Cartography + Navigation:** use a map and route-finding expertise together to plot or follow a difficult route.
+- **Cartography + Geography/Local Geography:** convert broad or local geographic knowledge into a more accurate spatial representation.
+- **Cartography + Cryptography:** create or interpret an encoded map without collapsing mapmaking and codebreaking into the same Skill.
 
 A useful finished callout should show the **Primary Skill**, the **Supporting Skill**, why both apply, the Supporting Skill's Training dice, and—where useful—why another superficially related Skill does not apply.
 
@@ -655,19 +658,37 @@ As with other professional Skills, Training degree determines **what the Special
 Hasty and Meticulous use follow the normal Skill rules when physically meaningful. Routine repairs or simple fabrication may be rushed, while precision fitting, complex joinery, hidden joints, and intricate mechanisms are natural Meticulous applications. Hasty use halves actual working time; it does not turn multi-hour or multi-day woodworking into an instantaneous action.
 
 ### Cartography:
-> **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
+> **Status:** ✅ CONFIRMED — capability progression, professional boundaries, and common Synergy relationships locked.
 
-Specialists with the Cartography skill are able to read, understand, draw, mark, and encrypt maps.
+Cartography governs the interpretation, creation, analysis, and reconstruction of maps and other spatial representations. It does not automatically grant Navigation, geographic knowledge the Specialist does not possess, or Cryptography.
 
-Simple: Able to interpret simple maps.
+- **Simple — Read ordinary maps:** Interpret common maps, legends, scales, cardinal directions, marked routes, landmarks, boundaries, and ordinary symbols. The Specialist can orient a map to the surrounding terrain when enough recognizable features are available.
+- **Basic — Sketch useful maps:** Create clear, functional maps from direct observation or a known route. Mark landmarks, roads, trails, buildings, hazards, approximate distances, and similar practical information accurately enough for another person to follow.
+- **Intermediate — Accurate field mapping:** Produce scaled maps using measurements, bearings, elevation changes, and repeated observations. Interpret and create topographical information, map complex routes, and reconcile several observations into a coherent representation of an area.
+- **Advanced — Complex surveying and map analysis:** Map difficult environments such as dense settlements, cave systems, ruins, coastlines, multi-level structures, winding waterways, or large areas where simple visual observation is insufficient. The Specialist can also identify significant inconsistencies, distortions, omissions, or errors in existing maps.
+- **Master — Cartographic reconstruction and precision:** Create highly precise maps from incomplete, fragmented, historical, or conflicting information by reconciling multiple sources and physical evidence. A Master Cartographer can reconstruct likely terrain or layouts that are partly lost, changed, inaccessible, or poorly documented, and can devise new map conventions or projection methods when existing ones are inadequate.
 
-Basic: Able to interpret basic maps, such as topographical. Able to interpret symbols with reasonable accuracy.
+#### Boundaries with related Skills
 
-Intermediate: Able to draw simple maps with relative accuracy.
+**Cartography and Navigation:** Cartography represents places; Navigation determines where the Specialist is and how to get somewhere. A Cartographer can create an excellent coastal chart without necessarily being able to navigate a vessel from it, while a Navigator may use a chart without being able to produce one of equal quality. Either Skill may provide Synergy to the other when both materially contribute to the task.
 
-Advanced: Able to draw topographical maps, and devise map legends to assist in understanding.
+**Cartography and Geography:** Geography provides knowledge of regions, terrain, landforms, climate, political boundaries, resources, and similar facts. Cartography turns spatial information into a usable map. Geography may provide Synergy when that knowledge materially contributes to mapping or interpreting an area.
 
-Master: Able to encrypt maps with vague information about specific locations.
+**Cartography and Local Geography:** Local Geography provides detailed knowledge of a particular region. It may support Cartography when mapping that region, but does not replace the technical ability to create or analyze maps.
+
+**Cartography and Cryptography:** Cartography may use unusual symbols, legends, shorthand, or conventions, but deliberately concealing a map's meaning from unauthorized readers is **Cryptography**. Cartography and Cryptography may use Synergy when producing or interpreting an encoded map.
+
+Cartography does not grant a supernatural sense of direction or exact positional awareness. Knowing how to read or create maps does not automatically tell the Specialist which direction is north or where they are when no usable reference information is available; those functions belong primarily to Navigation.
+
+#### Pace and long-form work
+
+**Hasty Cartography** is appropriate for quick sketches, rapidly recorded routes, battlefield maps, or other work where reduced time is meaningful. Use the normal Hasty rules.
+
+**Meticulous Cartography** is appropriate for repeated measurements, careful scale work, checking bearings, reconciling observations, and producing a map intended to be dependable. Use the normal Meticulous rules.
+
+Large surveys, extensive expeditions, or maps assembled from many observations should use the normal extended/ongoing framework rather than being resolved as a single instantaneous check.
+
+As with other professional Skills, **Training degree unlocks capability; it does not automatically determine task difficulty or finished-item Quality**.
 
 ### Counterfeiting:
 > **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
@@ -1925,6 +1946,11 @@ Advanced: Able to place traps in areas with a high likelihood of catching someth
 Master: Able to calibrate traps to be triggered by creatures fitting one or more criteria, such as a particular weight range or height.
 
 ## Stamina
+
+### Construction:
+> **Status:** ⬜ NEEDS DEVELOPMENT — governing Stat confirmed as **Stamina**. Full degree progression will be designed during the Stamina Skill pass.
+
+Construction will govern turning plans, materials, labor, sequencing, and site conditions into completed structures. It is intended to remain distinct from Architecture (design), Engineering (structural/mechanical systems), Carpentry (wood fabrication and joinery), and Masonry (stone/brick/mortar work), while using Synergy with those Skills when their expertise materially overlaps.
 
 ### Animal husbandry:
 > **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
