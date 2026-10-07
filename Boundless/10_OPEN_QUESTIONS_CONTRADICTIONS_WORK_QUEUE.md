@@ -21,7 +21,7 @@ This file is deliberately blunt. These are the places where the reconstruction c
 
 **✅ RESOLVED:** generic favorable/unfavorable circumstance modifiers are removed. Hasty and Meticulous are the universal pace-based Skill modifiers. Concrete advantages/disadvantages come from actual rules sources such as tools, Traits, Magic, Conditions, assistance, environment, or Skill-specific text.
 
-**Remaining Skill work:** individual Skill timing/examples and entry-by-entry cleanup. Teamwork and Skills in combat are resolved.
+**Remaining Skill work:** continue individual Skill timing/examples and entry-by-entry cleanup. The **Speed Skill block is fully reviewed** except that Explosives blast-target response intentionally waits on Combat reaction/defense rules. The Proficiency pass is underway. Teamwork, Skills in combat, Skill Synergy, and Limited Substitution are resolved.
 
 ### A2. Character creation economy
 
@@ -96,6 +96,10 @@ Preserve degree capabilities but review outdated assumptions, fixed numbers, cat
 **✅ Progressive/Productive/Ongoing:** use the same Skill thresholds; resolve the current task/stage at 4 success marks before 4 failure marks. Meaningful disruptions may force additional checks; routine sustained activity does not require pointless rerolls.
 
 **✅ Teamwork:** assistance grants rerolls rather than bonus dice; normally one Helper, with 1 reroll untrained and 1 reroll per Training degree when trained. Each die can be rerolled only once, the new result replaces the old result, and the Critical Die may be rerolled.
+
+**✅ Skill Synergy:** one materially relevant Supporting Skill may add its Training dice (+1d10 per degree) to the Primary Skill check; the Supporting Skill's Stat dice are not added. Related Skills remain mechanically distinct.
+
+**✅ Limited Substitution:** only an explicit Skill entry may grant narrow effective Training in another Skill; unless otherwise stated, the substitution is Simple Training for the stated purpose only and does not grant the other Skill generally.
 
 **✅ Skills in combat:** active checks cost 1 AP, passive/reflexive checks cost 0 AP, helping costs 1 AP, actual task time still matters, and Hasty/Meticulous retain their normal time rules. A non-ongoing Meticulous check is the Specialist's only proactive action for the turn but does not prevent Active Defense or eligible reactions. Ongoing Skill use may restrict Active Defense when simultaneous performance is unreasonable, subject to Keeper judgment.
 

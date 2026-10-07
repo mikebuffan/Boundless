@@ -36,7 +36,7 @@ Older non-CLEAN material was not needed to construct this pass. No older source 
 1. **Core Resolution, Tiers, AP, Luck & Universal Mechanics** — current engine and cross-system rules.
 2. **Specialists, Character Creation & Advancement** — stats, creation, experience, advancement, possessions, and creation-economy conflicts.
 3. **Combat, Defense, Movement, Health & Armor** — opposed combat, defense paths, criticals, movement, Vitality/Fatigue, armor review, Berserk/Meginserk.
-4. **Skills** — confirmed Skill thresholds and outcome framework, Hasty/Meticulous, extended checks, Teamwork, combat Skill use, integrated Skill maneuvers, and the complete recovered Skill catalog.
+4. **Skills** — confirmed Skill thresholds and outcome framework, Hasty/Meticulous, extended checks, Teamwork, Skill Synergy/Limited Substitution, combat Skill use, integrated Skill maneuvers, and the complete recovered Skill catalog undergoing entry-by-entry modernization.
 5. **Martial** — current Martial architecture plus the complete recovered Component and Training catalog, each retained for conversion.
 6. **Magic** — current spell architecture plus the complete recovered Magic catalog and a formula-free structure/energy index from the workbook.
 7. **Creatures & Traits** — current modular Trait framework plus recovered creature types and trait material.

@@ -174,6 +174,72 @@ The Primary chooses which eligible dice to reroll.
 
 For extended tasks, assistance applies only to the checks for which the Helper is actually participating.
 
+### Skill Synergy and Limited Substitution
+
+**✅ CONFIRMED**
+
+Some Skills naturally overlap without being interchangeable. Boundless handles that overlap through **Synergy** and, where a Skill entry explicitly allows it, **Limited Substitution**.
+
+#### Skill Synergy
+
+When two Skills materially contribute to the same task, one Skill is the **Primary Skill** and determines the governing Stat, task tier, and base Skill check. One other relevant Skill may act as the **Supporting Skill**.
+
+- The Supporting Skill contributes **+1d10 per degree of Training**: Simple +1d10, Basic +2d10, Intermediate +3d10, Advanced +4d10, Master +5d10.
+- Only the Supporting Skill's **Training dice** are added. Its governing Stat dice are not added.
+- Normally, only **one Supporting Skill** may provide Synergy to a check.
+- The Primary and Supporting Skills must both materially apply to the task. A merely plausible association is not enough.
+- Individual Skill entries should identify common or intended Synergies where useful, while the Keeper may approve unusual combinations that genuinely fit the situation.
+- Synergy is internal to one Specialist and is distinct from Teamwork/Assistance.
+
+The purpose of Synergy is to reward meaningful investment in related Skills without allowing overlapping Skills to replace one another or creating unlimited dice-pool stacking.
+
+#### Limited Substitution
+
+Certain Skill degrees may explicitly grant narrow competency in another Skill for a specific purpose.
+
+- Unless the entry says otherwise, Limited Substitution allows the Specialist to treat themselves as having **Simple Training** in the substituted Skill for the stated purpose only.
+- The substituted check uses the **governing Stat and normal rules of the substituted Skill**, including the +1d10 from Simple effective Training.
+- Limited Substitution does **not** grant the substituted Skill generally, satisfy unrelated prerequisites, or provide access to that Skill outside the stated context.
+- Limited Substitution does not itself create a Synergy bonus.
+- If the Specialist already has actual Training in the substituted Skill, use that Training normally instead of the substitution. When appropriate, the original Skill may then provide Synergy.
+
+This lets broad practical expertise cover a narrow neighboring task while preserving a strong incentive to invest in the specialized Skill itself.
+
+#### Hard boundaries between related Skills
+
+Related Skills may overlap in subject matter without becoming interchangeable. Each Skill should retain a clear mechanical and fictional job.
+
+- **Synergy rewards overlap; it does not erase boundaries.** A related Skill may support the Primary Skill when both materially contribute, but the Primary Skill still determines what action is actually being attempted.
+- **Limited Substitution is narrow by design.** It grants only the explicitly stated competency for the explicitly stated context and does not turn one Skill into another.
+- A broad Skill should not absorb the defining functions of a narrower Skill merely because both concern the same subject.
+- When two Skills seem similar, define the distinction in terms of what each one actually does at the table, then use Synergy where their expertise genuinely intersects.
+
+> **Reconstruction editorial note:** final rulebook examples should remain setting-neutral and durable. Avoid contemporary or real-world cultural references, celebrity references, television/film jokes, or similar allusions unless a specific setting text deliberately calls for them.
+
+#### Synergy callout candidates
+
+The following pairings are being retained as candidates for later rulebook margin notes, tooltips, sidebars, or worked examples. They demonstrate Synergy; they are not automatically applicable unless both Skills materially contribute to the particular task.
+
+- **Hunting + Camouflage:** conceal oneself from animal prey using prey knowledge and actual camouflage technique.
+- **Hunting + Tracking:** follow animal prey by combining behavioral knowledge with interpretation of physical signs.
+- **Hunting + Trapping:** choose and place traps against particular prey using prey knowledge and trapping expertise.
+- **Listening + Hunting:** locate or interpret animal prey by sound.
+- **Listening + Tracking:** follow an unseen moving target when sound materially contributes.
+- **Listening + Search:** investigate hollow spaces, concealed mechanisms, or hidden areas where acoustic cues guide the examination.
+- **Listening + Engineering:** diagnose machinery, mechanisms, or structural problems by sound.
+- **Listening + Mimicry:** analyze subtle vocal details before reproducing them.
+- **Pick Pocket + Sleight of Hand:** covertly transfer an object while concealing the hand movement or object through palming or misdirection.
+- **Spot + Search:** use a visual irregularity noticed with Spot to guide a deliberate Search.
+- **Bowyer + Carpentry:** difficult wooden components or elaborate stocks.
+- **Bowyer + Blacksmithing/Weapon Smithing:** unusual metal components or reinforcement.
+- **Bowyer + Engineering:** unconventional mechanical crossbow designs or unusually complex mechanisms.
+- **Bowyer + Fletching:** deliberately tune ammunition characteristics to a particular weapon while keeping ammunition construction under Fletching.
+- **Calligraphy + Counterfeiting:** reproduce handwriting or formal script as one component of a convincing forged document.
+- **Calligraphy + Scribe:** accurately reproduce lengthy written material while preserving a formal or decorative hand.
+- **Calligraphy + History/Research:** interpret difficult historical handwriting or script when visual script expertise materially aids the inquiry.
+
+A useful finished callout should show the **Primary Skill**, the **Supporting Skill**, why both apply, the Supporting Skill's Training dice, and—where useful—why another superficially related Skill does not apply.
+
 ### Skills in combat
 
 **✅ CONFIRMED**
@@ -300,20 +366,45 @@ The following is a list of skills divided into categories based on their governi
 ## Speed
 
 ### Explosives:
-> **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
+> **Status:** ✅ CONFIRMED except blast-target resolution — capability progression, Yield terminology, Yield/tier structure, radius control, and Trap Making interaction locked. The rule for creatures caught inside a blast remains intentionally unresolved until Combat reactions/defenses are finalized.
 
-Specialists with Explosives skill are able to work with volatile substances more safely and efficiently than those without. This skill enables users to create, modify, disable or bypass explosive devices of various types and strengths. Creatures caught inside the blast are treated as being automatically hit by the blast, but damage may still be mitigated as normal.
+Explosives governs the safe handling, identification, creation, modification, timing, disabling, and bypassing of explosive devices. Most uses are resolved as normal Skill checks. Creating an explosive with a defined destructive output additionally uses **Yield**.
 
-Specialists with simple training in explosives are able to work with fuse and powder based explosive devices, such as cannons, dynamite and grenades. Dynamite and grenades created using this skill deal 1d10 damage in a radius of 3 movement units appropriately sized for the creator when used in combat.
+#### Yield
 
-Basic training in explosives allows a Specialist to precisely time explosions with fuse and powder based explosives, as well as the ability to create water proof fuses. Additionally, this allows the use of simple and basic applications of this skill in conjunction with the trap-making skill.
+**Yield** measures the destructive output of an explosive and uses the same numerical tier bands as the normal 3/6/9/12/15 action ceilings.
 
+| Yield | Minimum creation tier |
+| ---: | --- |
+| 1–3 | Simple |
+| 4–6 | Basic |
+| 7–9 | Intermediate |
+| 10–12 | Advanced |
+| 13–15 | Master |
 
-Intermediate training in explosives affords a Specialist the ability to work with liquid and solid chemical reactions to produce explosive devices. Explosives made with the intermediate degree of training deal 3d10 damage in a 5 movement unit radius appropriately sized for the caster when used in combat.
+Each point of Yield produces **1d10 damage** and a **5-foot default blast radius**. Thus, Yield 1 produces 1d10 damage in a 5-foot default radius, Yield 6 produces 6d10 in a 30-foot default radius, and Yield 15 produces 15d10 in a 75-foot default radius.
 
-Advanced training in explosives renders a Specialist able to create shaped charge blasts, as well as precisely time any explosion. The blast may be in a circle with a radius of up to 5 movement units, emanating from the explosive device or may be shaped. Shaped blasts may be any continuous portion of a circle, for example a 270 degree arc or 45 or 90 degree cone. The blast may also be in a line from the device with a maximum range of 10 movement units. The blast area may be positioned independently of the device, so long as the device remains within the blast area, subject to Keeper approval.
+The desired Yield determines the minimum task tier for creating the explosive, and the Specialist must possess sufficient Explosives Training to use that degree's capability. A Specialist with higher Training may deliberately create a lower-Yield device.
 
-With master training in explosives, a Specialist is able to sense explosive devices via minute signs, such as the smell of particular chemicals and explosive components. This also allows Specialists to identify chemicals and substances that can be made into explosives. Explosives made with master degree skill deal 10d10 damage in a radius of up to 10 movement unit radius appropriately sized for the creator when used in combat. Finally, this allows all applications of this skill to be used in conjunction with the trap-making skill.
+For example, creating a Yield 4 explosive is a **Basic** Explosives task. If successfully created, it deals **4d10 damage** in a **20-foot default radius** before any Advanced radius control is applied.
+
+Yield measures destructive power only. It does not automatically determine craftsmanship, reliability, durability, concealment, or other future equipment/crafting qualities.
+
+- **Simple:** Able to safely work with ordinary fuse-and-powder explosive devices and materials, including cannon charges, dynamite, grenades, and similar devices. Simple Training permits creation up to **Yield 3** where the required materials, tools, and circumstances permit.
+- **Basic:** Able to precisely time fuse-and-powder explosives, create or protect waterproof fuses, and perform more reliable modifications to such devices. Basic Training permits creation up to **Yield 6**. Simple and Basic Explosives applications may be incorporated into Trap Making; when both Skills materially contribute to the task, they may use **Synergy** under the normal rules.
+- **Intermediate:** Able to work with more sophisticated liquid and solid chemical reactions to produce explosive devices. Intermediate Training permits creation up to **Yield 9**.
+- **Advanced:** Able to create shaped charges and exercise deliberate control over blast geometry. Advanced Training permits creation up to **Yield 12**. The Specialist may reduce an explosive's default blast radius, normally in 5-foot increments, or shape the blast so that the destructive force is directed into a smaller or more useful area. Reducing or shaping the blast does **not** reduce the explosive's Yield or damage and does not by itself raise the task tier. Radius control cannot create more total destructive power or greater maximum reach than the explosive's normal Yield would support; exact combat-area templates, if needed, will be finalized with Combat.
+- **Master:** Able to recognize explosive devices, components, and explosive-capable substances from minute but ordinary signs such as chemical odors, residue, construction details, unusual wiring, disturbed fittings, or other physical evidence. This is exceptional expertise, not supernatural detection. Master Training permits creation up to **Yield 15** and allows all Explosives applications to be incorporated into Trap Making, using Synergy when both Skills materially contribute.
+
+Handling, identifying, modifying, disabling, bypassing, or otherwise working with an explosive without creating a new destructive output uses the normal Skill task-tier rules. The Keeper determines the task tier from the device, materials, complexity, condition, time pressure, access, and circumstances rather than from the Specialist's Training degree alone.
+
+Hasty and Meticulous use follow the normal Skill rules when the specific task can genuinely be rushed or performed more carefully. The Keeper may rule that a particular explosive procedure cannot safely or meaningfully be accelerated.
+
+#### Blast-target resolution — intentionally pending
+
+This entry currently defines an explosive's **Yield, damage dice, default blast radius, and Advanced radius control only**. It does **not** yet determine how creatures or objects inside the blast area respond mechanically.
+
+Whether a target receives a defense roll, reaction, saving throw, cover interaction, mitigation opportunity, or another combat response will be decided during the Combat reaction/defense pass and then propagated back into Explosives. The recovered legacy statement that creatures inside the blast are automatically hit is **not current authority** unless it is explicitly reconfirmed during that pass.
 
 ### Fishing:
 > **Status:** ✅ CONFIRMED — capability progression and modern Skill handling locked.
@@ -341,96 +432,194 @@ Routine fishing does not require repeated checks merely to manufacture failure. 
 The amount or exact nature of the catch is contextual rather than fixed to a universal quantity table. Exceptional outcomes should follow the circumstances. Appropriate examples include a better-than-expected catch, reduced time, an unusually desirable specimen, preserved bait or materials, useful information about the area, damaged tackle, lost bait, a fouled net, spooked prey, or attracting an unwanted catch. These are examples rather than mandatory universal results.
 
 ### Hunting:
-> **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
+> **Status:** ✅ CONFIRMED — capability progression, Synergy/Substitution relationships, and modern Skill handling locked.
 
-Specialists with Hunting skill gain an understanding of the psychology of wild game, as well as the ability to use specialized tools and weapons to aid in catching them.
+Hunting governs the hunt itself: understanding wild prey, choosing an approach, predicting behavior, creating opportunities, and adapting when the prey changes its behavior. It does not replace specialized Skills such as Camouflage, Tracking, Trapping, or Trap Making, and it does not replace Combat/Martial rules when a hunt becomes a fight.
 
-Simple training allows a Specialist to capture or kill up to medium sized game using weapons such as spears, bow and arrows, or nets. They are also able to set capture or kill traps, dependent upon possession of appropriate trap-making skill ranks. Some wild game requires combat in order to hunt with weapons, such as spears or bow and arrows. In such a case, a Specialist still needs martial training in the weapons to avoid taking the penalties for using them untrained in combat. For smaller game where no combat is required, the Specialist may use the aforementioned weapons without penalty, subject to Keeper approval. For example, a Specialist could shoot a rabbit with an arrow without combat training, but would merely anger a bear without proper martial training.
+Hunting is commonly treated as an **Ongoing Skill**. It has no universal fixed interval; checks occur at meaningful stages of the hunt, such as locating likely prey, approaching it, setting an ambush, maintaining contact during a pursuit, or adapting when circumstances change.
 
-A Specialist with basic hunting training is able to employ visual camouflage such as duck blinds or camouflage nets to prevent potential prey from seeing them. Such camouflage is not suitable for combat or for hiding from intelligent creatures.
+Task tier is determined by the prey, terrain, danger, rarity, circumstances, and objective rather than by the Specialist's Training degree. Size alone does not determine whether prey may be hunted.
 
-Intermediate training grants a Specialist the know-how to capture or kill up to large sized game in the same manner as simple degree hunting skill.
+- **Simple — I can hunt:** Understands the basic habits of common wild game and can conduct an ordinary hunt using appropriate weapons, nets, positioning, and hunting methods. If the situation becomes structured combat, attacks and defenses use the normal Combat/Martial rules.
+- **Basic — I know how not to be noticed by my prey:** Understands how animal prey perceives its surroundings well enough to use blinds, natural cover, decoys, positioning, and basic visual concealment against it. If the Specialist has no Camouflage Training, Basic Hunting grants **Limited Substitution: Simple Camouflage** when concealing themselves specifically from animal prey. If the Specialist has Camouflage Training, Hunting and Camouflage may use **Synergy** when both materially apply.
+- **Intermediate — I know where it is going:** Reads prey behavior well enough to identify likely feeding areas, watering points, bedding areas, travel routes, escape paths, and other probable movements. If the Specialist has no Tracking Training, Intermediate Hunting grants **Limited Substitution: Simple Tracking** when following animal prey. If the Specialist has Tracking Training, Hunting and Tracking may use **Synergy** when both materially apply.
+- **Advanced — I know how to make it do what I want:** Manipulates prey behavior through calls, scents, musks, lures, decoys, wind direction, flushing, driving, and similar techniques. The Specialist also understands how and where traps should be employed against particular prey. If the Specialist has no Trapping Training, Advanced Hunting grants **Limited Substitution: Simple Trapping** when selecting and placing an existing basic trap specifically for animal prey. If the Specialist has Trapping Training, Hunting and Trapping may use **Synergy** when both materially apply.
+- **Master — I know how to hunt that specific prey:** Can plan and conduct hunts against exceptionally elusive, dangerous, unusual, or cunning wild prey; deliberately target a particular specimen; anticipate likely reactions to the hunters; and adapt the hunt when the prey changes its behavior. Master Hunting may use Synergy with the relevant specialized Skill but does not increase Limited Substitution above Simple Training.
 
-Specialist with advanced training know how to use musks and perfumes to mask their own scent to prevent potential prey from smelling them.
+**Camouflage, Tracking, and Trapping remain distinct Skills.** Hunting provides prey-specific knowledge and may support them through Synergy. **Trap Making** is also distinct: Hunting may help determine what sort of trap would be useful against particular prey, but it does not grant Limited Substitution in Trap Making or replace the ability to construct sophisticated traps.
 
-Master degree hunting training enables Specialists to capture or kill any size game with appropriate checks. Note that some prey may require battle to fell, as determined by the Keeper.
+**Hasty Hunting:** allowed when the hunting method can genuinely be rushed, such as pressing a stalk, flushing prey early, or sacrificing careful positioning for speed. Use the normal Hasty rules.
+
+**Meticulous Hunting:** allowed when circumstances permit and uses the normal Meticulous rules.
+
+Exceptional outcomes should follow the circumstances rather than a universal catch/kill table. Success may create a clean opportunity without itself resolving a combat encounter. Critical or Overwhelming results may provide superior positioning, unusually accurate behavioral insight, reduced time, preservation of resources, or another context-appropriate advantage; severe failures may spook prey, lose the trail, expose the hunter, waste resources, or otherwise complicate the hunt.
 
 ### Listening:
-> **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
+> **Status:** ✅ CONFIRMED — capability progression, passive/active handling, range convention, and human-limit boundary locked.
 
-Specialists with the Listening skill are increasingly able to tune out background noise, and hone in on specific sound sources, as well as pick up on very quiet sounds.
+Listening represents trained auditory awareness, interpretation, localization, and spatial inference. It never grants supernatural hearing or true echolocation; any information gained must be reasonably present in audible sound, echoes, resonance, reverberation, or other acoustic cues.
 
-Simple degree training lets the Specialist passively scan for abnormal sounds. Specialists with this skill are allowed to make a listen check whenever there’s a potential for them to hear something out of the ordinary. When appropriate, the Keeper should roll for the player on this skill, to avoid tipping off those that fail the check that there was something to be heard.
+- **Simple — I notice unusual sounds:** Able to passively notice abnormal or noteworthy sounds that might otherwise escape attention. Passive or reflexive Listening checks follow the normal passive Skill rules and may be rolled secretly by the Keeper when revealing that a check occurred would itself give away information.
+- **Basic — I can hear it through that:** Able to deliberately listen through ordinary barriers such as doors, windows, walls, floors, or similar obstructions when enough sound can reasonably pass through them. The barrier, distance, sound level, and surrounding noise help determine task difficulty.
+- **Intermediate — I can tell you something about what I heard:** Able to interpret vocal and environmental sounds to infer useful information such as direction, approximate distance, relative size, number of sources, movement, speed, or similar details when those details are reasonably conveyed by the sound.
+- **Advanced — I can isolate it and tell roughly where it is:** Able to separate meaningful sounds from heavy background noise, distinguish overlapping sources, maintain attention on a chosen source, and track its approximate position as it moves. An unseen or invisible creature that is making enough noise to be heard may be localized and followed by sound, but Listening does not make it visible, negate concealment generally, or reveal information the sound itself does not carry.
+- **Master — I can use sound to understand the nearby space:** Able to interpret echoes, resonance, reverberation, footsteps, breathing, ambient noise, and other ordinary acoustic cues to form a rough mental model of nearby surroundings. This may reveal openings, large obstacles, approximate room dimensions, hollow spaces, unseen movement, or similar spatial information when the environment actually provides sufficient acoustic cues. A Master Listener may carefully navigate an unfamiliar dark space using ordinary environmental sound, but does not gain sight-equivalent perception.
 
-Specialists with basic degree training are able to listen through physical barriers, such as doors, windows and walls.
+#### Auditory distance and position
 
-Intermediate training allows a Specialist to interpret vocal and environmental sounds to glean certain information, such as the relative size of a creature based on the volume of its call, or the direction of a snapping twig.
+When Listening provides positional or distance information, describe that information in **5-foot increments** where appropriate: approximately 10 feet, 25 feet, 60 feet, and so on. This is a measurement convention, not guaranteed five-foot precision. Distance, barriers, echoes, competing noise, source volume, room shape, environmental acoustics, and movement may reduce precision or make localization impossible. In exceptionally clear conditions a successful check may effectively identify a five-foot area; in poor conditions the Keeper may give only a broader estimate or direction.
 
-Advanced training gives the Specialist the ability to reflexively filter sounds, such as explosions, to prevent potential hearing loss.
+#### Human-limit boundary
 
-Master training enables the Specialist to focus on a specific source of sound, and tune out all other sources in any environment.
+Listening does not become supernatural, even at Master degree. A completely silent creature cannot be detected by sound alone. Listening cannot perceive color, writing, silent visual details, or identify objects with sight-like precision. It cannot freely substitute for vision, and darkness or blindness may still impose whatever limitations the relevant rules establish. The Keeper should permit impressive human-level feats while rejecting information that the available sound could not reasonably provide.
 
-### Pick pocket:
-> **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
+#### Active and passive use
 
-Specialists with the Pick pocket skill are able to use their nimble fingers to pilfer objects from others without their knowledge.
+Passive or reflexive Listening checks cost no AP in structured combat under the normal Skill rules. Deliberately stopping to listen is an active Skill check and costs 1 AP. Passive Listening should be rolled only when there is something meaningful to detect or when circumstances materially change, not repeatedly merely to manufacture failure.
 
-Simple pick pocket training allows a Specialist to attempt to remove an object no larger than can be easily concealed within one’s hand from sleeping creatures without waking them.
+When another creature is deliberately trying to avoid making noise, Listening may be opposed by Sneaking or another Skill that actually governs the attempt to remain unheard.
 
-A Specialist with basic pick pocket training may attempt to remove any object from a sleeping creature without waking them.
+**Hasty Listening:** applies only when a meaningful listening interval can actually be shortened, such as taking a very quick listen at a door before moving on. Reflexive passive checks are not Hasty.
 
-Intermediate training grants a Specialist the ability remove an object no larger than can easily be concealed within one’s hand from conscious creatures without their knowledge. The Specialist may only attempt to remove passively placed (not worn or held) objects.
+**Meticulous Listening:** allowed when circumstances permit and uses the normal Meticulous rules, representing deliberate concentration, reduced movement, and additional time spent isolating or interpreting sound.
 
-Specialists with advanced training may attempt to employ misdirection to remove larger objects from creatures without their knowledge. They may only attempt to remove passively placed (not worn or held) objects.
+Common Synergies may include Hunting when identifying or locating animal prey by sound, Tracking when sound materially assists in following a moving target, Search when detecting hollow spaces or concealed mechanisms, Engineering when diagnosing machinery acoustically, and Mimicry when closely analyzing vocal details. These are examples rather than an exhaustive list.
 
-Master degree training allows a Specialist to attempt to remove any object, including worn or held objects, from conscious creatures without their knowledge. Furthermore, they may place objects on such creatures without their knowledge.
+### Pick Pocket:
+> **Status:** ✅ CONFIRMED — capability progression, opposed resolution, Synergy relationship, and combat boundary locked.
+
+Pick Pocket governs the covert transfer of objects to or from another creature without their knowledge. It is distinct from Sleight of Hand: Pick Pocket focuses on taking from or planting on another creature, while Sleight of Hand focuses on palming, concealing, revealing, and manipulating objects through dexterity and misdirection.
+
+- **Simple:** Able to remove or plant a hand-sized or smaller loose object on a sleeping or otherwise substantially unaware creature without disturbing them.
+- **Basic:** Able to remove or plant larger loose objects from a sleeping or otherwise substantially unaware creature, provided doing so is physically plausible without obviously disturbing them.
+- **Intermediate:** Able to remove or plant a hand-sized or smaller **unsecured** object from or on a conscious creature without their knowledge.
+- **Advanced:** Able to use misdirection, timing, crowd movement, distraction, or similar techniques to remove or plant larger unsecured objects from or on a conscious creature without their knowledge.
+- **Master:** Able to attempt to remove or plant worn, secured, or casually held objects on a conscious creature without their knowledge when physically plausible.
+
+Master Pick Pocket does not replace combat disarm mechanics. An object that is actively wielded, firmly gripped, or being defended in structured combat is not normally a Pick Pocket target merely because the Specialist has Master Training. Casual possession, loose handling, accessible worn items, belt pouches, jewelry, keys, loosely held objects, and similar targets remain appropriate when circumstances permit.
+
+#### Resolution
+
+Against a sleeping, unaware, or otherwise non-opposing target, use a normal task tier based on factors such as object size, location, how securely it is attached, the amount of contact required, clothing or other obstructions, and how likely the target is to notice disturbance.
+
+Against a conscious target capable of noticing the attempt, Pick Pocket is normally an **opposed check**. **Spot** is the default opposing Skill when the target is visually detecting the covert action, but the Keeper may use Listening or another Skill when it more directly governs detection in the circumstances.
+
+A failed Pick Pocket check does not automatically mean the target identifies the Specialist unless the opposed result or situation supports that conclusion. Exact consequences follow the circumstances.
+
+#### Synergy
+
+**Pick Pocket and Sleight of Hand** are a common Synergy pairing when both materially contribute to the same action. For example, Pick Pocket may be the Primary Skill when lifting a purse while Sleight of Hand provides Supporting Skill dice for concealing the motion or immediately palming the object.
+
+Pick Pocket does not grant Limited Substitution in Sleight of Hand. Each Skill remains independently valuable.
+
+Other Skills may support Pick Pocket when genuinely relevant, such as Bluff, Acting, or another distraction-oriented Skill, but only one Supporting Skill may provide Synergy to a given check under the normal Synergy rules.
+
+#### Pace and combat use
+
+**Hasty Pick Pocket:** allowed when the attempt can genuinely be rushed, representing a quick grab or poorly timed opportunity. Use the normal Hasty rules.
+
+**Meticulous Pick Pocket:** allowed when circumstances permit, representing careful observation, waiting for the ideal movement or distraction, and selecting the best moment to act. Use the normal Meticulous rules.
+
+In structured combat, Pick Pocket follows the normal Skill-in-combat rules. An ordinary active attempt costs 1 AP. Pick Pocket may participate in an integrated maneuver only when the action is physically plausible and the object is a valid Pick Pocket target rather than an actively defended combat object.
+
+Exceptional outcomes should be contextual. Critical or Overwhelming success might allow the transfer to go entirely unnoticed, conceal evidence of the action, take advantage of an unexpected opening, or accomplish a particularly difficult placement. Severe failure might expose the attempt, disturb the target, drop the object, snag clothing, or otherwise create an appropriate complication.
 
 ### Spot:
-> **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
+> **Status:** ✅ CONFIRMED — capability progression, passive/active handling, Search boundary, and common opposed uses locked.
 
-Specialists with the Spot skill are able to notice things out of the ordinary.
+Spot governs **rapid visual perception**: noticing movement, contrast, irregularities, and visible clues without conducting a deliberate investigation. **Search** governs methodical examination. Spot answers, “What do I notice by looking?” Search answers, “What do I find when I deliberately inspect this?”
 
-With simple training, a Specialist is able to notice things that are obviously out of place or that contrast with their environment, such as a campfire, or a dingy white brick among clean white bricks with a quick search.
+- **Simple — I notice the obvious:** Quickly notices conspicuous visual details, movement, strong contrast, or something clearly out of place.
+- **Basic — I notice subtle irregularities:** Picks out less obvious visible discrepancies without conducting a methodical search, such as a slightly different board, an unnatural shadow, a small crack, a mismatched outline, or faint movement in clutter.
+- **Intermediate — I notice without looking for it:** Develops strong peripheral and environmental awareness. The Specialist may receive **passive Spot checks** for visual details that an ordinary observer would normally need to deliberately scan for, particularly movement, contrast, or environmental changes.
+- **Advanced — I can pick something out of visual chaos:** Distinguishes relevant visual information in crowds, clutter, foliage, smoke, poor lighting, rapid movement, or other visually busy environments. The Specialist can maintain visual attention on a chosen subject and is especially capable of detecting deliberate visual concealment when there are actual visible cues to notice.
+- **Master — I notice what almost nobody else would:** Recognizes minute visible disturbances and inconsistencies, such as a polished spot where something has repeatedly been touched, subtly disturbed dust, minute displacement of an object, faint bleaching where a book has been left open, an almost imperceptible seam, or tiny changes in posture or movement. Master Spot may reveal that something is wrong or has changed, but does not automatically reveal the hidden cause.
 
-Basic training enables a searching Specialist to notice things that are less obviously out of place, such as a board made of a different type of wood, or a crack in a brick.
+#### Spot and Search
 
-Intermediate training allows a Specialist to passively notice things that must actively be searched for with simple degree spot training.
+Spot is immediate or rapid observation, primarily visual, and may be passive. It normally does not involve touching, opening, moving, measuring, or systematically inspecting things.
 
-Advanced degree training gives a Specialist the ability to passively notice things that must actively be searched for with basic degree spot training.
+Search is deliberate investigation, normally active, and takes time. It may involve manipulating objects and carefully examining an area or item. Concealed compartments, trap triggers, secret doors, and hidden objects are normally Search territory once deliberate examination begins.
 
-Finally, master training lets a Specialist find minute details out of place, such as a smooth spot on a stone where it has been pressed or rubbed, or the very slight bleaching where a page of a book has been open longer than others.
+Spot and Search may use **Synergy** when both materially contribute. For example, noticing a suspicious seam with Spot may allow Spot to support a later Search check focused on that wall. Search does not automatically support a later Spot check merely because the Specialist had previously searched the area.
+
+#### Opposed uses
+
+Spot is a common opposing Skill against **Hiding**, **Camouflage**, **Pick Pocket**, **Sleight of Hand**, and other visually concealed actions when sight is genuinely how the action might be detected. If another sense or Skill more directly governs detection, use that instead.
+
+#### Active and passive use
+
+Passive or reflexive Spot checks cost no AP in structured combat under the normal Skill rules. Deliberately taking a quick visual scan is an active Spot check and costs 1 AP. An active Spot check is still a rapid visual scan, not a Search.
+
+**Hasty Spot:** allowed when a meaningful observation interval can genuinely be shortened, such as taking only a quick glance instead of a normal scan. Use the normal Hasty rules.
+
+**Meticulous Spot:** allowed when the Specialist spends additional time observing carefully without shifting into methodical physical investigation. Once the action becomes systematic examination or manipulation of the environment, use Search instead.
+
+#### Distance and position
+
+Spot has no universal fixed range. Whether a visual check is possible and its task tier depend on factors such as object size, lighting, weather, contrast, intervening terrain, concealment, and distance.
+
+When Spot provides approximate positional information, use **5-foot increments** where that level of precision is reasonable, consistent with the Listening convention. This is a measurement convention rather than guaranteed five-foot accuracy.
+
+Exceptional outcomes should be contextual. Critical or Overwhelming success may reveal an especially subtle clue, preserve awareness of multiple relevant visual details, notice a change earlier than expected, or provide unusually precise visual information. Severe failure may cause the Specialist to focus on the wrong detail, miss meaningful movement, lose track of a subject, or draw an incorrect conclusion from what was seen, where appropriate.
 
 ## Proficiency
 
 ### Bowyer:
-> **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
+> **Status:** ✅ CONFIRMED — professional/crafting progression modernized. Bowyer establishes a reusable pattern for similar professional Skills: **Maintain → Repair → Construct → Modify → Design**. Training degree unlocks capability; it does not determine the task tier or finished-item Quality.
 
-Specialists with the Bowyer skill are able to maintain, construct and modify bows and crossbows.
+Bowyer governs the maintenance, repair, construction, modification, and design of bows and crossbows. It does not replace related Skills such as Fletching, Carpentry, Blacksmithing/Weapon Smithing, or Engineering, although those Skills may provide **Synergy** when they materially contribute to a particular task.
 
-Simple: Able to assemble (string) and maintain bows.
+- **Simple — Maintain and assemble:** String, unstring, tune, inspect, clean, and maintain bows and crossbows. Replace ordinary consumable or wear components such as strings, cords, serving, and similar parts when appropriate materials are available.
+- **Basic — Repair:** Diagnose and repair ordinary damage to bows and crossbows, including damaged strings, loose fittings, warped or damaged components, cracked stocks, minor limb or prod damage, trigger issues, and similar repairable problems.
+- **Intermediate — Construct:** Build complete, conventional bows and crossbows from appropriate materials and components, including the ordinary fittings and mechanisms necessary for the weapon to function. A normal weapon does not require several unrelated crafting Skills merely because it contains several materials.
+- **Advanced — Modify and specialize:** Alter existing bows and crossbows for a particular user or purpose, including adjustments to draw characteristics, balance, dimensions, stock configuration, trigger behavior, reinforcement, compactness, range-oriented design, heavy-draw construction, specialized mounting, or similarly meaningful modifications. Advanced Bowyers may also reproduce established unusual or complex designs when appropriate tools and materials exist.
+- **Master — Design:** Create new bow or crossbow designs rather than merely reproduce established ones. A Master Bowyer may combine unusual materials, mechanisms, dimensions, and construction principles into functional prototypes and highly specialized weapons, subject to the normal limits of the setting and materials available.
 
-Basic: Able to assemble (string) and maintain crossbows.
+#### Capability, difficulty, and Quality
 
-Intermediate: Able to repair damage to bows.
+Training degree determines **what the Specialist knows how to do**. It does not automatically determine the task tier. Replacing a string may be a Simple task even though Basic Bowyer permits broader repair work, while rebuilding a badly damaged heavy crossbow might be substantially more difficult. Likewise, Intermediate Bowyer unlocks weapon construction, but the difficulty of constructing a particular weapon depends on the design, materials, tools, conditions, and circumstances.
 
-Advanced: Able to repair damage to crossbows.
+Training degree also does not automatically determine the **Quality** of the finished item. Quality, reliability, durability, and related crafting outcomes belong to the future Crafting/Quality rules.
 
-Master: Able to improve and reinforce bows and crossbows.
+#### Related Skills and Synergy
+
+Common Synergy candidates include Bowyer + Carpentry for difficult wooden components or elaborate stocks, Bowyer + Blacksmithing/Weapon Smithing for unusual metal components or reinforcement, Bowyer + Engineering for unconventional mechanical crossbow designs, and Bowyer + Fletching when tuning ammunition characteristics to a particular weapon. The actual construction of arrows or bolts remains a Fletching task.
+
+#### Pace
+
+Hasty and Meticulous use follow the normal Skill rules when physically meaningful. A field repair may be rushed, and careful fitting, tuning, measuring, tillering, and alignment are natural Meticulous applications. Hasty use halves actual working time; it does not turn multi-hour or multi-day construction into an instantaneous action.
 
 ### Calligraphy:
-> **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
+> **Status:** ✅ CONFIRMED — capability progression, professional boundaries, and common Synergy relationships locked.
 
-Specialists with the Calligraphy skill are able to read and write official and royal documents in any language in which they are fluent.
+Calligraphy governs **controlled, formal, and decorative written presentation**. It determines how writing is physically rendered, not what the writing says, whether the document is legally valid, or whether the finished object convincingly passes as something it is not.
 
-Simple: Able to read official writs, and royal decrees.
+- **Simple — Controlled handwriting:** Produce clear, deliberate, consistently legible handwriting in any written language the Specialist already knows. The Specialist can reproduce ordinary lettering styles and basic formal headings without the irregularity of everyday handwriting.
+- **Basic — Formal scripts:** Use established formal hands, scripts, spacing conventions, margins, headings, and other structured lettering styles consistently across a document. The Specialist can produce respectable legal, academic, religious, ceremonial, or administrative-looking writing when they know the appropriate style.
+- **Intermediate — Decorative and complex work:** Produce ornamental lettering, flourishes, elaborate capitals, complex layouts, tightly controlled spacing, and other advanced presentation work. The Specialist can adapt lettering cleanly to unusual sizes, shapes, surfaces, or presentation requirements.
+- **Advanced — Style reproduction:** Closely reproduce an existing handwriting or calligraphic style when given a suitable example, including characteristic stroke patterns, spacing, flourishes, pressure, and layout. The Specialist can also recognize significant stylistic differences between hands that appear similar to a less-trained observer.
+- **Master — Calligraphic mastery:** Design original formal scripts and lettering systems, reproduce extremely difficult hands with exceptional fidelity, and identify minute stylistic characteristics that may reveal authorship, school, period, alteration, or inconsistency in a written work when sufficient evidence exists.
 
-Basic: Able to write with basic, albeit somewhat sloppy and often illegible, handwriting.
+Master Calligraphy remains grounded expertise. It may reveal that two passages were written by different hands, for example, but does not identify an unknown writer without evidence that would support that conclusion.
 
-Intermediate: Able to write with better handwriting, with far fewer mistakes.
+#### Boundaries with related Skills
 
-Advanced: Able to write legible handwriting with no mistakes.
+**Calligraphy and Scribe:** Calligraphy governs physical writing style and presentation. Scribe governs recording, transcription, dictation, copying, and document reproduction at scale. Copying a lengthy manuscript accurately is primarily Scribe; preserving or producing an exact formal hand may allow Calligraphy to provide Synergy.
 
-Master: Able to write passable official and royal documents.
+**Calligraphy and Writing:** Writing governs composition: choosing words, structuring prose, recounting events, and creating narratives. Calligraphy governs how those words are rendered. Expertise in one does not imply expertise in the other.
+
+**Calligraphy and Counterfeiting:** Calligraphy can reproduce handwriting, lettering, and formal script, but does not by itself create a convincing counterfeit document. Counterfeiting governs the broader deception, including materials, seals, aging, construction, provenance, and other details. When reproducing the written hand materially contributes to a forgery, Calligraphy is a natural Supporting Skill for Counterfeiting.
+
+Calligraphy does not grant literacy in an unknown language or specialized legal, historical, administrative, or religious understanding merely because the Specialist can reproduce its visible script. It may, however, assist in deciphering difficult handwriting or unusual scripts when that visual expertise materially contributes.
+
+#### Pace and long-form work
+
+Hasty and Meticulous use follow the normal Skill rules when physically meaningful. Careful ruling, spacing, layout, stroke control, and deliberate execution are natural Meticulous applications.
+
+Lengthy manuscripts or similarly substantial projects should use the normal extended/ongoing framework rather than treating weeks of work as a single instantaneous check.
+
+As with other professional Skills, **Training degree unlocks capability; it does not automatically determine task difficulty or finished-item Quality**.
 
 ### Carpentry:
 > **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
