@@ -262,6 +262,50 @@ The following pairings are being retained as candidates for later rulebook margi
 - **Fletching + Explosives:** construct ammunition that safely carries and survives launch with an explosive payload.
 - **Fletching + Alchemy/Apothecary:** construct ammunition to carry and deliver chemical or alchemical payloads.
 - **Fletching + Hunting:** tailor ammunition to particular prey when prey knowledge materially affects the design.
+- **Herbology + Geography:** use habitat and terrain knowledge to support plant identification or likely distribution.
+- **Apothecary + Herbology:** formulate a plant-based preparation using accurate botanical identification and ingredient selection.
+- **Poisons + Herbology:** identify, harvest, or prepare plant-derived toxins using both botanical and toxicological expertise.
+- **Alchemy + Herbology:** use unusual plant materials in an alchemical preparation when botanical properties materially matter.
+- **Jeweler + Metallurgy:** work unusual precious-metal alloys or materials whose composition materially affects fabrication.
+- **Jeweler + Appraise:** assess jewelry when workmanship, materials, and market valuation all materially contribute.
+- **Jeweler + Artistry:** create jewelry whose visual composition materially contributes beyond technical fabrication.
+- **Jeweler + Engineering:** construct jewelry containing genuine mechanical elements rather than ordinary clasps or hinges.
+- **Leatherworking + Sewing:** construct mixed leather-and-textile garments or goods.
+- **Leather Armoring + Leatherworking:** construct leather armor whose fitting, straps, lining, or non-protective leather components materially benefit from general leathercraft.
+- **Leatherworking + Animal Husbandry:** create specialized saddles, harness, or tack fitted to particular animals.
+- **Leatherworking + Artistry:** create elaborate tooling, relief, or decorative leatherwork.
+- **Lock Picking + Engineering:** defeat unfamiliar complex mechanical locks using both mechanism knowledge and manipulation expertise.
+- **Lock Picking + Sleight of Hand:** manipulate a lock while keeping the picking action concealed.
+- **Musical Instrument + Singing:** perform while accompanying one's own voice or another singer where both skills materially contribute.
+- **Musical Instrument + Writing:** compose songs where lyrical and instrumental composition both materially matter.
+- **Musical Instrument + Acting:** perform music as part of a theatrical or character-driven presentation.
+- **Musical Instrument + Wood Carving:** construct or modify a wooden instrument component where playing knowledge materially informs its shape or function.
+- **Poisons + Apothecary:** create a toxic preparation whose formulation overlaps ordinary medicinal techniques.
+- **Poisons + Chemistry:** analyze or formulate unusual chemical toxins using both toxicology and chemical knowledge.
+- **Poisons + Alchemy:** work with alchemically altered or supernatural toxic preparations where both systems genuinely apply.
+- **Poisons + First Aid:** identify or respond to poisoning when symptoms, exposure, and treatment knowledge materially overlap.
+- **Rope Use + Climbing:** build and use technical climbing, rappelling, or rescue rigging.
+- **Rope Use + Engineering:** operate or construct a lifting system combining rope rigging with genuine machinery.
+- **Trap Making + Rope Use:** build snares, net traps, trip systems, or tensioned-line mechanisms.
+- **Scribe + Researching:** collate sources, extract citations, or maintain structured scholarly records.
+- **Scribe + Administration:** maintain complex organizational records where both accurate transcription and administrative structure matter.
+- **Sewing + Artistry:** create textile work whose visual design materially contributes beyond construction.
+- **Sewing + Rope Use:** construct and rig sails, tents, awnings, nets, or similar large textile systems.
+- **Sleight of Hand + Acting:** perform concealed object manipulation within a staged character performance.
+- **Sleight of Hand + Bluff:** use verbal deception to support a covert manual manipulation.
+- **Trap Making + Trapping:** design or construct traps around the behavior and physical characteristics of intended prey.
+- **Trap Making + Engineering:** construct unusually complex mechanical traps.
+- **Wood Carving + Artistry:** create sculpture where artistic composition and carving technique both materially contribute.
+- **Wood Carving + Musical Instrument:** shape a wooden instrument component where acoustic or playing knowledge materially affects the work.
+- **Counterfeiting + Wood Carving:** reproduce distinctive carved ornament or sculptural details as part of a convincing imitation.
+- **Writing + Researching:** produce evidence-based long-form work from gathered and cross-referenced sources.
+- **Writing + History:** compose historical narrative where factual historical expertise materially contributes.
+- **Writing + Scribe:** turn notes, dictation, or source material into a structured formal manuscript.
+- **Writing + Calligraphy:** produce authored work whose formal handwritten presentation materially matters.
+- **Writing + Musical Instrument:** compose lyrics and music as parts of the same song.
+- **Writing + Public Speaking:** compose a speech specifically for effective spoken delivery.
+- **Writing + Bluff:** construct a deliberately deceptive written narrative intended to be believed.
+- **Counterfeiting + Writing:** forge a document whose wording and physical authenticity both materially matter.
 
 A useful finished callout should show the **Primary Skill**, the **Supporting Skill**, why both apply, the Supporting Skill's Training dice, and—where useful—why another superficially related Skill does not apply.
 
@@ -590,6 +634,16 @@ Exceptional outcomes should be contextual. Critical or Overwhelming success may 
 
 ## Proficiency
 
+### Professional tools, materials, and workspace
+
+**✅ CONFIRMED**
+
+Professional and crafting Skill capabilities assume access to the **tools, materials, and workspace reasonably required for the task** unless the Skill explicitly states otherwise.
+
+Missing, damaged, improvised, or inadequate equipment may increase the task tier, restrict what can physically be attempted, prevent Hasty or Meticulous use, or make the task impossible. Appropriate improvised tools may be used where physically plausible under the normal improvisation rules.
+
+This rule applies throughout the professional/crafting Skill catalog; individual entries need not repeat "with the appropriate tools" at every degree.
+
 ### Bowyer:
 > **Status:** ✅ CONFIRMED — professional/crafting progression modernized. Bowyer establishes a reusable pattern for similar professional Skills: **Maintain → Repair → Construct → Modify → Design**. Training degree unlocks capability; it does not determine the task tier or finished-item Quality.
 
@@ -902,199 +956,452 @@ Training degree determines what the Specialist knows how to make or modify; it d
 Hasty and Meticulous use follow the normal Skill rules when physically meaningful. Field repairs may be rushed, while matched sets, precision balancing, aerodynamic tuning, and specialized payload integration are natural Meticulous applications. Large batches or complicated ammunition projects should use the normal extended/ongoing framework.
 
 ### Herbology:
-> **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
+> **Status:** ✅ CONFIRMED — botanical identification, analysis progression, professional boundaries, and common Synergy relationships locked.
 
-Specialists with the Herbology skill can determine whether plants are edible, beneficial, benign, or toxic. Note: While the properties of plants may be determined through use of the Herbology skill, the Alchemy or Apothecary skill is required to utilize any properties resembling magic.
+Herbology governs the identification, collection, comparison, and practical understanding of plants and plant-derived materials. It tells the Specialist what a plant is, what portions are relevant, what ordinary properties it possesses, and how environmental or seasonal factors affect it. Herbology does not itself turn those properties into medicines, poisons, alchemical preparations, or magical effects.
 
-Simple: Able to determine the properties of plants in the region in which you’ve spent most of your life (plants you’re familiar with).
+- **Simple — Familiar plants:** Recognize common plants from regions and environments the Specialist knows well. Identify familiar edible, irritating, poisonous, useful, or otherwise noteworthy plants and distinguish healthy specimens from obviously diseased, spoiled, or unsuitable ones.
+- **Basic — Unfamiliar identification:** Examine unfamiliar plants using visible structure, habitat, growth pattern, scent, texture, and other ordinary evidence to determine likely family, uses, hazards, and close look-alikes. Ordinary identification does not require recklessly ingesting an unknown specimen.
+- **Intermediate — Functional properties:** Determine which portions of a plant contain relevant mundane properties, when those properties are strongest or weakest, how maturity and season affect them, and how to collect and preserve useful specimens without unnecessarily ruining them. Controlled experimentation may be used where observation alone is insufficient.
+- **Advanced — Comparative botanical analysis:** Infer likely properties of rare or unfamiliar plants by comparison with related species, habitat, growth behavior, and physical evidence. Detect subtle contamination, adulteration, disease, abnormal growth, or misleading resemblance between species and determine how environmental conditions have altered a specimen.
+- **Master — Botanical expertise:** Identify and analyze exceptionally rare, altered, poorly preserved, or previously unfamiliar plants from limited but meaningful evidence. A Master Herbologist can establish a reliable classification, distinguish extremely similar species, and determine likely mundane properties with very little material when those conclusions are physically supportable.
 
-Basic: Able to determine the properties of unfamiliar plants through basic experimentation (though sometimes this can be dangerous, such as when dealing with highly toxic plants).
+#### Boundaries and Synergy
 
-Intermediate: Able to determine the properties of plants through more elaborate, though somewhat safer experiments.
+**Herbology** determines what a plant is and what properties it naturally has. **Apothecary** formulates mundane remedies, salves, tonics, and similar preparations. **Poisons** handles toxic substances as toxicological agents. **Alchemy** handles alchemical or magical-seeming transformations. **Farming** governs cultivation at agricultural scale.
 
-Advanced: Able to determine the properties of plants through advanced and completely safe experiments.
+Common Synergies include **Herbology + Geography** when habitat materially aids identification, **Herbology + Farming** when diagnosing cultivated plants, **Apothecary + Herbology** for plant-based preparations, **Poisons + Herbology** for plant toxins, and **Alchemy + Herbology** for unusual plant ingredients.
 
-Master: Able to determine the properties of plants using the basic senses of sight, smell, taste, and touch.
+Herbology grants no Limited Substitution into those related Skills. Recognizing a useful property does not automatically grant the ability to formulate it.
+
+#### Capability, difficulty, and pace
+
+Training degree determines what kinds of botanical analysis are possible; the specimen, evidence, environment, condition, tools, and circumstances determine task tier.
+
+Hasty Herbology is appropriate for rapid field identification. Meticulous Herbology is appropriate for careful comparison, dissection, repeated observation, or controlled experimentation. Large surveys and cataloguing projects should use the normal extended/ongoing framework.
+
+Exact medicinal, toxic, alchemical, and supernatural effects remain governed by their respective subsystems.
 
 ### Jeweler:
-> **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
+> **Status:** ✅ CONFIRMED — professional progression, material/craft boundaries, and common Synergy relationships locked.
 
-Specialists with the Jeweler skill are able to work with rare metals and precious stones to create decorative and salable jewelry.
+Jeweler governs the fabrication, repair, setting, shaping, and fine decorative working of jewelry, gemstones, and precious-metal adornments, using the appropriate tools, materials, and workspace required by the professional Skill rules.
 
-Simple: Able to work with malleable metals to form basic adornments, such as rings and bracelets.
+- **Simple — Basic precious-metal work:** Shape, bend, cut, polish, size, clean, and repair straightforward jewelry made from suitable malleable materials. Produce simple rings, bands, bracelets, hooks, clasps, and comparable adornments.
+- **Basic — Conventional jewelry construction:** Construct ordinary necklaces, chains, earrings, brooches, pendants, linked pieces, settings, fasteners, and multi-component jewelry using established designs. Identify obvious workmanship problems and common jewelry-construction techniques.
+- **Intermediate — Stone setting and precision assembly:** Secure cut stones into appropriate settings, construct delicate multi-part pieces, perform precise joining where the material and design permit it, replace damaged settings, and work to close tolerances without unnecessarily damaging valuable materials.
+- **Advanced — Lapidary and fine decorative work:** Cut, shape, facet, polish, and prepare suitable raw gems for use in jewelry. Create filigree, fine engraving, embossing, delicate surface work, complex settings, and other high-precision decorative elements.
+- **Master — Complex jewelry design:** Design and construct exceptionally intricate jewelry combining advanced settings, fine precious-metal work, multiple materials, unusual geometries, movable decorative elements, and highly demanding fabrication techniques. A Master Jeweler may reproduce or restore extraordinarily complex jewelry when sufficient reference material exists.
 
-Basic: Able to work with appropriate tools to form more intricate types of jewelry, such as links for necklaces.
+#### Boundaries and Synergy
 
-Intermediate: Able to set cut stones into receptacles built into metals.
+**Metallurgy** governs metal composition, refining, and alloys. Jeweler works prepared precious metals without automatically knowing how to refine ore or formulate alloys.
 
-Advanced: Able to facet raw jewels and gems for placing into jewelry.
+**Appraise** governs monetary or market value. Jeweler can identify materials and workmanship relevant to jewelry, but does not automatically know what a particular piece will sell for.
 
-Master: Able to make extremely intricate designs, add filigree, emboss, etch, and otherwise refine high end jewelry.
+**Counterfeiting** creates deceptive authenticity; Jeweler creates the jewelry itself. **Engineering** governs true mechanical systems beyond ordinary hinges, clasps, and jewelry fittings.
+
+Common Synergies include **Jeweler + Metallurgy**, **Jeweler + Appraise**, **Jeweler + Counterfeiting**, **Jeweler + Artistry**, and **Jeweler + Engineering** where both fields materially contribute.
+
+Jeweler grants no Limited Substitution into those Skills.
+
+#### Capability, difficulty, Quality, and pace
+
+Training degree determines fabrication capability, not task tier, market value, or finished-item Quality. A Master repairing an ordinary loose clasp may still face a Simple task.
+
+Hasty use is possible for repairs and rough fitting where rushing is physically plausible. Precision setting, gem cutting, filigree, and complex fabrication are natural Meticulous applications. Significant pieces may use extended checks.
+
+Finished-item Quality, durability, and material-value effects remain part of the future Crafting/Quality rules.
 
 ### Leatherworking:
-> **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
+> **Status:** ✅ CONFIRMED — non-armor leathercraft progression, material boundaries, and common Synergy relationships locked. Leather Armoring remains separate pending the Toughness pass.
 
-Specialists with the Leatherworking ability are able to refine and shape leather into various supple leather garments, with the exception of Leather armor (as leather armor requires the Leather armoring skill).
+Leatherworking governs preparing hides and constructing, shaping, repairing, decorating, and fitting **non-armor leather goods** with the appropriate tools, materials, and workspace.
 
-Simple: Able to remove the entire hide or skin from a creature.
+- **Simple — Hide handling and basic repair:** Remove a usable hide or skin from a creature when circumstances permit, clean and preserve it well enough for later processing, cut prepared leather, punch holes, stitch simple seams, and perform minor repairs on ordinary leather goods.
+- **Basic — Conventional leather goods:** Construct straightforward belts, pouches, straps, sheaths, simple footwear, gloves, bags, basic garments, covers, and similar items from prepared leather using established patterns.
+- **Intermediate — Shaping and fitted construction:** Wet-form, mold, stretch, fit, reinforce, edge, line, and assemble leather into comfortable or closely fitted garments and more complex goods. Produce durable fitted boots, fitted clothing, shaped cases, harness components, and comparable work.
+- **Advanced — Refinement and complex leathercraft:** Refine, soften, dye, finish, tool, emboss, layer, and combine leather for demanding applications. Construct complex saddles, fitted harness, heavy-duty packs, articulated non-armor goods, elaborate clothing, and other objects where shaping and load distribution matter.
+- **Master — Advanced leather fabrication:** Design and create highly complex leather constructions combining shaping, reinforcement, multiple leather weights, precise fitting, decoration, and unusual forms. Given appropriate material, a Master Leatherworker can fabricate nearly any object whose defining construction is genuinely leatherwork rather than armor, machinery, or another specialist craft.
 
-Basic: Able to sew leather together to make uncomfortable leather garments.
+#### Boundaries and Synergy
 
-Intermediate: Able to shape leather into more comfortable garments.
+**Leather Armoring** currently owns armor whose protective construction depends primarily on leather. Leatherworking may prepare decorative elements, straps, liners, fittings, or raw leather but does not substitute for armor construction.
 
-Advanced: Able to refine leather to make it more supple and smooth.
+**Sewing** governs cloth and textile construction; Leatherworking governs hide and leather. Mixed-material goods may use Synergy.
 
-Master: Able to sew and shape leather into any reasonable shape (assuming enough material is available), such as clothing, sails, saddles, etc.
+Common Synergies include **Leatherworking + Sewing**, **Leather Armoring + Leatherworking**, **Leatherworking + Animal Husbandry** for specialized tack, **Counterfeiting + Leatherworking**, and **Leatherworking + Artistry** for elaborate tooling or decorative work.
 
-### Lock picking:
-> **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
+Leatherworking grants no Limited Substitution into Leather Armoring or Sewing.
 
-Specialists with the Lock Picking skill are able to use tools to bypass various locks.
+A sail genuinely made from leather or hide may use Leatherworking; ordinary textile sails belong to Sewing.
 
-Simple: Able to pick simple locks.
+#### Capability, difficulty, Quality, and pace
 
-Basic: Able to pick basic locks.
+Training degree determines what the Specialist can fabricate, not automatic task tier or Quality. Repairs may be Hasty. Fitted, molded, tooled, or large projects strongly support Meticulous and extended work.
 
-Intermediate: Able to pick intermediate locks.
+Tanning/refining times, object durability, armor interactions, and Quality remain Crafting-system dependencies.
 
-Advanced: Able to pick advanced locks.
+### Lock Picking:
+> **Status:** ✅ CONFIRMED — capability progression, generic lock difficulty ladder, magic boundary, and related-Skill Synergy locked.
 
-Master: Able to pick (you guessed it) master locks. Additionally, able to produce makeshift tools to use. May also attempt to pick magical locks without the use of magic.
+Lock Picking governs defeating a lock's intended securing function through manipulation of the lock itself while generally preserving its ability to function afterward. It assumes appropriate picking tools unless the Specialist is using a physically plausible improvised substitute.
 
-### Musical instrument (specified):
-> **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
+- **Simple — Conventional locks with proper tools:** Manipulate straightforward familiar locks when the mechanism is accessible and functioning normally.
+- **Basic — Varied conventional mechanisms:** Work with a broader range of ordinary lock constructions, recognize common internal behaviors from feedback, and cope with modest wear, awkward placement, or unfamiliar but conventional designs.
+- **Intermediate — Difficult access and complex locks:** Pick locks requiring precise manipulation, operate from poor angles or limited visibility, work around multiple locking elements, and diagnose whether a failed attempt is caused by the lock, keyway, damage, or another obstruction.
+- **Advanced — High-security and unusual mechanical locks:** Defeat sophisticated purely mechanical locks incorporating multiple stages, deceptive feedback, unusual internal geometry, nested mechanisms, or deliberate anti-tampering features when a manipulable route exists.
+- **Master — Improvised and exotic mechanical entry:** Attempt extremely unfamiliar or exceptional mechanical locks and fabricate or adapt makeshift picking tools from plausible available materials when proper tools are unavailable. A Master can reason through an unknown lock's behavior while manipulating it, but still requires a physically exploitable mechanism.
 
-Specialists with the Musical Instrument skill are able to play a selected instrument in a variety of ways.
+#### Generic lock difficulty
 
-Simple: Able to play individual notes (or simple chords on stringed instruments).
+When a lock has no individually defined construction difficulty, use this ladder as the default ballpark:
 
-Basic: Able to play an instrument from sheet music with relative accuracy.
+| Lock tier | Generic example |
+| --- | --- |
+| **Simple** | Crude or straightforward mechanical lock with loose tolerances, an uncomplicated mechanism, and little deliberate resistance to picking. |
+| **Basic** | Ordinary competent lock used on doors, chests, gates, cabinets, and similar everyday secured objects. |
+| **Intermediate** | Well-made lock with tighter tolerances, multiple working elements, or modest anti-manipulation features. |
+| **Advanced** | High-security mechanical lock deliberately designed to resist picking through complex interaction, misleading feedback, multiple stages, or anti-tampering features. |
+| **Master** | Exceptional bespoke lock employing unusually precise, novel, nested, or highly sophisticated mechanical security. |
 
-Intermediate: Able to play recognizable songs, start to finish with or without sheet music.
+These are defaults, not immutable categories. Access, condition, damage, tools, environment, unusual construction, and similar circumstances may alter the actual task tier.
 
-Advanced: Able to compose songs.
+**Player-made and specifically crafted locks will use the difficulty established by their construction rules once the Crafting system is finalized.**
 
-Master: Able to perform songs free-form, and make it up as you go.
+#### Magical locks
+
+Lock Picking can manipulate the **physical components** of a magical lock when those components remain physically accessible and manipulable. Mundane Lock Picking does **not** dispel, negate, or bypass a purely magical locking effect.
+
+Magical lock picks or other specialized equipment may later grant additional capability against magical locks. Any such capability belongs to the **tool or magical item**, not to the mundane Skill itself.
+
+#### Boundaries and Synergy
+
+**Disable Device** jams, disconnects, sabotages, or mechanically interferes with a lock. **Lock Picking** defeats the lock through its locking mechanism while normally leaving it usable.
+
+**Engineering** may explain an exotic mechanism; Lock Picking provides the manipulation expertise to defeat it.
+
+Common Synergies include **Lock Picking + Engineering**, **Lock Picking + Disable Device**, **Lock Picking + Escape** when manipulating restraints from an awkward position, and **Lock Picking + Sleight of Hand** when the manipulation itself must remain concealed.
+
+Lock Picking grants no Limited Substitution into those Skills.
+
+#### Capability, difficulty, and pace
+
+Training degree determines what kinds of lock manipulation the Specialist understands; the specific lock and circumstances determine task tier.
+
+Hasty picking is possible under genuine time pressure. Meticulous picking represents patient feedback, repeated testing, and careful manipulation.
+
+### Musical Instrument (Specified):
+> **Status:** ✅ CONFIRMED — specified-instrument progression, related-instrument Limited Substitution, and performance boundaries locked.
+
+Musical Instrument (Specified) governs technical performance, interpretation, arrangement, improvisation, and composition using one chosen instrument. Appropriate access to the instrument and any ordinary playing tools or accessories is assumed.
+
+- **Simple — Basic control:** Produce intentional notes, tones, rhythms, or simple chords appropriate to the instrument; tune or prepare it for ordinary use where that is part of normal playing technique; and perform very simple musical passages.
+- **Basic — Prepared performance:** Play complete straightforward pieces from notation, tablature, memorized instruction, or rehearsal with dependable timing and recognizable accuracy.
+- **Intermediate — Fluent performance:** Perform complete pieces without requiring constant reference material, maintain rhythm and phrasing through ordinary variation, accompany other performers, recover from minor performance errors, and adapt tempo or dynamics to a group.
+- **Advanced — Arrangement and improvisation:** Improvise coherently within an established musical form, rearrange existing pieces for the specified instrument, compose functional original music for it, and adapt a performance to changing accompaniment or audience circumstances.
+- **Master — Instrumental mastery:** Perform technically exceptional material, improvise extended original passages, compose sophisticated works exploiting the instrument's capabilities, adapt pieces substantially during performance, and maintain musical coherence through difficult or unexpected changes.
+
+#### Related-instrument Limited Substitution
+
+Training in a specified instrument grants reduced competency with **closely related instruments that use substantially similar playing techniques**, at **one degree lower** than the Specialist's actual Training.
+
+- Simple Training provides no related-instrument Training.
+- Basic provides Simple.
+- Intermediate provides Basic.
+- Advanced provides Intermediate.
+- Master provides Advanced.
+
+This is an explicit exception to the normal default for Limited Substitution.
+
+"Related" is based on meaningful technical transfer, not merely broad family labels. A guitar may transfer substantially to a similar fretted plucked string instrument; a violin may transfer substantially to a viola. Guitar does not automatically substitute for violin merely because both use strings. The Keeper adjudicates unusual cases from the actual playing technique.
+
+Actual Training in the related instrument always supersedes the substitution.
+
+#### Boundaries and Synergy
+
+**Singing** governs the voice. **Writing** governs words and prose, including lyrics. **Artistry** remains a visual-art Skill rather than a universal creativity Skill. Social Skills govern attempts to influence an audience beyond the quality of the performance itself.
+
+Common Synergies include **Musical Instrument + Singing**, **Musical Instrument + Writing**, **Musical Instrument + Acting**, and **Musical Instrument + Wood Carving** where construction or modification of a wooden instrument materially benefits from knowledge of how it is played.
+
+#### Capability, difficulty, and pace
+
+Training degree determines musical capability, not the intrinsic difficulty of every composition. A Master performing a beginner exercise may still face a Simple task.
+
+Hasty and Meticulous primarily apply to composition, arrangement, rehearsal, tuning, preparation, or other tasks with a meaningful time interval. A fast musical tempo is not automatically Hasty. Long compositions and rehearsals may use extended checks.
 
 ### Poisons:
-> **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
+> **Status:** ✅ CONFIRMED — toxicology progression, professional boundaries, and Synergy relationships locked. Poison resistance is preserved as a future mutually exclusive Trait or Conditioning progression rather than an automatic benefit of ordinary Skill degree.
 
-Specialists with the Poisons skill are able to harvest or extract and safely work with poisons.
+Poisons governs the safe handling, harvesting, preservation, preparation, analysis, application, and refinement of toxic substances as toxic agents. Appropriate protective equipment, tools, materials, and workspace are assumed where reasonably required.
 
-Simple: Able to employ proper safety equipment for dealing with plant-based toxins.
+- **Simple — Handle and apply known poisons:** Recognize the handling requirements of familiar prepared toxins, store and transport them appropriately, avoid ordinary accidental exposure, and apply a prepared poison to an appropriate delivery medium when physically possible.
+- **Basic — Harvest and preserve known toxins:** Safely recover and preserve known toxic material from an identified source using established procedures. Maintain usable prepared poisons and recognize obvious degradation, contamination, or unsafe handling.
+- **Intermediate — Analyze and adapt toxins:** Compare known toxic substances, identify likely delivery routes and general effects from evidence, prepare harvested material into a stable usable form according to known methods, and adapt an existing poison for a different legitimate delivery medium when the substance itself supports it.
+- **Advanced — Complex toxicology:** Work safely with rare, dangerous, mixed, or difficult toxins; diagnose subtle contamination or degradation; separate useful toxic material from interfering substances using established techniques; and formulate sophisticated preparations from known toxic components without automatically increasing their mechanical potency beyond what the poison rules permit.
+- **Master — Toxicological mastery:** Analyze exceptionally rare or unfamiliar poisons from limited evidence, develop new preparations from known toxic substances, determine how multiple toxic agents are likely to interact under the game rules, and refine complex poisons to the limits permitted by the eventual Poison/Crafting subsystem.
 
-Basic: Able to expose yourself to controlled doses of plant-based toxins, in order to build up a resistance. This process is dangerous, and potentially fatal, as determined by the Keeper.
+#### Boundaries and Synergy
 
-Intermediate: Able to employ proper equipment for safety and harvesting or extracting animal-based toxins.
+**Herbology** identifies toxic plants and their natural properties. **Poisons** turns toxic material into a toxicological tool.
 
-Advanced: Able to expose yourself to controlled doses of animal-based toxins, in order to build up a resistance. This process is dangerous, and potentially fatal, as determined by the Keeper.
+**Apothecary** handles general mundane remedies, tonics, salves, medicines, and related preparations. Its legacy toxin overlap will be reconciled during the Intelligence pass so that specialized toxicology remains the defining job of Poisons.
 
-Master: Able to refine and distill toxins from plants and animals, to increase potency. Also, potentially able to resist any toxin, assuming you’ve gone through the process of building up resistances to several types of toxins, as determined by the Keeper.
+**Chemistry** governs general chemical understanding. **Alchemy** governs alchemical or magical-seeming transformations.
 
-### Rope use:
-> **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
+Common Synergies include **Poisons + Herbology**, **Poisons + Apothecary**, **Poisons + Chemistry**, **Poisons + Alchemy**, **Poisons + Fletching**, and **Poisons + First Aid** when symptoms or treatment materially contribute.
 
-Specialists with the Rope use skill are able to perform a variety of tasks and tricks using ropes.
+Poisons grants no Limited Substitution into those related Skills.
 
-Simple: Able to tie simple knots, and untangle long lengths of rope.
+#### Poison resistance
 
-Basic: Able to devise basic pulley systems and tie basic knots (such as a slip-knot), and use ropes for rappelling.
+The legacy concept of deliberately conditioning the body against toxins is preserved, but **ordinary Poisons Training does not automatically grant physiological resistance**.
 
-Intermediate: Able to tie intermediate knots and use ropes for climbing.
+Poison resistance may later be represented by either:
 
-Advanced: Able to tie advanced knots and lasso creatures and objects.
+- an appropriate **Trait**, or
+- a separate **Poison Conditioning Training progression** enabled by deliberate training and exposure.
 
-Master: Able to tie master knots, and build nets.
+Those two sources are **mutually exclusive and do not stack**.
+
+The exact benefits, risks, exposure requirements, toxin categories, breadth of resistance, and advancement rules will be finalized with the Poison, Trait, and Conditioning systems.
+
+#### Capability, difficulty, and pace
+
+Task tier depends on toxicity, rarity, stability, contamination, tools, source material, and required preparation. Higher Training does not automatically create a stronger poison.
+
+Hasty use may be possible for rapid application or emergency handling. Meticulous use suits analysis, extraction, refinement, and careful preparation. Production of meaningful quantities naturally supports extended checks.
+
+### Rope Use:
+> **Status:** ✅ CONFIRMED — rigging progression, boundaries, and common Synergy relationships locked.
+
+Rope Use governs knots, lashings, rope handling, rigging, load control, line placement, and systems whose primary working element is rope or cordage.
+
+- **Simple — Routine rope handling:** Coil, uncoil, store, untangle, and perform simple joining or splicing where appropriate. Tie dependable everyday knots for securing ordinary objects, bundles, lines, and loads.
+- **Basic — Functional knots and basic rigging:** Select and tie knots appropriate to tension, attachment, joining, release, or load securing; create simple lashings; rig ordinary lines for hauling or rappelling; and construct straightforward pulley arrangements using available hardware.
+- **Intermediate — Load-bearing and climbing rigging:** Construct reliable anchor systems, tensioned lines, hauling arrangements, climbing or rappelling systems, rescue lines, and multi-rope lashings while accounting for direction of load and practical rope behavior.
+- **Advanced — Dynamic and specialized rope work:** Build complex tensioned systems, use ropes to capture or control moving objects where physically plausible, throw and place lines accurately, construct lassos and similar loop systems, and rig difficult loads or awkward environments without relying on trial and error.
+- **Master — Complex rigging and cordage systems:** Design and construct sophisticated rope networks, nets, multi-point lifting or hauling systems, rescue rigs, suspended assemblies, and other complex structures whose function depends principally on rope geometry, tension, knots, and available anchors.
+
+#### Boundaries and Synergy
+
+**Climbing** governs moving the body across difficult surfaces. Rope Use creates and manages rope systems that may make climbing safer or possible.
+
+**Engineering** owns machines and mechanical systems. Straightforward rope-and-pulley arrangements remain Rope Use; mechanical cranes, winches, gearboxes, and engineered lifting machines belong primarily to Engineering.
+
+**Trap Making** constructs traps; Rope Use may construct their rope components. **Escape** defeats restraints; Rope Use may create or apply them.
+
+Common Synergies include **Rope Use + Climbing**, **Rope Use + Escape**, **Escape + Rope Use**, **Rope Use + Engineering**, **Trap Making + Rope Use**, and vessel rigging applications where another relevant boating or sailing Skill materially contributes.
+
+Rope Use grants no Limited Substitution into Climbing, Engineering, Trap Making, or Escape.
+
+#### Capability, difficulty, and pace
+
+Training determines what rope systems the Specialist can construct. Load, available anchors, line condition, tools, environment, and consequences determine task tier.
+
+Hasty use works for hurried knots or emergency rigging. Meticulous use is natural for load-bearing, rescue, climbing, and complex systems. Large nets and elaborate rigs use extended checks.
+
+Exact load limits remain dependent on material, object, and carrying/exertion rules.
 
 ### Scribe:
-> **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
+> **Status:** ✅ CONFIRMED — recording/transcription progression, unknown-language copying rule, document boundaries, and common Synergy relationships locked.
 
-Specialists with the Scribe skill are able to keep records of events, and copy tomes.
+Scribe governs accurate recording, transcription, copying, collation, and reproduction of written information. It preserves what was said or written rather than composing the content or controlling the beauty of the handwriting.
 
-Simple: Able to hastily scrawl roughly legible accounts of events as they occur.
+- **Simple — Notes and short copies:** Record short statements, names, lists, events, instructions, and other straightforward information legibly enough to be used later. Copy short written passages without materially changing their meaning.
+- **Basic — Sustained records:** Keep orderly records over extended periods, copy ordinary documents reliably, maintain logs and ledgers, and organize written material so another reader can follow it.
+- **Intermediate — Accurate dictation and transcription:** Record speech accurately as it occurs at a practical pace, reconcile obvious repetitions or corrections without losing meaning, and transcribe lengthy material from a source while maintaining consistent organization.
+- **Advanced — Long-form copying and collation:** Copy substantial books, records, tables, diagrams, and structured documents with high fidelity; compare multiple copies to locate textual discrepancies; organize indexes or cross-references; and reproduce material between languages the Specialist already knows when permitted by the language rules.
+- **Master — Facsimile document reproduction:** Produce exceptionally exact textual and layout reproductions of writings, diagrams, tables, marginal notation, and complex document structures; collate damaged or conflicting copies to reconstruct the most likely complete text; and detect minute transcription discrepancies across versions.
 
-Basic: Able to record events more legibly as they occur.
+#### Unknown-language transcription
 
-Intermediate: Able to accurately take dictation.
+A Scribe may copy or transcribe writing in a language they do **not** understand by treating the characters as visual information rather than meaningful language.
 
-Advanced: Able to copy lengthy tomes from any language known by the Specialist into any other language also known by the Specialist.
+Doing so normally carries **significantly increased task difficulty** because the Specialist cannot use comprehension, grammar, context, familiar vocabulary, or expected wording to notice and correct transcription errors.
 
-Master: Able to make exact duplicates of writings and drawings.
+This does not grant translation, literacy, or understanding of the copied language.
+
+#### Boundaries and Synergy
+
+**Calligraphy** controls writing style and decorative presentation. **Scribe** preserves content and structure. **Writing** composes new prose. **Counterfeiting** creates deceptive authenticity.
+
+The legacy Master ability to make exact duplicates survives within those boundaries: Scribe can reproduce content and layout; distinctive handwriting may call for Calligraphy, and making the copy falsely pass as the original belongs to Counterfeiting.
+
+Common Synergies include **Scribe + Calligraphy**, **Scribe + Counterfeiting**, **Scribe + Writing**, **Scribe + Researching**, and **Scribe + Administration**.
+
+Scribe grants no Limited Substitution into those Skills.
+
+#### Capability, difficulty, and pace
+
+Length is usually a matter of time rather than automatic task-tier escalation. Difficulty comes from source quality, complexity, damage, speed, formatting, unfamiliar notation, language comprehension, and similar factors.
+
+Hasty Scribe covers rapid notes or emergency transcription. Meticulous use covers exact copying and collation. Large manuscripts are natural extended tasks.
 
 ### Sewing:
-> **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
+> **Status:** ✅ CONFIRMED — textile construction progression, material boundaries, and common Synergy relationships locked.
 
-Specialists with the Sewing skill are able to use needle, thread and other tools to stitch, mend and fashion items out of cloth.
+Sewing governs the construction, alteration, repair, fitting, and fabrication of cloth and flexible textile goods, including creation of fabric where weaving is part of the intended craft scope.
 
-Simple: Able to weave threads into cloth.
+- **Simple — Stitch, mend, and basic textile work:** Sew dependable simple seams, patch tears, replace basic closures, hem cloth, perform routine garment repairs, and weave or assemble simple coarse textile when appropriate tools and materials are available.
+- **Basic — Conventional garments and goods:** Read or use established patterns, cut fabric efficiently, construct ordinary clothing, bags, covers, simple curtains, blankets, and similar textile goods, and produce ordinary woven fabric using suitable equipment.
+- **Intermediate — Fitting and pattern design:** Alter clothing to fit particular bodies, draft and modify patterns, construct fitted garments, create reinforced seams and structured textile pieces, line garments, and produce practical specialized textile goods such as tents, ordinary sails, padded pieces, and similar work.
+- **Advanced — Fine materials and complex tailoring:** Work reliably with delicate, expensive, difficult, or unusually structured fabrics; construct elaborate fitted clothing, formal garments, layered textile work, complex draping, detailed decorative stitching, and high-precision tailoring.
+- **Master — Advanced textile design:** Design and construct exceptionally complex garments and textile structures combining advanced patterning, fine weaving, difficult fabrics, intricate fitted construction, reinforcement, layering, and elaborate presentation. A Master Sewer can develop new garment patterns and textile constructions rather than merely reproduce established ones.
 
-Basic: Able to make basic clothing patterns, and sew basic garments.
+#### Boundaries and Synergy
 
-Intermediate: Able to design unique clothing patterns, and sew together comfortable garments.
+**Leatherworking** governs hide and leather; Sewing governs cloth and flexible textile. Armor whose protection comes from a dedicated armor-construction technique belongs to the appropriate Armoring Skill rather than automatically to Sewing.
 
-Advanced: Able to work with fine fabrics and sew luxurious garments.
+**Counterfeiting** may reproduce the appearance and identifiers of a garment; Sewing constructs the garment itself.
 
-Master: Able to weave fine fabrics and design royal garments.
+Common Synergies include **Sewing + Leatherworking**, **Sewing + Counterfeiting**, **Sewing + Artistry**, **Sewing + Calligraphy** for stitched formal lettering when appropriate, and **Sewing + Rope Use** for sails, tents, awnings, nets, or other large textile structures whose rigging materially contributes.
 
-### Sleight of hand:
-> **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
+Sewing grants no Limited Substitution into Leatherworking or Armoring.
 
-Specialists with the Sleight of hand skill are able to use misdirection and quick fingers to entertain or steal.
+A textile sail belongs to Sewing; a leather or hide sail belongs to Leatherworking.
 
-Simple: Able to palm miniscule objects, which can completely fit in one’s hand.
+#### Capability, difficulty, Quality, and pace
 
-Basic: Able to hide miniscule objects in such a way that onlookers don’t notice.
+Training unlocks types of textile construction; it does not dictate finished-item Quality. A Master repairing an ordinary hem may still be doing a Simple task.
 
-Intermediate: Able to use misdirection to quickly hide or reveal handheld objects no larger than a fist.
+Hasty use is appropriate for emergency repairs or crude temporary seams. Meticulous use suits fitting, fine fabric, pattern work, formal garments, and large textile assemblies. Large projects use extended checks.
 
-Advanced: Able to use misdirection to quickly hide or reveal moderately sized objects, no larger than one’s torso.
+Textile durability, armor protection, material costs, and Quality remain Crafting dependencies.
 
-Master: Able to use misdirection to quickly hide or reveal large objects.
+### Sleight of Hand:
+> **Status:** ✅ CONFIRMED — manual-deception progression, physical plausibility boundary, opposed use, Pick Pocket boundary, and Synergy relationships locked.
 
-### Trap making:
-> **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
+Sleight of Hand governs covert manual manipulation, palming, concealment, switches, false transfers, reveals, and misdirection involving objects already under the Specialist's control. Pick Pocket governs covertly taking from or planting on another creature.
 
-Specialists with the Trap making skill are able to make various types of traps to catch or kill creatures.
+- **Simple — Palm and conceal small objects:** Conceal, retain, or manipulate a hand-sized or smaller object in the hand or immediately accessible clothing when there is a plausible place to hide it.
+- **Basic — Covert transfers and retrieval:** Secretly move small objects between hands, pockets, sleeves, containers, or other nearby concealment points while keeping the manipulation from casual observers. Perform basic false transfers and controlled reveals.
+- **Intermediate — Misdirection sequences:** Coordinate hand movement, timing, gaze, posture, and ordinary misdirection to switch, conceal, produce, or apparently transform handheld objects during a sequence rather than a single motion.
+- **Advanced — Complex object manipulation:** Conceal, switch, reveal, or reposition larger or more awkward objects when clothing, props, surfaces, containers, assistants, or environmental concealment make the action physically plausible. Manage multiple objects or concealment locations without obviously exposing the method.
+- **Master — Extended deceptive manipulation:** Perform sophisticated multi-stage routines involving several objects, repeated switches, layered concealment, false transfers, and coordinated misdirection while adapting to observers and changing circumstances. Mastery allows exceptional subtlety, not physically impossible disappearance.
 
-Simple: Able to construct simple snare traps.
+#### Physical boundary
 
-Basic: Able to construct basic weighted cage traps.
+**Sleight of Hand never makes an object cease to exist.** There must be a physically plausible place for the object to go and a plausible means of getting it there.
 
-Intermediate: Able to create spring-loaded traps, such as bear traps.
+The legacy progression toward hiding larger objects survives only where props, clothing, scenery, containers, assistants, or another genuine concealment method makes the action possible.
 
-Advanced: Able to create complex, difficult to detect traps.
+#### Boundaries, opposed use, and Synergy
 
-Master: Able to incorporate any spell, attack type or other skill known into traps.
+**Pick Pocket** transfers an object to or from another creature without their knowledge. **Sleight of Hand** manipulates and conceals objects through manual dexterity and misdirection. **Smuggling** hides and transports contraband through security or across an area. **Escape** gets the Specialist out of restraint.
 
-### Wood carving:
-> **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
+Sleight of Hand is normally opposed by **Spot** when an observer could detect the manipulation visually. Another sense may apply where appropriate. Failure does not automatically mean the observer understands the entire method.
 
-Specialists with the Wood carving skill are able to shape pieces of wood and lumber into tools and sculptures.
+Common Synergies include **Pick Pocket Primary + Sleight of Hand Supporting**, **Sleight of Hand + Acting**, **Sleight of Hand + Bluff**, **Sleight of Hand + Escape**, and **Lock Picking + Sleight of Hand** where concealed manipulation materially matters.
 
-Simple: Able to whittle simple tools and sculptures, such as a pointy stick, or an axe handle.
+Sleight of Hand grants no Limited Substitution into those Skills.
 
-Basic: Able to whittle basic tools and sculptures, such as wooden statues, or a whistle.
+#### Capability, difficulty, and pace
 
-Intermediate: Able to use various wood working tools to carve intricate tools and sculptures, such as a flute, or a jewelry box.
+Object size is only one difficulty factor. Observer attention, concealment available, number of objects, movement required, lighting, clothing, preparation, and circumstances also matter.
 
-Advanced: Able to carve intricate patterns into wood, or create complex wooden sculptures, such as a wooden chain, or a ball in a cage carved from a single piece of wood.
+Hasty use works for a hurried switch or concealment. Meticulous use can apply to preparation or waiting for an ideal moment, but an instantaneous live manipulation does not become Meticulous merely because the performer is skilled.
 
-Master: Able to carve detailed and realistic sculptures.
+In combat, ordinary active use costs 1 AP and does not replace Disarm or Pick Pocket rules for defended objects.
+
+### Trap Making:
+> **Status:** ✅ CONFIRMED — trap-construction progression, related-Skill boundaries, and integration limits locked.
+
+Trap Making governs designing, constructing, assembling, arming, repairing, and modifying traps and their trigger systems. It does not automatically grant the ability to place a trap effectively against particular prey, create every possible payload, or neutralize an existing trap.
+
+- **Simple — Basic traps:** Construct straightforward traps using simple triggers, gravity, tension, snares, pits, deadfalls, simple alarms, or other uncomplicated principles when appropriate materials are available.
+- **Basic — Reliable contained traps:** Construct reusable or enclosed traps such as cages, weighted closures, trip mechanisms, simple pressure triggers, and other established designs with dependable activation and reset behavior.
+- **Intermediate — Stored-energy and linked traps:** Build traps using springs, counterweights, tension, linked components, multiple moving parts, or chained mechanical actions. Integrate an ordinary weapon, projectile, restraint, alarm, or other physically compatible payload when the underlying components are available.
+- **Advanced — Concealed and conditional traps:** Construct complex traps whose trigger, mechanism, or payload is difficult to detect; create multi-stage activation sequences; separate trigger from payload; and design traps that respond to simple physical criteria such as direction, weight, size, tension, opening, movement, or a particular sequence of mechanical events.
+- **Master — Integrated trap systems:** Design original, highly complex traps combining several triggers, mechanisms, safeguards, payloads, or reset states. A Master may integrate another Skill, attack system, explosive, or magical effect **only when that other system actually provides a method for being stored, triggered, delivered, or mechanically incorporated**. Trap Making does not manufacture the other effect.
+
+#### Boundaries and Synergy
+
+**Trapping** selects, calibrates, and places traps against particular animals or creatures. **Trap Making** builds the trap.
+
+**Disable Device** neutralizes or bypasses an existing mechanism. **Engineering** governs genuinely machine-like mechanisms beyond ordinary trap construction. **Explosives** creates and handles explosive charges while Trap Making may integrate them into a trigger and delivery system.
+
+The legacy Master ability to incorporate another attack, Skill, or spell is preserved in spirit but remains subject to the actual rules of that other system.
+
+Common Synergies include **Trap Making + Trapping**, **Trap Making + Engineering**, **Trap Making + Rope Use**, **Trap Making + Explosives**, and relevant weapon- or projectile-crafting Skills when specialized physical components materially contribute.
+
+Trap Making grants no Limited Substitution into those Skills.
+
+#### Capability, difficulty, and pace
+
+Training determines trap architectures the Specialist knows how to build. Complexity, concealment, materials, precision, available space, intended trigger conditions, tools, and payload determine task tier.
+
+Hasty Trap Making is appropriate for improvised emergency traps. Meticulous use is natural for concealed, conditional, reusable, or precision traps. Significant traps frequently use extended checks.
+
+**Magical integration cannot bypass Magic's storage, trigger, maintenance, duration, or other limitations.** Exact magical integration remains dependent on the finalized Magic rules.
+
+### Wood Carving:
+> **Status:** ✅ CONFIRMED — subtractive woodworking progression, Carpentry boundary, and common Synergy relationships locked.
+
+Wood Carving governs detailed subtractive shaping of wood into sculptural, ornamental, decorative, and finely shaped functional forms. Carpentry governs functional construction through cutting, fitting, joinery, and assembly.
+
+- **Simple — Basic whittling and shaping:** Shape simple forms from a piece of wood using ordinary carving tools, such as stakes, handles, pegs, crude figurines, simple spoons, wedges, and comparable objects.
+- **Basic — Functional and representational carving:** Produce recognizable small statues, whistles, handles, decorative panels, reliefs, toys, simple carved utensils, and other forms requiring controlled shape rather than merely rough utility.
+- **Intermediate — Detailed carving:** Create intricate ornament, detailed relief work, complex curves, fitted carved components, decorative boxes, wind-instrument bodies, patterned surfaces, and sculpture requiring deliberate proportion and fine tool control.
+- **Advanced — Intricate one-piece work:** Produce undercut, pierced, nested, interlocking, or highly delicate carvings such as wooden chains, captive forms, lattice work, deeply layered relief, and other pieces requiring exceptional planning because much or all of the complexity is carved from one original piece.
+- **Master — Sculptural mastery:** Create highly detailed, lifelike, expressive, or exceptionally complex wooden sculpture; reproduce subtle textures and anatomy; execute minute ornamental detail; and design original carvings whose form requires mastery of grain, tool access, negative space, and structural fragility.
+
+#### Boundaries and Synergy
+
+**Carpentry** builds functional wooden objects through joinery and assembly. **Wood Carving** creates form primarily by removing and shaping material.
+
+A carved furniture piece may use Carpentry as Primary with Wood Carving supporting the ornamentation. A puzzle box whose function depends on joints, sliding panels, or interlocking construction belongs primarily to Carpentry.
+
+**Artistry** governs visual artistic composition across media. Wood Carving governs execution in wood. **Musical Instrument** governs playing and musical/acoustic expertise; Wood Carving can physically shape wooden instrument components.
+
+Common Synergies include **Carpentry + Wood Carving**, **Wood Carving + Artistry**, **Wood Carving + Musical Instrument**, **Bowyer + Wood Carving**, and **Counterfeiting + Wood Carving** for distinctive carved details.
+
+Wood Carving grants no Limited Substitution into Carpentry or Artistry.
+
+#### Capability, difficulty, Quality, and pace
+
+Training unlocks carving techniques and complexity, not automatic artistic Quality. Where artistic composition matters separately from carving execution, Artistry may provide Synergy.
+
+Hasty use suits crude shaping or emergency functional carving. Meticulous use is natural for fine detail, undercut work, realism, and fragile pieces. Large sculptures use extended checks.
+
+Quality and durability remain Crafting concerns.
 
 ### Writing:
-> **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
+> **Status:** ✅ CONFIRMED — composition progression, memory boundary, document boundaries, and common Synergy relationships locked.
 
-Specialists with the Writing skill are able to recount, embellish and fabricate stories.
+Writing governs composing original written content: choosing words, structuring information, creating narratives, controlling tone and voice, and presenting factual or fictional material coherently to a reader.
 
-Simple: Able to recount the most important details of recent events.
+- **Simple — Clear written account:** Produce a coherent short account, description, letter, instruction, or narrative from information the Specialist actually possesses. Preserve important points without requiring exceptional style or structure.
+- **Basic — Structured composition:** Organize longer material into a logical sequence, maintain a consistent subject and tone, summarize or expand known information appropriately, and write for a particular ordinary audience or purpose.
+- **Intermediate — Vivid and engaging prose:** Control pacing, imagery, characterization, explanation, narrative voice, and descriptive detail well enough to create compelling factual accounts or convincing fictional stories. Write fantastical or imaginative material with internal coherence.
+- **Advanced — Complex and persuasive narrative construction:** Sustain long-form works, manage multiple characters or lines of information, foreshadow and resolve ideas, imitate established genres or broad stylistic conventions, and construct fictional accounts that read like plausible factual narratives when the supporting information is sufficient.
+- **Master — Literary mastery:** Compose sophisticated long-form works with deliberate structure, layered themes, distinct voices, subtle characterization, controlled rhetoric, and sustained internal consistency; adapt style substantially for different audiences or purposes; and create original narrative forms without losing clarity or coherence.
 
-Basic: Able to recount the most important details of more distant events.
+#### Memory boundary
 
-Intermediate: Able to recount events with vivid clarity, or write fantastical fabrications.
+**Writing can only recount an event as accurately as the writer's memory, notes, testimony, or other sources permit. Training in Writing does not grant enhanced memory.**
 
-Advanced: Able to write believable fabrications as though they were actual events.
+When accurate facts must be recovered or verified, use History, Researching, Scribe, Local Geography, or another relevant Skill or source as appropriate.
 
-Master: Stephen King. ‘Nuff said.
+#### Boundaries and Synergy
+
+**Scribe** records and reproduces existing information accurately. **Calligraphy** determines the visual presentation of handwriting. **Writing** creates the content.
+
+**Bluff** governs persuading another creature to believe something false. Advanced or Master Writing can create a plausible fictional account, but whether a particular reader accepts a false claim may require Bluff or another social mechanic.
+
+**Counterfeiting** makes a document appear authentically issued or physically genuine. Writing may produce its text.
+
+Common Synergies include **Writing + Researching**, **Writing + History**, **Writing + Scribe**, **Writing + Calligraphy**, **Writing + Musical Instrument** for lyrics and songs, **Writing + Public Speaking** for speeches, **Writing + Bluff** for deliberately deceptive written narratives, and **Counterfeiting + Writing** for forged documents whose wording must also be convincing.
+
+Writing grants no Limited Substitution into those Skills.
+
+#### Capability, difficulty, and pace
+
+Length is usually a time issue rather than an automatic task-tier increase. Difficulty comes from structural complexity, audience, source quality, required precision, constraints, unfamiliar form, and purpose.
+
+Hasty Writing covers rapid notes, hurried letters, rough reports, or emergency instructions. Meticulous Writing covers revision, restructuring, research integration, and deliberate word choice. Long-form work naturally uses extended checks.
+
+If written persuasion later receives formal social mechanics, Writing should create the text while the appropriate social Skill determines its effect on a particular reader.
 
 ## Charisma
 

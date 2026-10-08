@@ -21,7 +21,7 @@ This file is deliberately blunt. These are the places where the reconstruction c
 
 **✅ RESOLVED:** generic favorable/unfavorable circumstance modifiers are removed. Hasty and Meticulous are the universal pace-based Skill modifiers. Concrete advantages/disadvantages come from actual rules sources such as tools, Traits, Magic, Conditions, assistance, environment, or Skill-specific text.
 
-**Remaining Skill work:** continue individual Skill timing/examples and entry-by-entry cleanup. The **Speed Skill block is fully reviewed** except that Explosives blast-target response intentionally waits on Combat reaction/defense rules. The **Proficiency pass has confirmed Bowyer, Calligraphy, Carpentry, Cartography, Counterfeiting, Disable Device, Escape, and Fletching; 13 Proficiency Skills remain for review.** Teamwork, Skills in combat, Skill Synergy, and Limited Substitution are resolved.
+**Remaining Skill work:** continue individual Skill timing/examples and entry-by-entry cleanup. The **Speed Skill block is fully reviewed** except that Explosives blast-target response intentionally waits on Combat reaction/defense rules. The **entire Proficiency Skill block is fully reviewed and confirmed.** Teamwork, Skills in combat, Skill Synergy, Limited Substitution, and the professional tools/materials/workspace assumption are resolved.
 
 ### A2. Character creation economy
 
@@ -86,6 +86,15 @@ Decide whether 1/2/3/4/5 remains the purchase ladder for Magic/Martial/Skills wh
 ### C1. Individual Skills
 
 Preserve degree capabilities but review outdated assumptions, fixed numbers, catastrophic/spectacular language, time increments, materials damage, and Skill-specific target numbers.
+
+**✅ Proficiency block resolved:** all 21 Proficiency Skills have completed the current modernization pass.
+
+**Deferred cross-system follow-ups from the Proficiency pass:**
+- During the **Toughness Skill pass**, evaluate consolidating **Armor Smithing + Leather Armoring** into a broader **Armoring** Skill. Do **not** fold Leather Armoring into Leatherworking merely to reduce Skill count; Leatherworking remains general non-armor leathercraft.
+- **Poison resistance:** preserve both a possible resistance Trait and a possible Poison Conditioning Training progression, but make them mutually exclusive and non-stacking. Exact effects and exposure rules wait on Poison/Traits/Conditioning.
+- **Magical locks:** mundane Lock Picking affects physical lock components only. Magical lock picks or similar equipment may later grant additional capability; that capability belongs to the tool/item rather than the Skill.
+- **Player-crafted locks:** use a construction-derived lock difficulty once Crafting is finalized; the generic Simple-to-Master lock ladder is only the default for otherwise undefined locks.
+- **Trap Making + Magic:** magical trap integration must obey finalized Magic storage, trigger, duration, and maintenance rules rather than creating an alternate route around them.
 
 ### C2. Skill modes and Teamwork
 
