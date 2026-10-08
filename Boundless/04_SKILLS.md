@@ -242,6 +242,26 @@ The following pairings are being retained as candidates for later rulebook margi
 - **Cartography + Navigation:** use a map and route-finding expertise together to plot or follow a difficult route.
 - **Cartography + Geography/Local Geography:** convert broad or local geographic knowledge into a more accurate spatial representation.
 - **Cartography + Cryptography:** create or interpret an encoded map without collapsing mapmaking and codebreaking into the same Skill.
+- **Counterfeiting + Scribe:** reproduce lengthy or structurally complex documents while preserving the broader deception.
+- **Counterfeiting + Jeweler:** imitate jewelry, precious objects, maker marks, settings, or decorative details.
+- **Counterfeiting + Sewing:** imitate uniforms, luxury garments, textile labels, stitching, or construction details.
+- **Counterfeiting + Artistry:** imitate artwork, decorative finishes, or sculptural presentation.
+- **Counterfeiting + Heraldry:** reproduce coats of arms, seals, insignia, lineage marks, or institutional symbols.
+- **Counterfeiting + Engineering:** imitate a complex device whose apparent construction or mechanical details matter to the deception.
+- **Disable Device + Engineering:** sabotage or bypass an unfamiliar complex mechanism where engineering knowledge materially aids the manipulation.
+- **Disable Device + Lock Picking:** defeat a locking mechanism when both normal lock manipulation and mechanical interference materially contribute.
+- **Disable Device + Trap Making:** neutralize a trap by combining knowledge of trap construction with practical interference.
+- **Disable Device + Explosives:** disable an explosive device whose trigger mechanism and explosive charge both matter.
+- **Escape + Rope Use:** work free of sophisticated rope bindings by combining escape technique with knowledge of knots, tension, and rope construction.
+- **Rope Use + Escape:** design bindings specifically to eliminate common escape opportunities.
+- **Escape + Lock Picking:** defeat a locked restraint when body positioning and lock manipulation both materially contribute.
+- **Escape + Sleight of Hand:** conceal or manipulate a small escape aid while restrained or searched.
+- **Escape + Acrobatics:** use body positioning or flexibility to escape confinement where geometry and movement are central.
+- **Fletching + Weapon Smithing:** create specialized metal heads or unusual ammunition hardware.
+- **Fletching + Poisons:** construct ammunition intended to retain and deliver a toxin effectively.
+- **Fletching + Explosives:** construct ammunition that safely carries and survives launch with an explosive payload.
+- **Fletching + Alchemy/Apothecary:** construct ammunition to carry and deliver chemical or alchemical payloads.
+- **Fletching + Hunting:** tailor ammunition to particular prey when prey knowledge materially affects the design.
 
 A useful finished callout should show the **Primary Skill**, the **Supporting Skill**, why both apply, the Supporting Skill's Training dice, and—where useful—why another superficially related Skill does not apply.
 
@@ -691,64 +711,195 @@ Large surveys, extensive expeditions, or maps assembled from many observations s
 As with other professional Skills, **Training degree unlocks capability; it does not automatically determine task difficulty or finished-item Quality**.
 
 ### Counterfeiting:
-> **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
+> **Status:** ✅ CONFIRMED — capability progression, authenticity boundaries, detection handling, related-Skill Synergy relationships, and pace rules locked.
 
-Specialists with the Counterfeiting skill are able to make passable facsimiles of increasingly rare objects. These objects appear to be the real thing to untrained eyes, and casual observers, but don’t hold up under any sort of scrutiny. If the counterfeiter doesn’t possess the requisite skill to make the base object, such as sewing for counterfeit clothing, they may still purchase a similar object and make modifications to it.
+Counterfeiting governs **making an object appear to be something it is not**. It may imitate appearance, markings, wear, materials, style, construction cues, provenance, and other evidence of authenticity, but it does not create properties the counterfeit does not actually possess.
 
-Simple: Able to make simple counterfeit objects, such as replicas of tokens.
+- **Simple — Superficial imitation:** Create or modify a simple object so that it resembles another common object well enough for casual visual inspection. This includes straightforward replicas, imitation markings, simple tokens, labels, seals, or other uncomplicated identifiers. Close handling or informed scrutiny is likely to expose the deception.
+- **Basic — Convincing ordinary facsimiles:** Alter or reproduce an ordinary object while matching multiple visible characteristics such as proportions, coloration, markings, decorative details, and general wear. The counterfeit can withstand casual handling and ordinary observation by someone who is not specifically examining it for authenticity.
+- **Intermediate — Specific imitation:** Reproduce the distinguishing appearance of a **particular item, maker, organization, style, or known example** rather than merely creating a generic imitation. The Specialist can reconcile several identifying details into a consistent counterfeit when adequate references are available.
+- **Advanced — Complex and scrutinized counterfeits:** Create convincing facsimiles of rare, unusual, complicated, or highly distinctive objects and deliberately account for the sorts of inconsistencies a trained observer would normally examine. Advanced Counterfeiting may combine several areas of expertise into one deception when the Specialist has access to the necessary materials and relevant Skills.
+- **Master — Exceptional replication and analysis:** Reproduce unique or highly distinctive objects with extraordinary fidelity, incorporating minute visual and physical details that most observers would overlook. A Master Counterfeiter can also analyze suspected counterfeits for subtle inconsistencies in manufacture, markings, materials, wear, style, or construction.
 
-Basic: Able to make basic counterfeit objects, such as designer clothing.
+#### Reality boundary
 
-Intermediate: Able to make intermediate counterfeit objects, such as fake jewelry.
+**Counterfeiting can imitate evidence of a property; it does not create the property itself.**
 
-Advanced: Able to make advanced counterfeit objects, such as non-functioning replicas of machines and devices.
+A counterfeit magical artifact may look authentic without possessing magic. A counterfeit masterwork weapon may reproduce a maker's markings and appearance without matching the real weapon's performance. A nonfunctional replica of a machine may appear convincing until its operation or internal construction is meaningfully tested.
 
-Master: Able to make masterful counterfeit objects, such as visually convincing replicas of Qwartz. It should be noted that any interaction with the Qwartz gives it away as a counterfeit, due to the obvious lack of magical properties.
+#### Counterfeiting and the underlying craft
 
-### Disable device:
-> **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
+A Counterfeiter does not necessarily need the corresponding craft Skill when beginning with a sufficiently similar existing object and merely altering it into a convincing facsimile.
 
-Specialists with the Disable device skill are able to modify the workings of machines and other devices.
+If the counterfeit must be **constructed from raw materials, function like the real item, or possess technical characteristics beyond superficial imitation**, the relevant craft or professional Skill becomes necessary.
 
-Simple: Able to stop devices from fulfilling their intended functions (namely by breaking them).
+This creates a useful Primary/Supporting distinction:
 
-Basic:  Able to stop devices from fulfilling their intended functions without breaking them.
+- Altering an existing necklace to resemble a famous necklace may use **Counterfeiting as Primary** with **Jeweler as Supporting** when both materially contribute.
+- Manufacturing the false necklace from raw materials may use **Jeweler as Primary** with **Counterfeiting as Supporting** to reproduce the target's identifying details.
 
-Intermediate: Able to bypass, or temporarily prevent devices from fulfilling their intended functions. Objects bypassed are bypassed indefinitely, generally by stopping gears, or otherwise halting some type of process. There is a chance that bypassed devices will break, as determined by the Keeper.
+Counterfeiting grants **no broad Limited Substitution** into the crafts it may imitate. Its ability to alter a sufficiently similar base object is already its special domain.
 
-Advanced: Able to bypass devices without breaking them. Furthermore, devices may be bypassed with crude timers, to allow the device to resume their functions after a roughly determined period of time, specified in seconds, minutes, hours, days, etc.
+#### Detection and authentication
 
-Master: Able to change how a device functions.
+When someone actively examines a suspected counterfeit, use the Skill that actually represents the relevant expertise rather than defaulting all authentication to Spot.
+
+Common examples include:
+
+- **Appraise** for commercial goods, valuables, art, and market authenticity.
+- **Jeweler** for jewelry and worked precious materials.
+- **Calligraphy** for handwriting, script, and written-style inconsistencies.
+- **Heraldry** for coats of arms, seals, insignia, lineage marks, and official symbols.
+- **Sewing** for garments, uniforms, and textiles.
+- **Weapon Smithing** for weapons and forged makers' marks tied to construction.
+- **Artistry** for artwork and decorative pieces.
+- **Engineering** for mechanical devices and machinery.
+
+**Spot** may still notice a visible inconsistency when visual perception is genuinely the relevant detection route, but informed authentication normally relies on the appropriate domain expertise.
+
+#### Common Synergy examples
+
+Retain the following as candidates for final rulebook margin notes, tooltips, sidebars, or worked examples:
+
+- **Counterfeiting + Calligraphy:** forged official documents, handwriting, formal script, signatures, or written markings.
+- **Counterfeiting + Scribe:** large, complex, or highly structured copied documents.
+- **Counterfeiting + Jeweler:** imitation jewelry, altered precious objects, makers' marks, settings, and decorative details.
+- **Counterfeiting + Sewing:** counterfeit uniforms, luxury clothing, textile labels, insignia, stitching, and construction details.
+- **Counterfeiting + Artistry:** imitation paintings, sculpture finishes, decorative art, or stylistic reproduction.
+- **Counterfeiting + Heraldry:** false coats of arms, seals, insignia, lineage marks, and official symbols.
+- **Counterfeiting + Engineering:** convincing replicas of complex devices where mechanical appearance or internal construction materially contributes.
+
+Counterfeiting is intentionally an **over-arching Skill with many possible Synergy relationships**. During the final full-book rough-draft edit, evaluate whether it deserves a dedicated multi-page treatment or expanded sidebar/example section so these interactions remain clear without bloating every individual Skill entry.
+
+#### Capability, difficulty, and Quality
+
+Training degree determines what kinds of counterfeit work the Specialist is capable of attempting; it does **not** automatically determine task difficulty. Task tier is set by the actual target, available reference material, materials, tools, access, scrutiny expected, and circumstances.
+
+An Advanced Counterfeiter producing a batch of simple false tavern tokens may still face a Simple task. Reproducing a unique ceremonial object from incomplete reference material may be a Master task even for a Master Counterfeiter.
+
+Finished-item Quality remains separate and will be handled by the future Crafting/Quality rules where appropriate.
+
+#### Pace and long-form work
+
+**Hasty Counterfeiting** is appropriate when the deception can genuinely be rushed, such as quickly altering an object to survive a cursory inspection. Use the normal Hasty rules.
+
+**Meticulous Counterfeiting** is appropriate for careful comparison, repeated adjustment, matching minute details, controlled aging or wear, and deliberate authentication-resistant work. Use the normal Meticulous rules.
+
+Large or complicated counterfeit projects should use the normal extended/ongoing framework rather than being resolved as a single instantaneous check.
+
+### Disable Device:
+> **Status:** ✅ CONFIRMED — capability progression, related-Skill boundaries, failure handling, and common Synergy relationships locked.
+
+Disable Device governs **interfering with an existing mechanical device so that it stops, bypasses, delays, or changes its normal operation**. It is practical manipulation of an existing mechanism rather than general machine design.
+
+- **Simple — Interrupt:** Identify and interfere with an accessible point of operation in a straightforward device: jam a linkage, block a gear, disconnect a line, remove an accessible component, wedge a moving part, or otherwise stop the mechanism from functioning. The intervention may be obvious or damaging. Simply smashing an object with brute force uses the normal object/combat rules rather than requiring Disable Device.
+- **Basic — Disable cleanly:** Stop a straightforward device from functioning **without unnecessarily destroying it**. Disconnect, disengage, remove, lock, or otherwise neutralize working components so that the device can later be repaired or restored.
+- **Intermediate — Bypass and reversible interference:** Prevent or circumvent an intended function while leaving the broader device substantially intact. Defeat a safety, interlock, trigger, governor, alarm linkage, or similar mechanism; temporarily neutralize a device; or arrange the interference so it can be reversed without rebuilding the mechanism.
+- **Advanced — Selective and controlled interference:** Disable one function while allowing others to operate, manipulate a device so that it fails or resumes operation under a reasonably predictable condition, or create delayed/conditional interference using the mechanism and available components when physically plausible. This preserves the spirit of the legacy crude-timer capability without assuming every device contains a ready-made clock.
+- **Master — Reconfigure function:** Alter an existing mechanism so that it behaves differently from its intended operation: reroute triggers or controls, reverse an existing action, cause one control to operate another available function, change mechanical sequencing, defeat nested safeguards, or otherwise repurpose the device's existing capabilities. Master Disable Device can **change what the existing mechanism does**, but cannot manufacture capabilities the device physically does not possess.
+
+#### Boundaries with related Skills
+
+**Disable Device and Engineering:** Engineering understands, designs, builds, and fundamentally modifies machines. Disable Device interferes with machines that already exist. A Specialist need not understand the full theory of a mechanism to jam, disconnect, bypass, or reroute part of it. Conversely, knowing how a machine works does not automatically grant the field manipulation needed to sabotage it quickly. **Disable Device + Engineering** is a natural Synergy pairing for unfamiliar or highly complex mechanisms.
+
+**Disable Device and Lock Picking:** Lock Picking opens or bypasses a lock while generally preserving its intended operation. Disable Device may jam, disconnect, defeat, or sabotage a locking mechanism. If the objective is to open a lock normally and leave it usable, use Lock Picking. If the objective is to make the lock stop securing something, Disable Device may be appropriate. The two Skills may use Synergy when both materially contribute.
+
+**Disable Device and Trap Making:** Trap Making governs designing and constructing traps. Disable Device governs neutralizing or interfering with their mechanisms. The two may use Synergy when knowledge of trap construction materially helps dismantle or bypass one.
+
+**Disable Device and Explosives:** Disable Device may neutralize or bypass the **mechanical trigger** of an explosive device, while Explosives governs the explosive charge itself. Which Skill is Primary depends on which part is actually being manipulated. The two may use Synergy when both materially contribute.
+
+#### Failure handling
+
+**Failing a Disable Device check does not automatically activate the device.** Failure means the Specialist did not accomplish the intended interference. Whether the device activates, jams worse, becomes damaged, reveals the tampering, locks into place, or simply continues operating depends on the device, the circumstances, and any Critical or Overwhelming result.
+
+Where activation is a natural consequence of a specific mistake—such as an unforgiving trigger mechanism—the Keeper may make that consequence part of the stakes, but it is not the universal result of ordinary failure.
+
+#### Capability and difficulty
+
+Training degree determines **what kinds of interference the Specialist knows how to perform**; it does not automatically determine task difficulty. A Master Specialist disengaging an exposed wooden latch may face a Simple task, while a Basic-trained Specialist attempting a clean disable on an unfamiliar precision device with poor access may face a substantially harder task.
+
+#### Pace
+
+**Hasty Disable Device** is appropriate when the procedure can genuinely be rushed, such as trying to stop a moving mechanism before it completes an action. Use the normal Hasty rules.
+
+**Meticulous Disable Device** is appropriate for careful disassembly, controlled testing, tracing linkages, and reversible sabotage. Use the normal Meticulous rules.
+
+Large or complicated sabotage jobs should use the normal extended/ongoing framework rather than being resolved as a single instantaneous check.
+
+Disable Device grants **no broad Limited Substitution** into Engineering, Lock Picking, Trap Making, or Explosives.
 
 ### Escape:
-> **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
+> **Status:** ✅ CONFIRMED — capability progression, restraint/confinement boundaries, physical-limit boundary, and common Synergy relationships locked.
 
-Specialists with the Escape skill are able to abscond from various forms of capture, detainment, and imprisonment.
+Escape governs getting free from **restraints, confinement, and entanglement once they exist**. It does not replace the Combat/Martial rules used to escape an opponent's active grapple or hold.
 
-Simple: Able to wriggle or break free of personal restraints, such as a creature attempting to hold your wrists, or a bear hug.
+- **Simple — Find the weakness:** Recognize and exploit obvious slack, poor fastening, loose knots, bad positioning, or other weaknesses in simple restraints. Escape loosely or poorly applied bindings, sacks, crude ties, simple entanglements, and similar restraints when physically possible.
+- **Basic — Work free of secure flexible restraints:** Escape properly applied ropes, straps, bindings, nets, tied clothing, and similar flexible restraints by manipulating tension, shifting knots, compressing the body, creating slack, and using leverage.
+- **Intermediate — Slip rigid restraints:** Escape rigid restraints such as manacles, shackles, stocks, cuffs, collars, or similar devices **when their physical construction permits escape without actually opening the lock**. This can involve exploiting fit, joint position, tolerances, leverage, body compression, or mechanical play.
+- **Advanced — Complex and layered restraint:** Escape multiple or deliberately redundant restraints: bound hands and feet, body harnesses, tightly secured nets, restrictive garments, combined rope-and-shackle arrangements, awkward suspension, confined positions, or other systems specifically intended to eliminate ordinary escape methods. Advanced Training also permits effective work from extremely unfavorable positions when enough movement remains physically possible.
+- **Master — Escape artistry:** Exploit extremely small tolerances and deliberately prepare for escape while restraints are being applied: subtly alter body position, control breathing or muscle tension, preserve hidden slack, position a limb advantageously, conceal a small escape aid, or identify an escape sequence through several different restraints. A Master may also squeeze through exceptionally tight openings when their anatomy can **actually fit**.
 
-Basic: Able to wriggle free of ropes and other crude forms of restraint.
+#### Physical-limit boundary
 
-Intermediate: Able to slip out of basic manacles.
+Escape never allows a Specialist to pass through an opening their body cannot physically fit through, ignore solid restraints with no exploitable movement, or dislocate joints without whatever injury consequences such an act would normally carry.
 
-Advanced: Able to slip out of full shackles.
+#### Escape and active grappling
 
-Master: Able to squeeze between bars, climb out of nets, or otherwise get out of advanced restraints.
+**Escape governs restraints and confinement. Active control by another creature is resolved using the applicable Combat/Martial rules.** A future Martial Component may explicitly interact with Escape, but Escape does not universally replace grapple-breaking mechanics.
+
+#### Escape and Lock Picking
+
+Escape asks whether the Specialist can get free **without opening the locking mechanism**. Lock Picking asks whether the Specialist can defeat the lock itself. If a restraint must actually be unlocked, Lock Picking is the relevant Skill. The two may use Synergy when both materially contribute, such as working a concealed pick while restrained in an awkward position.
+
+#### Prepared restraints and opposed use
+
+When a Specialist deliberately prepares for escape while being restrained, such as preserving slack or positioning their body advantageously, the Keeper may resolve an opposed check against the Skill actually being used to apply the restraint, such as Rope Use or another appropriate Skill. This can create an escape opportunity without granting automatic immunity to restraints.
+
+#### Pace and extended use
+
+**Hasty Escape** is appropriate when the attempt can genuinely be rushed, representing a desperate effort to get free quickly. Use the normal Hasty rules.
+
+**Meticulous Escape** is appropriate when the Specialist can stop struggling, study the restraint, test tension, and work free one small step at a time. Use the normal Meticulous rules.
+
+Difficult escapes involving multiple restraints or several stages are natural candidates for the extended/ongoing framework.
+
+Escape grants **no general Limited Substitution** into Lock Picking, Rope Use, Sleight of Hand, Acrobatics, or Combat/Martial grappling.
 
 ### Fletching:
-> **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
+> **Status:** ✅ CONFIRMED — professional progression, ammunition/weapon boundary, payload boundary, and common Synergy relationships locked.
 
-Specialists with the Fletching skill are able to maintain, assemble and modify arrows and bolts.
+Fletching governs the maintenance, construction, tuning, and design of arrows, bolts, darts, and similar shafted projectile ammunition. It governs the projectile rather than the weapon that launches it.
 
-Simple: Able to maintain regular arrows and darts.
+- **Simple — Maintain and repair ammunition:** Inspect, straighten, clean, rebalance, refletch, renock, and perform ordinary maintenance or minor repairs on arrows, bolts, darts, and similar shafted projectile ammunition. Replace damaged components when suitable replacements are available.
+- **Basic — Assemble standard ammunition:** Construct ordinary arrows, bolts, darts, and similar ammunition from prepared components such as shafts, heads, nocks, and fletching. Produce consistent batches intended for normal use.
+- **Intermediate — Fabricate and fit components:** Create and properly fit the non-specialized components of projectile ammunition from appropriate raw materials: shape shafts, cut nocks, prepare feathers or equivalent fletching, fit available heads, balance the projectile, and produce complete ammunition without relying on pre-made parts. This does not grant unrelated metalworking or other craft expertise required to manufacture specialized components from raw materials.
+- **Advanced — Tune and specialize:** Tailor ammunition for a particular weapon, user, range, trajectory, target, or purpose. Control characteristics such as shaft stiffness, total weight, balance point, fletching size and configuration, head weight, aerodynamic stability, and consistency across a matched set. Conventional specialized ammunition such as heavy hunting arrows, long-range flight arrows, broadheads, bodkin-style ammunition, low-drag bolts, and highly stable short-range ammunition belongs here when the necessary components and materials exist.
+- **Master — Design specialized ammunition:** Design new ammunition configurations and safely integrate unusual payloads, mechanisms, or delivery systems into arrows, bolts, darts, and similar projectiles.
 
-Basic: Able to maintain regular bolts.
+#### Weapon and payload boundaries
 
-Intermediate: Able to assemble arrows and darts from arrowheads/dart tips, shafts and various fletching (flights).
+**Bowyer governs the weapon; Fletching governs the ammunition.** A Bowyer may tune a bow or crossbow, while a Fletcher may tune ammunition to that weapon. When both materially contribute to a matched weapon-and-ammunition system, the Skills may use Synergy.
 
-Advanced: Able to assemble bolts from bolt heads, shafts and various fletching (flights).
+**Fletching can build the projectile and its delivery interface; it does not create the payload.** A Master Fletcher may design an arrow or bolt that safely carries a poison vial, incendiary mixture, explosive charge, alchemical payload, spell-bearing component, line, signal device, or similar attachment, but the payload itself requires the relevant Skill or other rules source.
 
-Master: Able to craft special purpose, such as flame, acid vial or poison vial tipped arrows, darts and bolts.
+Common Synergy pairings include:
+
+- **Fletching + Bowyer:** deliberately tune ammunition characteristics to a particular bow or crossbow.
+- **Fletching + Weapon Smithing:** specialized metal heads or unusual ammunition hardware.
+- **Fletching + Poisons:** ammunition intended to retain and deliver a toxin effectively.
+- **Fletching + Explosives:** projectile construction that safely carries and survives launch with an explosive payload.
+- **Fletching + Alchemy/Apothecary:** ammunition used to carry and deliver chemical, medicinal, or alchemical payloads.
+- **Fletching + Hunting:** situationally appropriate when prey knowledge materially affects the ammunition being designed for a particular hunt.
+
+Fletching grants no broad Limited Substitution into these related Skills.
+
+#### Capability, difficulty, and Quality
+
+Training degree determines what the Specialist knows how to make or modify; it does not automatically determine task tier or finished-item Quality. A Master Fletcher replacing one damaged feather may still be performing a Simple task. The actual ammunition, materials, tools, precision required, and circumstances determine difficulty.
+
+#### Pace
+
+Hasty and Meticulous use follow the normal Skill rules when physically meaningful. Field repairs may be rushed, while matched sets, precision balancing, aerodynamic tuning, and specialized payload integration are natural Meticulous applications. Large batches or complicated ammunition projects should use the normal extended/ongoing framework.
 
 ### Herbology:
 > **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.

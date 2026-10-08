@@ -21,7 +21,7 @@ This file is deliberately blunt. These are the places where the reconstruction c
 
 **✅ RESOLVED:** generic favorable/unfavorable circumstance modifiers are removed. Hasty and Meticulous are the universal pace-based Skill modifiers. Concrete advantages/disadvantages come from actual rules sources such as tools, Traits, Magic, Conditions, assistance, environment, or Skill-specific text.
 
-**Remaining Skill work:** continue individual Skill timing/examples and entry-by-entry cleanup. The **Speed Skill block is fully reviewed** except that Explosives blast-target response intentionally waits on Combat reaction/defense rules. The Proficiency pass is underway. Teamwork, Skills in combat, Skill Synergy, and Limited Substitution are resolved.
+**Remaining Skill work:** continue individual Skill timing/examples and entry-by-entry cleanup. The **Speed Skill block is fully reviewed** except that Explosives blast-target response intentionally waits on Combat reaction/defense rules. The **Proficiency pass has confirmed Bowyer, Calligraphy, Carpentry, Cartography, Counterfeiting, Disable Device, Escape, and Fletching; 13 Proficiency Skills remain for review.** Teamwork, Skills in combat, Skill Synergy, and Limited Substitution are resolved.
 
 ### A2. Character creation economy
 
