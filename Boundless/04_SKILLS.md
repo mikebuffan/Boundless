@@ -306,6 +306,13 @@ The following pairings are being retained as candidates for later rulebook margi
 - **Writing + Public Speaking:** compose a speech specifically for effective spoken delivery.
 - **Writing + Bluff:** construct a deliberately deceptive written narrative intended to be believed.
 - **Counterfeiting + Writing:** forge a document whose wording and physical authenticity both materially matter.
+- **Acting + Mimicry:** impersonate a particular person by combining role performance with specific vocal and behavioral reproduction.
+- **Acting + Disguise:** sustain an impersonation where both physical appearance and behavior materially contribute.
+- **Acting + Bluff:** support a false claim with a deliberately performed emotional state or role.
+- **Acting + Public Speaking:** deliver a staged or in-character address where both performance and audience communication materially matter.
+- **Acting + Musical Instrument:** perform music as part of a character-driven or theatrical presentation.
+- **Acting + Singing:** perform a vocal role where both character portrayal and singing materially contribute.
+- **Acting + Empathy:** portray an emotional state more convincingly when understanding that state materially contributes to the performance.
 
 A useful finished callout should show the **Primary Skill**, the **Supporting Skill**, why both apply, the Supporting Skill's Training dice, and—where useful—why another superficially related Skill does not apply.
 
@@ -1406,19 +1413,45 @@ If written persuasion later receives formal social mechanics, Writing should cre
 ## Charisma
 
 ### Acting:
-> **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
+> **Status:** ✅ CONFIRMED — performance progression, social/performance boundaries, opposed use, and common Synergy relationships locked.
 
-Specialists with the Acting skill are able to put on performances with appropriate tone of voice and emotion.
+Acting governs deliberately portraying a role, emotional state, personality, or fictional identity through voice, expression, posture, movement, and performance.
 
-Simple: Able to rehearse a script, and recall lines with minimal prompting.
+- **Simple — Prepared performance:** Deliver rehearsed lines, actions, or emotional cues in a recognizable and reasonably consistent way. Perform a simple scripted role with minimal prompting.
+- **Basic — Sustained scripted portrayal:** Maintain a prepared character or role through a complete scene without prompting, including appropriate tone, facial expression, posture, timing, and basic emotional presentation.
+- **Intermediate — Character performance:** Portray believable emotional states and distinct fictional personalities rather than merely reciting prepared material. Adapt delivery to another performer, react naturally within a scene, and remain in character through minor unexpected changes.
+- **Advanced — Adaptive portrayal:** Sustain a role through unscripted interaction, adjust emotion and behavior to changing circumstances, conceal genuine reactions when deliberately performing another state, and convincingly portray roles significantly different from the Specialist's normal demeanor.
+- **Master — Improvisational embodiment:** Create and sustain a believable character or emotional performance with little or no preparation, improvise dialogue and behavior consistently, recover from major disruptions without visibly breaking character, and maintain a complex role across extended interactions.
 
-Basic: Able to rehearse and recall lines with no prompting.
+#### Boundaries and Synergy
 
-Intermediate: Able to add generally appropriate emotion to scenes.
+**Acting and Bluff:** Acting determines how convincingly the Specialist performs a role or displayed emotional state. Bluff determines whether the Specialist convinces someone that a false claim is true. Either may support the other when both materially contribute.
 
-Advanced: Able to add appropriate emotion to scenes.
+**Acting and Mimicry:** Acting portrays a role or personality. Mimicry reproduces the specific voice, gestures, habits, and mannerisms of another individual. **Acting + Mimicry** is a natural Synergy pairing when impersonating a particular person.
 
-Master: Able to adlib, and perform believably on the fly.
+**Acting and Disguise:** Disguise changes physical appearance; Acting sells the behavior behind it. Either may be Primary depending on whether the central challenge is appearance or sustained portrayal.
+
+**Acting and Public Speaking:** Public Speaking presents information effectively to an audience. Acting portrays a role. A theatrical monologue is primarily Acting; an address to a crowd is primarily Public Speaking. A staged speech performed in character may use Synergy.
+
+Other common Synergies include **Acting + Musical Instrument**, **Acting + Singing**, and **Acting + Empathy** when understanding an emotional state materially helps portray it.
+
+Acting grants no Limited Substitution into Bluff, Mimicry, Disguise, Public Speaking, or other related Skills.
+
+#### Opposed use
+
+Acting may be opposed by **Empathy** when another creature is trying to determine whether a displayed emotional state is genuine.
+
+For specific impersonation, the opposing Skill depends on what the observer is actually scrutinizing. Disguise, Mimicry, Local Geography, Heraldry, Empathy, or another relevant Skill may matter when that knowledge or perception would expose the performance.
+
+Failure does not automatically mean an observer knows the Specialist is lying. The performance may instead appear stiff, emotionally wrong, inconsistent, or suspicious according to the circumstances.
+
+#### Capability, difficulty, and pace
+
+Training degree determines performance capability; the role, audience, preparation, duration, scrutiny, circumstances, and required adaptation determine task tier.
+
+Hasty Acting is appropriate when a role, cover, or emotional display must be invented almost immediately. Meticulous use most naturally represents rehearsal, preparation, character study, and deliberate refinement before a performance.
+
+Long performances do not require constant rerolls merely because time passes. Use the extended/ongoing framework only when meaningful disruptions, changing audiences, sustained deception, or other pressures make continued performance uncertain.
 
 ### Bluff:
 > **Status:** ⚠️ REVIEW — recovered Skill/degree content. Preserve the concept and degree descriptions unless contradicted; audit any roll totals, fixed target numbers, time rules, or special failure rules against the current engine.
