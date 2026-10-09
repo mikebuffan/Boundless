@@ -251,6 +251,8 @@ We also strongly urge Keepers not to fall back on religion as “Deus Ex Machina
 
 **⚠️ REVIEW:** pets, spirit guides, familiars, kindred beasts, and special mounts are preserved as world/system concepts. They may ultimately depend on Creature/Traits and advancement rules.
 
+**✅ Current Skill integration:** the legacy **Falconry** Skill has been absorbed into **Animal Handling**, and legacy **Handle animal** is now **Animal Handling**. **Animal Handling** governs training and directing individual animals; **Riding** governs mounted control; **Animal Husbandry** governs long-term care, breeding, and population management. Any recovered text below that divides animal training by flying/non-flying/beast-of-burden categories is superseded by those boundaries. Static spirit-guide Skill bonuses, animal advancement, and the old “training Skill acts like Teaching/Education” mechanics remain under review and must be converted before use.
+
 # Advanced Creatures
 
 In many fantasy settings, there are people who have strong ties, or sometimes even magical bonds to various creatures, that allow the creatures to help their owners in various ways. Boundless is no different. Below are some of the types of creatures a Specialist may train, befriend, and form magical bonds with.

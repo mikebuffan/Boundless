@@ -21,7 +21,9 @@ This file is deliberately blunt. These are the places where the reconstruction c
 
 **✅ RESOLVED:** generic favorable/unfavorable circumstance modifiers are removed. Hasty and Meticulous are the universal pace-based Skill modifiers. Concrete advantages/disadvantages come from actual rules sources such as tools, Traits, Magic, Conditions, assistance, environment, or Skill-specific text.
 
-**Remaining Skill work:** continue individual Skill timing/examples and entry-by-entry cleanup. The **Speed Skill block is fully reviewed** except that Explosives blast-target response intentionally waits on Combat reaction/defense rules. The **entire Proficiency Skill block is fully reviewed and confirmed.** The **Charisma pass has begun with Acting confirmed.** Teamwork, Skills in combat, Skill Synergy, Limited Substitution, and the professional tools/materials/workspace assumption are resolved.
+**✅ SKILL CATALOG MODERNIZATION COMPLETE:** all current Skill blocks have completed the entry-by-entry modernization pass. Speed remains complete except that Explosives blast-target response intentionally waits on Combat reaction/defense rules. Teamwork, Skills in combat, Skill Synergy, Limited Substitution, professional tools/materials/workspace, Learning Access in principle, and the consolidated Skill boundaries are resolved.
+
+The finalized catalog contains **97 Skills** after approved consolidations and renames. Further Skill changes should now arise from downstream subsystem testing rather than another broad catalog rewrite.
 
 ### A2. Character creation economy
 
@@ -81,20 +83,45 @@ Choose/convert opposing-Energy attack and opposing-Energy shield approaches unde
 
 Decide whether 1/2/3/4/5 remains the purchase ladder for Magic/Martial/Skills while Traits use 3/6/9/12/15, or whether costs should be unified differently.
 
+**Learning Access principle is confirmed:** a new Skill degree requires a plausible learning route through instruction/demonstration, self-study supported by Researching, or meaningful practical experience. A qualified instructor with sufficient Education should make Training modestly faster and/or cheaper. The exact percentage/point discount and training-time reduction must be chosen alongside the final advancement costs.
+
 ## C. YELLOW — content/balance conversion
 
 ### C1. Individual Skills
 
 Preserve degree capabilities but review outdated assumptions, fixed numbers, catastrophic/spectacular language, time increments, materials damage, and Skill-specific target numbers.
 
-**✅ Proficiency block resolved:** all 21 Proficiency Skills have completed the current modernization pass.
+**✅ All Skill blocks resolved:** Speed, Proficiency, Charisma, Intelligence, Agility, Looks, Insight, Stamina, and Toughness have completed the current modernization pass.
 
-**Deferred cross-system follow-ups from the Proficiency pass:**
-- During the **Toughness Skill pass**, evaluate consolidating **Armor Smithing + Leather Armoring** into a broader **Armoring** Skill. Do **not** fold Leather Armoring into Leatherworking merely to reduce Skill count; Leatherworking remains general non-armor leathercraft.
-- **Poison resistance:** preserve both a possible resistance Trait and a possible Poison Conditioning Training progression, but make them mutually exclusive and non-stacking. Exact effects and exposure rules wait on Poison/Traits/Conditioning.
-- **Magical locks:** mundane Lock Picking affects physical lock components only. Magical lock picks or similar equipment may later grant additional capability; that capability belongs to the tool/item rather than the Skill.
-- **Player-crafted locks:** use a construction-derived lock difficulty once Crafting is finalized; the generic Simple-to-Master lock ladder is only the default for otherwise undefined locks.
-- **Trap Making + Magic:** magical trap integration must obey finalized Magic storage, trigger, duration, and maintenance rules rather than creating an alternate route around them.
+**Approved structural cleanup:**
+- **Aquabatics → Swimming.**
+- **Tumble → Acrobatics.**
+- **Boating + Sailing + Skiing + Skating + Teamster → Transportation (Specified)** under Agility, with one-degree-lower Limited Substitution for closely related transport modes.
+- **Sex Appeal → Seduction.**
+- **Falconry → Animal Handling.**
+- **First Aid → Medicine.**
+- **Interrogation + Question → Questioning.**
+- **Trapping removed:** prey behavior/placement moved to Hunting; construction/calibration remains Trap Making.
+- **Gardening → Farming.**
+- **Armor Smithing + Leather Armoring → Armoring**, now material-agnostic.
+- **Furrier → Farrier.**
+- **Weapon Smithing → Weapon Crafting**, now material-agnostic while Bowyer and Fletching remain distinct.
+- **Camouflage and Hiding remain separate** because visual treatment and positional concealment are materially different competencies.
+
+**Skill dependency ledger — retain for later subsystem work, not as automatic promises to add complexity:**
+- **Alchemy:** supernatural/spell-like crafted effects; exact potency, duration, storage, stacking, activation, ingredient, and Magic interaction rules wait on Magic/Crafting.
+- **Apothecary / Medicine:** extraordinary but biologically grounded healing is allowed; exact Vitality, recovery, disease, surgery, dosage, antidote, and Condition mechanics wait on Health/Crafting.
+- **Chemistry:** mundane acids, solvents, adhesives, luminous compounds, protective coatings/balms, incendiary/energetic precursors, and similar effects; exact item statistics wait on Crafting/Equipment. Explosives still governs actual charge design/use.
+- **Education / Researching:** Learning Access is confirmed. Qualified Education should make Training faster and/or cheaper; exact Advancement Point/XP/time reduction waits on Advancement costs.
+- **Poison resistance:** preserve both a possible resistance Trait and a possible Poison Conditioning Training progression, but make them mutually exclusive and non-stacking. Exact effects/exposure rules wait on Poison/Traits/Conditioning.
+- **Magical locks:** mundane Lock Picking affects physical components only. Magical lock picks or similar equipment may add capability through the tool/item.
+- **Player-crafted locks:** use construction-derived difficulty once Crafting is finalized; the generic lock ladder remains the fallback.
+- **Trap Making + Magic:** magical trap integration must obey Magic storage, trigger, duration, and maintenance rules.
+- **Sneaking:** default cautious pace is approximately half Movement; Hasty Sneaking can approximate normal walking pace with the normal Hasty penalty; exact combat movement interactions wait on Movement/Combat.
+- **Transportation / Riding / Swimming / Climbing / Jumping:** exact speeds, collisions, mounted actions, breath/drowning, climb movement, jump formulas, and Size interaction wait on Movement/Combat/Creature systems.
+- **Construction / Armoring / Weapon Crafting / Blacksmithing / Masonry:** exact materials, project staging, Quality, Durability, labor, costs, object statistics, and repair rules wait on Crafting. Favor playable abstraction over simulation bookkeeping.
+- **Leadership / Public Speaking / Intimidate / Strategy:** exact morale, crowd, command, mass-combat, logistics, and organization effects remain later dependencies and should stay abstract unless the campaign needs them.
+- **Economy-facing Skills:** Finance, Merchant, Appraise, Administration, Smuggling, Farming, Animal Husbandry, and similar Skills should not automatically create a detailed accounting subsystem. Add mechanics only where they produce interesting decisions.
 
 ### C2. Skill modes and Teamwork
 
@@ -124,7 +151,7 @@ Finalize every cost, prerequisite, exclusion, body-plan interaction, natural wea
 
 ### C5. Crafting / Quality / Durability
 
-Wait for Skills and armor/mitigation decisions, then rebuild repeated progress, object Quality, repairs, breakage, and materials.
+**Skills are now ready for Crafting integration.** Wait for the armor/mitigation decisions, then rebuild repeated progress, object Quality, repairs, breakage, materials, project staging, and construction-derived difficulty. Keep the process deliberate and game-facing; avoid turning Crafting into mandatory inventory/accounting simulation.
 
 ### C6. Carrying/exertion
 

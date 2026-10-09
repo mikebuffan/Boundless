@@ -183,6 +183,21 @@ Recovered CLEAN rules include:
 
 **❗ DECISION REQUIRED:** determine whether 1/2/3/4/5 purchase costs remain for Skills/Martial/Magic, whether the 3/6/9/12/15 Trait cost structure stays Trait-specific, and how all of this interacts with the creation pool.
 
+### Learning Access
+
+**✅ CONFIRMED in principle:** purchasing a new Skill degree requires a plausible in-world path by which the Specialist learned it. Spending Advancement Points represents acquiring the Training, but Training should not simply appear without instruction, study, or meaningful practical experience.
+
+A Specialist may gain **Learning Access** to a Skill degree through any reasonable route:
+
+- **Instruction or demonstration:** another Specialist who possesses at least the degree being learned can demonstrate and explain the techniques. A practitioner does not need Education merely to show what they know.
+- **Formal teaching:** an instructor with both the taught Skill and sufficient **Education** can structure practice, diagnose errors, and teach more efficiently. Formal instruction should reduce the student's advancement cost and/or required training time by a modest amount.
+- **Self-directed study:** with appropriate manuals, records, examples, equipment, and practice opportunity, **Researching** can assemble a viable course of self-study.
+- **Meaningful practical experience:** sustained real use of a Skill may eventually provide enough accumulated understanding to purchase the next appropriate degree without a formal teacher or research project.
+
+Normal access does **not** require a die roll merely to allow advancement. Education or Researching checks are appropriate when success is genuinely uncertain: compressed instruction, incomplete or damaged sources, unusual barriers, lost techniques, poor training conditions, difficult reconstruction, or similar complications.
+
+**⚠️ ADVANCEMENT DEPENDENCY:** the exact XP/Advancement Point discount, training-time reduction, and any degree-by-degree limits for qualified instruction remain unresolved until the advancement-cost economy is finalized. The confirmed principle is that competent instruction makes Training **faster and/or cheaper**, but is beneficial rather than universally mandatory.
+
 ### Recovered CLEAN Advancement text
 
 # Experience Points and Advancements

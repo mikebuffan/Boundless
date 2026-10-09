@@ -116,4 +116,4 @@ The paths are mutually exclusive **per defense roll**. A Specialist can know/use
 
 ## Systems that are intentionally not declared finished
 
-The largest remaining design packages are individual Skill conversion and cleanup, Martial Component conversion, the armor/mitigation ecosystem, creation/advancement economy, individual Magic conversion, Crafting/Quality/Durability, and detailed Traits. The chapter files preserve the source material so decisions can be made entry-by-entry without losing anything.
+The largest remaining design packages are Martial Component conversion, the armor/mitigation ecosystem, creation/advancement economy, individual Magic conversion, Crafting/Quality/Durability, and detailed Traits. The Skill catalog has completed its broad modernization pass; remaining Skill changes should arise from those downstream systems and dependency reviews rather than another catalog-wide rewrite. The chapter files preserve the source material so later decisions can be made without losing provenance.
