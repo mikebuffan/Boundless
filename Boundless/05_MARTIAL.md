@@ -19,11 +19,11 @@ Martial uses the same universal engine as the rest of Boundless. A Specialist bu
 
 The universal **Critical Die** applies to Martial resolution: a successful qualifying action with a natural 10 on its Critical Die is Crit+; a failed qualifying action with a natural 1 on its Critical Die is Crit-. Specific Martial critical effects are defined by the combat/core rules or by an explicit Component.
 
-**✅ Current tier prerequisites:** 15 / 30 / 45 / 60 / 75 in the relevant governing Stat.
+**✅ Martial Style tier prerequisites:** Primary 15/30/45/60/75, Secondary 30/45/60/75/90, Tertiary 45/60/75/90/105 for Simple/Basic/Intermediate/Advanced/Master.
 
 **✅ Later primary-Martial Stat set:** Proficiency / Agility / Toughness. Individual Components may still call on other Stats for opposed checks or effects; CLEAN's blanket Proficiency-ranged / Toughness-melee / Stamina-defensive assignment must be audited rather than automatically applied.
 
-**✅ Training rule:** applicable Training contributes +1d10 per degree. Legacy +2d10-per-degree exceptions are not current.
+**✅ Training rule:** Training provides the bonuses, capabilities, or other benefits defined by that Training. Training does not determine AP ceilings or gate Martial Component tiers; +1d10 per degree is not universal.
 
 **✅ Dual wielding:** two weapons do not automatically generate extra actions. An explicit Martial Component/mechanic must construct the dual-wield action.
 
@@ -39,13 +39,1050 @@ The universal **Critical Die** applies to Martial resolution: a successful quali
 
 **✅ Defense paths:** Agility/Unarmored, Insight/Evasion, Stamina/Armor; only one applies per defense roll.
 
-**⚠️ Armor and mitigation:** Martial entries such as Penetration, Armor Conditioning, Favored Shield, Rhino Hide, Pack Attack, and others interact with mitigation. Do not rewrite them until the entire armor ecosystem is reviewed.
+**✅ Armor/defense architecture:** ordinary mitigation has been removed. Defense uses one path per roll: Agility + Unarmored Training, Insight + Evasion Training, or Stamina + Armor Training. Shields may overlay valid Active Defense. Passive Defense never uses Martial Components or shield dice.
 
 ## 4. Component-by-component status rule
 
 Unless an entry is explicitly marked otherwise below, treat its **concept/name/tier/prerequisite as recovered design evidence** and its exact numerical implementation as **⚠️ REVIEW / CONVERSION**. This is intentionally conservative: it prevents a useful Component from being lost while also preventing old static math from silently becoming canon.
 
-## 5. Complete recovered Martial catalog
+## 5. Current reconstructed Martial canon
+
+**✅ CURRENT CANON — this section overrides conflicting legacy text in the recovered catalog below.**
+
+### Martial construction chassis
+
+Training builds the dice pool and other learned benefits. Components define what AP can do.
+
+The highest-tier Component included in an action determines the constructed action tier and maximum AP ceiling:
+
+| Tier | AP ceiling |
+| --- | ---: |
+| Simple | 3 |
+| Basic | 6 |
+| Intermediate | 9 |
+| Advanced | 12 |
+| Master | 15 |
+
+Every Component included receives at least 1 AP and must materially apply. A lower-tier Component inside a higher-tier construction may receive more AP than its standalone tier ceiling unless that Component has an explicit fixed cost or cap.
+
+Training does **not** determine the AP ceiling and does **not** gate Martial Component tiers.
+
+Offensive Components normally cannot be used during defense and defensive Components normally cannot be used offensively unless an entry explicitly crosses that boundary.
+
+### Glancing Blow
+
+Only the attacker can create a Glancing Blow.
+
+- attacker beats defender: clean hit;
+- tie: attacker creates the Glancing Blow;
+- defender beats attacker: miss/defended.
+
+A defensive effect that requires a successful defense does not trigger on a tie.
+
+An effect such as Riposte creates a new attack with its own miss/Glancing Blow/hit result.
+
+### Passive versus Active Defense
+
+Passive Defense never uses Martial Components.
+
+If AP or a Martial Component contributes to a Defense roll, that roll is Active Defense.
+
+The three normal Defense paths are:
+
+- **Unarmored:** Agility + Unarmored Training
+- **Evasion:** Insight + Evasion Training
+- **Armored:** Stamina + Armor Training
+
+Only one Defense path applies to a given Defense roll.
+
+### Stun tokens
+
+While any Stun tokens remain:
+
+- Movement is halved;
+- only Passive Defense may be used.
+
+A Specialist may spend 1 AP to remove 1 Stun token.
+
+Unless a source explicitly provides another duration, Stun tokens remain until removed.
+
+# Simple Components
+
+## Offensive
+
+### Accuracy — ✅ CONFIRMED
+
+Each AP assigned adds +1d10 Attack.
+
+Accuracy AP cap by constructed attack tier:
+
+- Simple 1
+- Basic 2
+- Intermediate 3
+- Advanced 4
+- Master 5
+
+On a clean hit, after the current attack resolves, the defender suffers -1d10 Defense per AP assigned against the **next attack made against them**, minimum 0 Defense dice. The penalty is consumed after that next attack resolves.
+
+Glancing Blow: -1d10 Defense total against the next attack.
+
+Miss: no later penalty.
+
+The Accuracy user may use only Passive Defense until the start of their next turn.
+
+### Distance — ✅ CONFIRMED
+
+Each AP cancels 1d10 Attack penalty caused specifically by range.
+
+Distance cannot create a bonus and does not cancel penalties from cover, size, visibility, or unrelated sources.
+
+Whether it can extend attacks beyond absolute maximum range remains a ranged-equipment dependency.
+
+### Irregular Attack — ✅ CONFIRMED
+
+Fixed cost: exactly 1 AP.
+
+The Specialist uses a weapon, natural weapon, or unarmed attack in an unconventional but physically or fantastically plausible way to change its physical damage type among Blunt, Hacking, Piercing, and Slashing.
+
+Irregular Attack adds no Attack dice.
+
+Higher Weapon Training does not automatically unlock alternate damage types.
+
+### Riposte — ✅ CONFIRMED
+
+AP is assigned/prepared before the reaction window.
+
+Until the start of the Specialist's next turn, a successful Active Defense against a melee attack allows one immediate Riposte attack against that attacker if within reach.
+
+Each AP assigned adds +1d10 Attack to the Riposte.
+
+Once used, Riposte ends.
+
+An incoming Glancing Blow does not trigger Riposte.
+
+The Riposte resolves as a normal attack and may miss, Glance, or hit.
+
+### Simple Attack — ✅ CONFIRMED
+
+Each AP assigned adds +1d10 Attack.
+
+Compatible Weapon Training applies normally.
+
+Used alone, Simple Attack has the Simple 3 AP ceiling. In a higher-tier construction, it may receive more than 3 AP unless another rule limits it.
+
+Glancing Blow: normal 1d10 Glancing damage.
+
+### Taunt — ✅ CONFIRMED
+
+Taunt is a non-damaging opposed maneuver.
+
+Taunt pool: **Charisma governing Stat dice + 1d10 per AP assigned**.
+
+The target resists with raw Insight Stat dice, adding Empathy Training if applicable. The target may add Defense Component dice if actively committing AP to resist. Armor, shields, and unrelated defensive equipment do not automatically help.
+
+Clean success: target becomes Provoked/Taunted until the start of the taunter's next turn. It is not forced to attack, but if it voluntarily takes an offensive action while the taunter is a valid target, that action must include the taunter.
+
+Tie: target resists.
+
+Token implementation remains a Conditions dependency.
+
+### Wrestle — ✅ CONFIRMED / ESCAPE DETAILS DEFERRED
+
+Normally requires two free hands and melee range.
+
+Pool: **Toughness Stat dice + applicable Unarmed Weapon Training + 1d10 per AP assigned**.
+
+The target uses an eligible physical Defense path. Worn-armor equipment Defense and shield equipment Defense do not apply to resisting the grab; Armor Training may still matter through the Armored/Stamina path.
+
+Clean hit: target becomes Pinned instead of taking normal damage.
+
+There is no automatic damage while Pinned. Subsequent attacks resolve normally.
+
+Maintaining the Pin will likely require at least 1 AP on later turns; exact escape and token rules are deferred.
+
+Glancing Blow: partial hold, no normal damage, no full Pin; target cannot voluntarily leave melee until contact is broken.
+
+## Defensive
+
+### Defense — ✅ CONFIRMED
+
+Each AP assigned adds +1d10 Active Defense.
+
+Used alone, Defense establishes the Simple 3 AP defensive ceiling. A higher-tier defensive Component may raise that ceiling.
+
+Use one valid Defense path.
+
+Defense never contributes to Passive Defense.
+
+# Basic Components
+
+## Offensive
+
+### Aggressive — ✅ CONFIRMED
+
+Each AP assigned adds +1d10 Attack.
+
+On a clean hit, each AP assigned also adds +1 flat damage to every damage die rolled for the attack.
+
+The Specialist suffers -1d10 Defense per AP assigned until the start of their next turn, even if the attack misses.
+
+AP cap by constructed tier: Basic 2 / Intermediate 3 / Advanced 4 / Master 5.
+
+Glancing Blow: ordinary 1d10 only; no flat Aggressive bonus.
+
+### Deception — ✅ CONFIRMED
+
+Requires the target to have actually been deceived through Bluff, Acting, circumstances, or another plausible setup.
+
+Each AP assigned gives +1d10 Attack and -1d10 target Defense against this attack, minimum 0.
+
+AP cap: Basic 2 / Intermediate 3 / Advanced 4 / Master 5.
+
+No additional Glancing rider. Deception does not automatically force Passive Defense.
+
+### Desperation — ✅ CONFIRMED
+
+Fixed cost: exactly 1 AP.
+
+Including Desperation raises the constructed action ceiling to 12 AP if it would otherwise be lower. It never lowers a naturally higher ceiling.
+
+The Specialist may borrow AP from their next turn one-for-one and distribute those AP among other Components. Desperation itself adds no dice.
+
+After using Desperation, the Specialist may use only Passive Defense until the start of the turn after their next turn.
+
+All AP and consequences are paid even on failure.
+
+### Distraction — ✅ CONFIRMED
+
+Non-damaging opposed maneuver.
+
+Pool: **applicable Martial Stat dice + 1d10 per AP assigned**.
+
+Target resists with Insight Stat dice, adding Empathy Training if applicable and Defense Component dice if actively committing AP.
+
+Clean success: target's next Defense must be Passive Defense.
+
+Tie/failure: no effect.
+
+No normal damage or Glancing damage.
+
+### Lacerating — ✅ CONFIRMED
+
+Requires Slashing.
+
+Each AP assigned adds +1d10 Attack.
+
+Clean hit: Bleeding severity equals AP assigned.
+
+AP cap: Basic 2 / Intermediate 3 / Advanced 4 / Master 5.
+
+Glancing Blow: Bleeding 1.
+
+Exact Bleeding token rules are deferred.
+
+### Pinpoint — ✅ CONFIRMED
+
+Each AP assigned cancels 1d10 Attack penalty caused by target size or cover.
+
+It cannot create a bonus.
+
+No special Glancing rider.
+
+### Quick — ✅ CONFIRMED
+
+Ranged/thrown multiattack.
+
+AP assigned to Quick unlock additional attacks.
+
+Attack-building AP are divided among those attacks and never duplicated.
+
+Each successive attack suffers a cumulative -1d10 Attack penalty.
+
+Each attack resolves independently.
+
+Loading/heavy-weapon interaction remains an Equipment dependency.
+
+### Trip — ✅ CONFIRMED / PRONE INTERFACE PROVISIONAL
+
+Each AP assigned adds +1d10 Attack.
+
+Trip deals no normal damage.
+
+Clean hit: target becomes Prone.
+
+Glancing Blow: no damage; target cannot voluntarily move until its next turn but is not Prone.
+
+Current Prone interface:
+
+- standing costs 1 AP;
+- no normal Movement while Prone; crawl at half Movement;
+- -1d10 Defense versus melee;
+- +1d10 Defense versus ranged attacks originating outside melee;
+- Prone does not automatically prohibit Active Defense, Evasion, attacks, or spellcasting.
+
+### Withdraw — ✅ CONFIRMED
+
+After the attack resolves, move 1 MU per AP assigned whether the attack hits or misses.
+
+This movement avoids ordinary disengagement/opportunity consequences.
+
+### Sweep — ✅ CONFIRMED
+
+Two-handed. Fixed cost: exactly 1 AP.
+
+Make one Attack roll against all valid targets within weapon reach in a chosen 90-degree arc.
+
+Each target defends and resolves independently.
+
+### Pole Vault — ✅ CONFIRMED
+
+Two-handed mobility Component.
+
+Move 1 MU per AP assigned, using the weapon to pass over or through plausible obstacles or enemies.
+
+End in a valid space.
+
+May combine with an attack.
+
+## Defensive
+
+### Parry — ✅ CONFIRMED
+
+Requires a wielded weapon and applies against melee attacks.
+
+Each AP assigned adds +1d10 Defense.
+
+As a Basic Defensive Component, Parry can establish a 6 AP defensive ceiling.
+
+Parry may allow a wielded weapon to satisfy the shield requirement of a compatible blocking, deflecting, intercepting, or manipulation Component unless that Component inherently requires a physical shield.
+
+Parry does not grant Shield Training or shield equipment Defense.
+
+### Protect — ✅ CONFIRMED
+
+Fixed cost: exactly 1 AP.
+
+The Specialist may interpose if within 1 MU of any point on the direct line between attacker and intended target. Remaining AP may be assigned to compatible defenses.
+
+Defender win: attack stops and ally is untouched.
+
+Tie: attacker's Glancing Blow hits the protector; ally is untouched.
+
+Attacker win: protector takes the successful attack and the original target may still defend against the continuing attack.
+
+### Shadow — ✅ CONFIRMED
+
+Reactive relative movement.
+
+Move 1 MU per AP assigned to follow, maintain distance, move laterally, or retreat relative to a moving creature.
+
+# Intermediate Components
+
+## Offensive
+
+### Cheap Shot — ✅ CONFIRMED / RECOVERY DETAIL DEFERRED
+
+Target must be Distracted or otherwise unable to use Active Defense.
+
+Each AP assigned adds +1d10 Attack.
+
+AP cap: Intermediate 3 / Advanced 4 / Master 5.
+
+Clean hit: 3 Stun tokens regardless of AP. These Cheap Shot Stun tokens expire at the end of the target's next turn.
+
+Glancing Blow: 1 Stun token.
+
+A future Endurance-style recovery interaction is deferred.
+
+### Dual — ✅ CONFIRMED
+
+Requires Dual Wield Training and a usable weapon/implement in each participating hand.
+
+Fixed cost: exactly 1 AP.
+
+Allows one constructed action to contain one attack with each of two weapons.
+
+Attack-enhancing AP are divided between the attacks and never duplicated.
+
+Each attack resolves independently.
+
+The secondary weapon's usable Weapon Training benefits are limited by Dual Wield Training as defined below.
+
+### Harass — ✅ CONFIRMED / TOKEN DETAILS DEFERRED
+
+Harass adds no inherent Attack dice.
+
+On a clean damaging hit, apply Harass pressure/tokens. Each token imposes -1d10 to offensive rolls when the target voluntarily takes an offensive action that does **not** include the harasser as a target.
+
+The target remains free to ignore the harasser.
+
+Glancing Blow: Harass 1.
+
+Exact stacking, removal, and expiration remain a Conditions dependency.
+
+### Mobile — ⬜ DEFERRED / MOVEMENT DEPENDENCY
+
+Preserve the concept of splitting movement around or through an attack.
+
+Whether it survives, moves tier, or becomes unnecessary depends on the final Movement rules.
+
+### Pack Attack — ✅ CONFIRMED / STACKING FOR PLAYTEST
+
+Fixed cost: exactly 1 AP.
+
+Clean hit: create 1 Pack token.
+
+Each Pack token gives -1d10 Defense against Pack Attacks made by **other** Specialists. The creator does not benefit from their own token.
+
+Tokens disappear at the start of the target's turn.
+
+Glancing Blow may use existing Pack tokens but creates no new one.
+
+No arbitrary maximum is currently imposed.
+
+### Pushback — ✅ CONFIRMED
+
+Deals no normal damage.
+
+Each AP assigned adds +1d10 Attack.
+
+Clean hit: push target 1 MU per AP assigned. The Specialist may move with the target where plausible.
+
+Glancing Blow: push 1 MU total, no damage.
+
+No arbitrary AP cap.
+
+### Stun — ✅ CONFIRMED
+
+Deals no normal damage.
+
+Each AP assigned adds +1d10 Attack.
+
+Clean hit: 1 Stun token per AP assigned.
+
+Glancing Blow: 1 Stun token total.
+
+### Leverage — ✅ CONFIRMED
+
+Two-handed.
+
+Each AP assigned adds +1d10 Attack.
+
+On a clean hit, gain 1 bonus damage die per 2 net Attack successes. Bonus Leverage dice cannot exceed AP assigned to Leverage.
+
+No arbitrary AP cap.
+
+Glancing Blow: normal 1d10 only.
+
+## Defensive
+
+### Disarming Block — ✅ CONFIRMED / SHIELD EQUIPMENT VALUE DEFERRED
+
+Requires an incoming disarmable weapon.
+
+Shield route: **applicable governing Stat + Shield Training + shield equipment Defense + 1d10 per AP assigned**.
+
+Do not add unrelated armor or ordinary defense-path Training merely because the maneuver is defensive.
+
+Defender win: disarm attacker.
+
+Tie: attack Glances; no disarm.
+
+Attacker win: attack lands.
+
+Parry may substitute a weapon where plausible. In that route, use the applicable Martial Stat + Weapon Training and AP assigned among Parry/Disarming Block; do not invent Shield Training or shield equipment dice.
+
+### Seize Weapon — ✅ CONFIRMED
+
+Requires one free hand, melee range, and a seizeable weapon/object.
+
+Pool: **Agility Stat dice + Unarmed Weapon Training + 1d10 per AP assigned**.
+
+Do not add armor, shield, ordinary defense-path Training, or Defense Component dice.
+
+Defender win: seize the weapon.
+
+Tie: attacker Glances; nothing is seized.
+
+Attacker win: attack lands.
+
+Natural anatomy is not stealable; use Wrestle or another control rule.
+
+# Advanced Components
+
+## Offensive
+
+### Charge — ✅ CONFIRMED
+
+Requires a straight-line approach.
+
+Each AP assigned grants +1 MU additional movement and +1 damage die on a clean hit.
+
+Charge adds no Attack dice and has no arbitrary AP cap.
+
+Glancing Blow: normal 1d10 Glancing damage plus 1 additional Charge damage die total.
+
+### Deadly — ✅ CONFIRMED
+
+Weapon/unarmed agnostic where plausible.
+
+Adds no Attack dice and no extra damage dice.
+
+On a clean hit, for each AP assigned choose one damage die and roll it twice, keeping the higher result. A damage die may benefit from Deadly only once.
+
+Excess Deadly AP beyond generated damage dice has no effect.
+
+Glancing Blow: no Deadly benefit.
+
+### Disable — ✅ CONFIRMED / TOKEN REMOVAL DEFERRED
+
+Choose a held weapon or shield.
+
+Each AP assigned adds +1d10 Attack.
+
+Clean hit: no normal damage; apply Pinned Equipment tokens according to AP. The attacker's weapon remains engaged maintaining the pin. The pinned item and pinning weapon are normally unusable while engaged.
+
+Toughness-based removal is intended; exact rule deferred.
+
+Glancing Blow: no pin/tokens; ordinary 1d10 Glancing damage.
+
+### Disarm — ✅ CONFIRMED
+
+No Pinpoint prerequisite.
+
+Each AP assigned adds +1d10 Attack.
+
+Clean hit: specified held object is disarmed; no normal damage.
+
+Glancing Blow: no disarm effect.
+
+The old defensive form is superseded by Disarming Block plus Parry where appropriate.
+
+### Hook Shield — ✅ CONFIRMED / SHIELD MATH DEFERRED
+
+Two-stage maneuver within one Advanced action budget.
+
+First, attempt to drag, hook, strike, or force the shield aside. The built-in follow-up attack occurs regardless of the first-stage result.
+
+Clean Hook Shield success: the shield contributes **no Defense at all** to the follow-up and shield-dependent Defensive Components are unavailable against that follow-up.
+
+Glance/miss on Hook Shield: no hook rider; follow-up still occurs with the shield functioning normally.
+
+Exact initial shield Defense math waits for Equipment.
+
+### Mounted — ⬜ HELD / MOUNT DEPENDENCY
+
+Requires Mounted Training.
+
+Locked design constraint: rider and mount coordinate legitimate resources; rider AP never buys unlimited free mount actions.
+
+Exact mechanics wait for Mounted Training, Mount, and Movement rules.
+
+### Penetration — ✅ CONFIRMED
+
+Non-damaging and adds no Attack dice.
+
+On success, remove 1d10 armor-derived Defense per AP assigned until the **end of the target's next turn**.
+
+Eligible dice are armor equipment Defense and applicable Armor Training dice. Penetration does not remove shield dice, Shield Training, raw Stat dice, Unarmored Training, Evasion Training, or unrelated effects.
+
+Eligible armor Defense cannot fall below 0.
+
+Glancing Blow: remove 1d10 total for the same duration.
+
+### Sadistic Strike — ✅ CONFIRMED
+
+Melee control maneuver using any attack form/held weapon that can plausibly be forced against its owner.
+
+Attacker: **Toughness Stat dice + 1d10 per AP assigned**.
+
+Target: **Toughness Stat dice**, plus any later explicit control defense.
+
+Attacker wins: net successes become damage dice using the target's attack form/weapon damage type and inherent properties. The target's voluntary Weapon Training does not apply.
+
+Tie: attacker-generated 1d10 Glancing Blow using the target's attack form where plausible.
+
+Defender wins: defender may immediately attack the Specialist only if at least 1 AP is available and pays AP normally. This is timing permission, not free AP or automatic damage.
+
+## Defensive
+
+### Bulwark — ✅ CONFIRMED
+
+Each AP assigned adds +1d10 to every **Active Defense** until the start of the Specialist's next turn.
+
+Bulwark never contributes to Passive Defense.
+
+While active, the Specialist cannot attack or use Offensive Components, including an offensive attack generated by Riposte.
+
+No arbitrary AP cap.
+
+### Catch — ✅ CONFIRMED
+
+Requires one free hand and a catchable projectile.
+
+Pool: **Agility Stat dice + Unarmed Weapon Training + 1d10 per AP assigned**.
+
+Do not add armor, shield, ordinary defense-path Training, or Defense Component dice.
+
+Defender win: catch projectile.
+
+Tie: attacker Glances.
+
+Attacker win: attack lands.
+
+### Redirect — ✅ CONFIRMED
+
+Any plausible redirectable attack may qualify, including mundane or magical physical/projectile attacks when the Specialist has suitable means. Magical weapons, shields, or armor may satisfy physical requirements where appropriate.
+
+Each AP assigned adds +1d10 Active Defense.
+
+Redirect may combine with Defense or Parry, but AP assigned to Defense or Parry may not exceed AP assigned to Redirect.
+
+Defender win: preserve the original Attack roll and redirect it to another valid target, which defends normally.
+
+Redirect may **not** send the attack back to the original attacker.
+
+Tie: attacker Glances original defender.
+
+Attacker win: original attack lands.
+
+The same attack cannot be Redirected more than once.
+
+### Immortal — ✅ CONCEPT LOCKED / SURVIVAL CHECK DEFERRED
+
+Fixed cost: exactly 1 AP.
+
+When damage would reduce the Specialist to 0 Vitality or below, Immortal allows a survival/Endurance-style check.
+
+Success: remain conscious and functional at 1 Vitality.
+
+Failure: normal consequences.
+
+No automatic survival.
+
+Exact governing pool, difficulty, and frequency wait for Vitality/Downed/Endurance rules.
+
+# Master Components
+
+## Offensive
+
+### Assassinate — ✅ CONFIRMED
+
+Target must be unaware of the Specialist or otherwise unable to use Active Defense.
+
+Each AP assigned adds +1d10 Attack.
+
+Clean hit: each net Attack success generates **2 damage dice instead of 1**.
+
+Glancing Blow: normal 1d10; no multiplier.
+
+No automatic hit or death.
+
+### Execution — ⬜ HELD / DOWNED-DEATH DEPENDENCY
+
+Preserve the concept of exceptional finishing against a helpless, dying, or mortally compromised target.
+
+Do not finalize until 0 Vitality, Downed, Dying, stabilization, recovery, and death are settled.
+
+Execution will not grant an automatic hit or automatic kill.
+
+### Flurry — ✅ CONFIRMED
+
+Each AP assigned adds +1d10 to one finite total Attack pool.
+
+Before rolling, divide the final Attack dice among two or more sequential attacks. Dice are divided, never duplicated.
+
+Each attack resolves separately.
+
+Each clean hit gives the next Flurry attack +1d10 momentum.
+
+A Glancing Blow neither adds momentum nor ends the sequence.
+
+A complete miss ends the sequence immediately; later allocated attacks are lost.
+
+### Overwhelm — ✅ CONFIRMED / EMPATHY DIFFICULTY DEFERRED
+
+Construct one finite Attack pool from the governing Stat, Training, equipment/modifiers, and AP-derived Attack dice within the Master 15 AP ceiling.
+
+The first target defends normally, including Active Defense if eligible, and establishes a fixed number of Defense successes.
+
+The attacker then rolls the finite Attack dice **one at a time**. Successes accumulate; failed dice are consumed. Until cumulative Attack successes exceed Defense successes, no clean-hit damage is generated. Once net successes exist, each additional net success generates one damage die, rolled and applied immediately.
+
+Continue until the target reaches 0 Vitality or below or the Attack pool is exhausted.
+
+The attacker cannot voluntarily stop early to preserve dice.
+
+If the target is defeated before all dice are rolled, unrolled Attack dice carry to the next valid target in the same continuing action. Overwhelm grants no free movement.
+
+Each subsequent target makes an Empathy check:
+
+- success: normal Defense options, including Active Defense if eligible;
+- failure: gain an Overwhelmed token and use Passive Defense only against the current Overwhelm Specialist.
+
+Repeat while targets are defeated and Attack dice remain.
+
+If the pool is exhausted tied with a surviving target, resolve the normal Glancing Blow.
+
+Exact Empathy difficulty and Overwhelmed-token duration/removal are deferred.
+
+### Precision — ✅ CONFIRMED
+
+Each AP assigned adds +1d10 Attack.
+
+After rolling, reroll one failed Attack die per AP assigned. A die may be rerolled only once.
+
+Precision does not change the universal 6-10 success threshold.
+
+No arbitrary AP cap.
+
+### Pierce — ✅ CONFIRMED
+
+Projectile/thrown only.
+
+Each AP assigned lets the same projectile continue through one additional target beyond the first along its path.
+
+Use one Attack roll; each target defends independently.
+
+Evading does not stop the projectile. Physical capture, redirection, or arrest can stop/change it.
+
+Pierce adds no Attack dice.
+
+### Scatter Shot — ✅ CONFIRMED
+
+Projectile/thrown only.
+
+Each AP assigned permits up to 3 targets in a chosen 180-degree forward arc.
+
+One suitable projectile/thrown weapon is required per target actually attacked.
+
+Use one Attack roll; each target defends independently.
+
+Scatter Shot adds no Attack dice.
+
+### Trick Shot — ✅ CONFIRMED
+
+Projectile/thrown only.
+
+Each AP assigned permits one deliberate ricochet or major direction change.
+
+Total traveled distance counts against range.
+
+Actual targets defend independently.
+
+Catch, Redirect, Deflect, barriers, and solid obstacles may stop or alter the path.
+
+Trick Shot adds no Attack dice.
+
+### Whirlwind — ✅ CONFIRMED
+
+Melee.
+
+Each AP assigned adds +1d10 Attack.
+
+Make one Attack roll against every valid enemy within reach in a full 360-degree area.
+
+Each target defends independently.
+
+The broad CLEAN incompatibility list is discarded; Components combine when requirements and fiction genuinely remain compatible.
+
+### Disruption — ⬜ HELD / MAGIC DEPENDENCY
+
+Preserve the concept of interrupting an action that requires sustained focus/concentration.
+
+Exact mechanics wait for Magic's focus, concentration, maintenance, and interruption rules.
+
+### Removed Master offensive Components
+
+- Cripple Limb — removed.
+- Dim Mak — removed.
+
+## Defensive
+
+### Adaptive Defense — ✅ CONFIRMED
+
+Fixed cost: exactly 1 AP.
+
+Choose an attacker.
+
+Each successful Active Defense against that attacker while Adaptive Defense is active gains 1 Adaptation token linked to that attacker.
+
+Before a later Active Defense against that attacker, spend any number of those tokens for +1d10 Defense each; spent tokens are removed.
+
+Unspent tokens last until combat ends unless later Condition rules say otherwise.
+
+Never modifies Passive Defense.
+
+### Deflect — ✅ CONFIRMED
+
+Each AP assigned adds +1d10 Active Defense.
+
+Defender win: send the incoming attack **back to the original attacker**, preserving the original Attack roll.
+
+The original attacker may use **Passive Defense only**.
+
+Tie: attacker Glances original defender.
+
+Attacker win: original attack lands.
+
+Once Deflected, the same attack cannot be Redirected or Deflected again.
+
+### Retribution — ✅ CONFIRMED
+
+When an attack damages the Specialist, they may immediately counterattack the triggering attacker if it is a valid target.
+
+Maximum AP assignable to Retribution equals the number of damage dice generated by the triggering attack.
+
+Each AP actually assigned adds +1d10 Attack.
+
+The Specialist must have and spend the AP normally.
+
+No automatic successes, damage, or free AP.
+
+### Removed Master defensive Components
+
+- Offensive Defense — removed.
+- Rhino Hide — removed.
+
+# Martial Training
+
+## Universal Training rule — ✅ CONFIRMED
+
+Training represents learned expertise and provides the bonuses, capabilities, or other benefits defined for each degree of that Training.
+
+Training does not determine an action's AP ceiling and does not gate Martial Component tiers.
+
+Individual Trainings may scale differently; +1d10 per degree is not universal.
+
+## Martial Styles — ✅ CONFIRMED
+
+The three Martial Stats represent distinct but, within reason, interchangeable fighting styles:
+
+- **Toughness:** forceful, powerful combat; hitting very hard.
+- **Agility:** fast, fluid, stylish combat.
+- **Proficiency:** technical, controlled, precise combat.
+
+Weapon Training belongs to the weapon family, not the Stat.
+
+A Specialist designates Toughness, Agility, and Proficiency as Primary, Secondary, and Tertiary Martial Styles.
+
+| Martial Style | Simple | Basic | Intermediate | Advanced | Master |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Primary | 15 | 30 | 45 | 60 | 75 |
+| Secondary | 30 | 45 | 60 | 75 | 90 |
+| Tertiary | 45 | 60 | 75 | 90 | 105 |
+
+The ranking determines the Stat threshold required to qualify for a Martial tier when that Stat governs the action. It does not forbid using another Martial Stat when the fiction supports it.
+
+Advancement cost through 100 and progression beyond 100 remain a Character Creation/Advancement dependency. Boundless is not intended to impose a hard Stat ceiling at 100.
+
+## Weapon Training — ✅ DIRECTION LOCKED
+
+Weapon Training uses broad weapon families.
+
+Working families include:
+
+- Swords
+- Axes
+- Hammers/Maces
+- Polearms
+- Bows
+- Crossbows
+- Thrown Weapons
+- Unarmed
+- Shields
+- Natural Weapon (Specified)
+
+Final family taxonomy belongs with Equipment.
+
+Higher Weapon Training does not unlock additional damage types. Alternate plausible/fantastical physical damage types use Irregular Attack.
+
+### Unarmed
+
+Unarmed is a Weapon Training family.
+
+Separate Unarmed Piercing/Slashing/Hacking Trainings are removed.
+
+Fantasy martial techniques may use Irregular Attack to change unarmed damage type where appropriate.
+
+### Natural Weapon (Specified)
+
+Natural weapons use **Weapon Training — Natural Weapon (Specified)**.
+
+Each distinct natural weapon type is trained separately.
+
+The Trait defines the anatomy and its normal damage, reach, bonuses, penalties, and properties. Training represents expertise with that natural weapon.
+
+## Favored Weapon — ⚠️ BENEFIT DEFERRED
+
+Favored Weapon applies to one **specific physical weapon**, not every weapon of that name or family.
+
+Changing the favored item should require meaningful familiarization, ritual, maintenance, or practice; exact procedure is deferred.
+
+The old extra-damage-dice model is removed.
+
+Positive benefit remains unresolved.
+
+Candidate specialization drawback preserved for later testing:
+
+- another weapon of the same named type: -1d10;
+- another weapon in the same family: -2d10;
+- outside that family: -3d10.
+
+Possible scaling by Favored Weapon degree remains open.
+
+## Untrained Weapon Use — ⚠️ EXACT PENALTY DEFERRED
+
+Being untrained with a weapon family should likely carry a penalty in addition to receiving no Weapon Training benefit.
+
+Exact value waits for Equipment/handling complexity.
+
+Do not automatically restore CLEAN's size-only penalty ladder.
+
+## Dual Wield Training — ✅ CONFIRMED
+
+Dual Wield represents coordinating two independently wielded one-handed weapons or implements in the same action/effect.
+
+It may include two melee weapons, two ranged weapons, mixed melee/ranged weapons, weapon + shield, two shields, or other compatible one-handed implements.
+
+Simply holding two items does not itself invoke Dual Wield.
+
+When two weapons/implements participate in the same action, designate one primary and one secondary.
+
+- primary uses its normal applicable Weapon Training benefits;
+- secondary may apply Weapon Training benefits only up to the Specialist's Dual Wield Training degree;
+- if the secondary's own Weapon Training is lower, use the lower value.
+
+Dual Wield Training does not create an extra attack. The Dual Component creates the two-attack maneuver.
+
+### Multi-Limbed Combat — ⬜ FUTURE TRAINING FLAG
+
+A future Multi-Limbed Combat / Multi-Weapon Action Training should be considered for creatures whose anatomy can coordinate more than two weapons/implements.
+
+Constraints:
+
+- anatomy/Trait gated;
+- extra limbs do not automatically multiply actions or attacks;
+- it must not make many limbs an obvious power-build tax;
+- additional implements should remain constrained by AP, pool division, coordination, or other natural limits.
+
+Exact mechanics deferred.
+
+### Removed/absorbed complex-weapon Trainings
+
+- Double Threat — removed; absorbed into Dual Wield.
+- Dual Shield — removed; absorbed into Dual Wield + Shield Training.
+- Two-Handed Training — removed; Weapon Training + Equipment + applicable Components handle two-handed combat.
+- Shield Attack Training — removed. Offensive shield use uses Weapon Training — Shields. A Shield Attack/Shield Bash Component remains to be designed.
+
+## Unarmored Training — ✅ CONFIRMED
+
+Governing Stat: Agility.
+
+For now, +1d10 Defense per degree.
+
+Available only while not wearing armor.
+
+Shields do not count as armor and are fully compatible.
+
+Design target: unarmored specialists should remain competitively viable rather than being categorically outclassed by armor.
+
+## Evasion Training — ✅ CONFIRMED
+
+Governing Stat: Insight.
+
++1d10 Defense per degree.
+
+Represents anticipation, reading, timing, and avoiding where an attack will be.
+
+Compatible with no armor or Light armor.
+
+Not compatible with Medium or Heavy armor.
+
+## Armor Training — ✅ CONFIRMED
+
+Governing Stat: Stamina.
+
++1d10 Defense per degree while using the Armored Defense path.
+
+Each degree reduces effective Armor Load by 1, minimum 0.
+
+Current Armor Load:
+
+- None 0
+- Light 1
+- Medium 2
+- Heavy 4
+
+Untrained armor still grants its normal equipment Defense, receives no Armor Training benefit, and retains full Armor Load. There is no additional blanket penalty solely for being untrained.
+
+Armor Conditioning is removed; its comfort/weight role is absorbed by Armor Training and ordinary mitigation no longer exists.
+
+## Shield Training — ✅ DIRECTION LOCKED
+
+Shield Training represents defensive expertise with a shield and applies only to Active Defense.
+
+It does not use a separate governing Stat for the Defense roll; the chosen Defense path already provides the Stat.
+
+Physical demands of particular shields belong to Equipment requirements, Load, Handling, or similar rules.
+
+Shield Training is purchased separately by shield size/category because the defensive techniques differ materially.
+
+Working categories:
+
+- Small
+- Medium
+- Large
+- Tower
+
+Final names/categories remain an Equipment dependency.
+
+### Multiple shields
+
+When multiple shields legitimately and actively participate in the same Active Defense:
+
+- each participating shield contributes its own equipment Defense bonus;
+- only **one applicable Shield Training bonus** contributes to that Defense roll.
+
+If the shields are different sizes and the Specialist has Training in both, choose one applicable Shield Training to supply the Training benefit. The other shield still contributes its equipment Defense.
+
+Coordination beyond two shields remains subject to future multi-limbed combat rules.
+
+### Untrained shields — ⚠️ EXACT HANDLING PENALTY DEFERRED
+
+An untrained shield still provides its equipment Defense when it can be actively interposed.
+
+The Specialist receives no Shield Training benefit.
+
+Specific shields may impose an Untrained Handling penalty or other requirements. Exact values wait for Equipment.
+
+## Favored Shield — ⚠️ BENEFIT DEFERRED
+
+Favored Shield applies to one **specific physical shield**.
+
+The old mitigation bonus is removed.
+
+Candidate specialization drawback preserved for later testing:
+
+- another shield of the same size/category: -1d10;
+- shield of another size/category: -2d10.
+
+Possible scaling by Favored Shield degree remains open.
+
+The positive benefit remains unresolved and should be designed alongside Favored Weapon so the systems mirror each other cleanly.
+
+## Armored Casting — ⬜ HELD / MAGIC DEPENDENCY
+
+Preserve Armored Casting as a concept.
+
+Its existence indicates that armor was intended to interfere with spellcasting somehow, but modern mechanics wait until Magic defines concentration/focus, somatic or movement requirements, spell construction/maintenance, and whether Armor Load or materials interfere with casting.
+
+Do not automatically preserve CLEAN's exact casting penalties.
+
+## Mounted Training — ⬜ NEXT REVIEW
+
+Mounted Training is preserved for the next Training pass. No modern mechanic has yet been approved.
+
+## 6. Complete recovered Martial catalog
 
 ---
 
