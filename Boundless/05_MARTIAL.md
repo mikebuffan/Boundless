@@ -1078,9 +1078,23 @@ Its existence indicates that armor was intended to interfere with spellcasting s
 
 Do not automatically preserve CLEAN's exact casting penalties.
 
-## Mounted Training — ⬜ NEXT REVIEW
+## Mounted Training — ✅ DIRECTION LOCKED / MOUNT BENEFITS DEFERRED
 
-Mounted Training is preserved for the next Training pass. No modern mechanic has yet been approved.
+Mounted Training represents combat coordination between rider and mount. It does not replace the Riding Skill, which governs operating, controlling, handling, and training a mount.
+
+Mounted Training uses a genuine Training prerequisite rather than a separate governing-Stat tax:
+
+- Simple Mounted Training requires Simple Riding.
+- Basic Mounted Training requires Basic Riding.
+- Intermediate Mounted Training requires Intermediate Riding.
+- Advanced Mounted Training requires Advanced Riding.
+- Master Mounted Training requires Master Riding.
+
+Mounted Training does not automatically grant +1d10 per degree.
+
+Its exact degree-by-degree benefits are deferred until Mount rules define mount AP, Movement, attacks, Traits, Trainings, and special capabilities.
+
+Locked design constraint: Mounted Training coordinates legitimate rider-and-mount resources. It never creates unlimited free mount actions, attacks, Movement, or AP.
 
 ## 6. Complete recovered Martial catalog
 
