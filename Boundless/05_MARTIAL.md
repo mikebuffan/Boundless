@@ -1096,7 +1096,164 @@ Its exact degree-by-degree benefits are deferred until Mount rules define mount 
 
 Locked design constraint: Mounted Training coordinates legitimate rider-and-mount resources. It never creates unlimited free mount actions, attacks, Movement, or AP.
 
-## 6. Complete recovered Martial catalog
+## 6. Berserking / Heift — ✅ DIRECTION LOCKED / INTERFACES DEFERRED
+
+Heift is an addictive, toxic combat drug that induces a Martial Berserk state. The modern system uses **concentration tiers** rather than CLEAN's accumulating-dose bonus pool.
+
+### Heift concentration and Berserk Training
+
+Standard Heift concentrations correspond to the five normal degrees:
+
+- Concentration I — Simple
+- Concentration II — Basic
+- Concentration III — Intermediate
+- Concentration IV — Advanced
+- Concentration V — Master
+
+Post-Master concentrations may exist under future post-Master advancement rules.
+
+**Berserk Training** represents physiological conditioning that allows a Specialist to survive stronger concentrations of Heift. It uses Stamina thresholds:
+
+| Berserk Training | Minimum Stamina | Safe concentration |
+| --- | ---: | ---: |
+| Simple | 15 | I |
+| Basic | 30 | II |
+| Intermediate | 45 | III |
+| Advanced | 60 | IV |
+| Master | 75 | V |
+
+The drug provides the power; Training determines the concentration safely tolerated. Berserk Training does not itself grant generic Attack, damage, or AP dice.
+
+Anyone may consume Heift. An untrained Specialist has Safe Concentration 0.
+
+The active Heift concentration determines the drug's benefits. Higher Berserk Training does not increase weaker Heift.
+
+### Berserk AP
+
+While Berserk, the Specialist gains **+1 AP per round per active Heift concentration tier**.
+
+These bonus AP do not increase a constructed action's AP ceiling.
+
+### Surge Pool
+
+When Berserk begins, Heift creates a **Surge Pool** containing 1d10 per active concentration tier.
+
+Surge Dice are finite and do not refresh normally.
+
+A Surge Die may be spent where physically or physiologically appropriate to add +1d10 to an eligible roll. Candidate uses include Attack, damage, Initiative, Passive Defense, and appropriate saves or reactions.
+
+A Surge Die is not AP. It never counts as AP assigned to a Component and never increases an AP-scaled non-die effect such as movement, token count, severity, or another rider.
+
+Because Surge Dice are neither AP nor Martial Components, adding a Surge Die to Passive Defense does not make that Defense Active.
+
+The exact list of eligible noncombat/save uses remains an interface dependency.
+
+### Berserk duration
+
+If the Specialist spends at least 1 Surge Die during their turn, Berserk continues normally.
+
+If the Specialist spends no Surge Dice during their turn, they make a Control/Willpower-style check at the end of the turn. Failure ends the Berserk state and triggers its termination effects.
+
+Difficulty escalates for consecutive turns in which no Surge Die is spent:
+
+- first consecutive skipped turn — Simple
+- second — Basic
+- third — Intermediate
+- fourth — Advanced
+- fifth — Master
+- beyond Master — future post-Master difficulty rules
+
+Spending a Surge Die resets this escalation.
+
+The exact governing Stat/Skill waits for the universal save/reaction architecture.
+
+If the Surge Pool reaches 0 during a turn, the Specialist finishes that turn; Berserk then ends and termination effects occur.
+
+### Berserk Vitality Reserve
+
+Heift does not create ordinary Temporary Vitality that absorbs incoming damage.
+
+Actual Vitality is reduced normally.
+
+While Berserk, when the Specialist is at 0 Vitality or below, they may spend and roll a Surge Die. Add the result to a cumulative **Berserk Vitality Reserve**.
+
+The Specialist may remain conscious and functional while the magnitude of their negative Vitality does not exceed the current Reserve.
+
+The Reserve does not heal damage and does not alter actual Vitality.
+
+When Berserk ends, the Reserve disappears and the Specialist immediately resolves their actual Vitality through the normal Downed/Dying/unconsciousness rules.
+
+Exact interaction with Immortal and the final Downed/Dying rules remains a Combat/Vitality dependency.
+
+### Defense while Berserk
+
+While in a Heift-induced Berserk state, the Specialist may use **Passive Defense only**.
+
+A Surge Die may be added to Passive Defense without converting it to Active Defense.
+
+### Berserk/Meginserk compatibility
+
+Do not maintain a central whitelist of allowed Martial or Magic Components.
+
+Each Component should eventually state whether it is compatible with Berserk and/or Meginserk.
+
+Projectile weapons are not inherently incompatible with Berserk. Compatibility depends on the Component's mental and physical demands. Deliberate precision Components such as Pinpoint may be incompatible even when the underlying projectile weapon is usable.
+
+### Re-dosing
+
+Taking more Heift while already Berserk does not stack duplicate combat bonuses from the same concentration.
+
+Additional doses can extend or reinforce the state but increase toxicity, crash severity, and addiction risk.
+
+For repeated doses during the same Berserk episode:
+
+**Surge Dice gained = concentration tier - number of prior Heift doses during the current Berserk episode, minimum 0.**
+
+Example with Heift III:
+
+- first dose: +3 Surge Dice
+- second dose: +2 Surge Dice
+- third dose: +1 Surge Die
+- fourth dose: +0 Surge Dice
+
+The active +AP benefit is determined by the strongest currently active concentration.
+
+Exact chemical duration/overlap waits for the poison/toxin system.
+
+### Overconcentration and overdose
+
+Define **Overconcentration = active Heift concentration - Berserk Training degree**, treating untrained as degree 0.
+
+- 0 or lower: within trained tolerance.
+- +1: overdose; severe crash and meaningful injury/survival risk.
+- +2 or greater: severe potentially lethal overdose; survival should be difficult without meaningful intervention and permanent consequences may result.
+
+Overdose never causes automatic death. Exact consequences should use the final poison/toxin, injury, Downed/Dying, healing, and recovery systems rather than a bespoke Heift-only death mechanic.
+
+### Addiction and withdrawal
+
+Heift remains addictive.
+
+Do not preserve CLEAN's bespoke negative-AP-counter withdrawal system.
+
+Heift should use the future universal Addiction/Dependence framework:
+
+- repeated exposure can establish dependence;
+- regular use can maintain dependence;
+- missing an expected dose long enough triggers withdrawal;
+- concentration and frequency should influence addiction and withdrawal severity.
+
+### Meginserk — ⬜ HELD / MAGIC DEPENDENCY
+
+Preserve Meginserk as the magical parallel to Berserk.
+
+Its exact benefits, restrictions, concentration behavior, and compatible Components wait for the Magic rebuild.
+
+### Advancement flag
+
+Preserve for Character Creation/Advancement review: a possible post-100 Stat notation using Stat Ranks, e.g. Rank 0 Toughness 48 = 48 and Rank 2 Toughness 13 = effective 213. Exact progression and dice scaling are not decided.
+
+## 7. Complete recovered Martial catalog
 
 ---
 

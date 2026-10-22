@@ -15,33 +15,133 @@
 
 **✅ CONFIRMED**
 
-Magic uses the same success-counting d10 engine as Martial and Skills. It does not use a parallel resolution system.
+Magic uses the same success-counting d10 engine and the same action-construction chassis as Martial.
 
-The universal **Critical Die** applies to qualifying Magic resolution rolls: a successful action with a natural 10 on its Critical Die is Crit+; a failed action with a natural 1 on its Critical Die is Crit-. Specific spell or subsystem effects still require their own converted rules.
+There is no separate "Magic action" or "hybrid action" economy. An action may contain Martial Components, Magic Components, or both.
 
-A spell is assembled from **Energy + Structure (+ optional/modifying Components)**. CLEAN expresses Structure through Target, Duration, Shape, and Optional elements; the exact final vocabulary should be preserved unless an entry is deliberately renamed.
+The highest-tier **materially contributing Component of any kind** determines the action tier and AP ceiling:
 
-The highest-tier Energy/Structure/Component involved determines the spell's tier for prerequisites and AP ceiling. Modern action ceilings are 3/6/9/12/15.
+| Highest Component | AP ceiling |
+| --- | ---: |
+| Simple | 3 |
+| Basic | 6 |
+| Intermediate | 9 |
+| Advanced | 12 |
+| Master | 15 |
 
-## 2. Casting Stat and tier prerequisites
+Every **AP-bearing** Component included receives at least 1 AP and must materially contribute.
 
-**✅ Later primary-Magic Stats:** Charisma / Intelligence / Insight.
+A lower-tier Component may receive more AP inside a higher-tier construction unless its own rule has a fixed cost or cap.
 
-**✅ Prerequisites:** 15 / 30 / 45 / 60 / 75 for Simple through Master.
+No irrelevant high-tier Component may be included merely to unlock a larger AP ceiling.
 
-**⚠️ REVIEW:** individual Energies/Structures may call on specific Stats, Skills, or defenses. Those specific interactions survive only after conversion to the modern resolution engine.
+A hybrid Martial + Magic action is simply one constructed action. The highest-tier Component in the construction governs the whole action.
 
-## 3. AP, casting time, and multi-turn casting
+The universal **Critical Die** applies to qualifying Magic resolution rolls. Specific magical Crit+/Crit- effects still require their own converted rules.
 
-**✅ Modern rule:** a normal spell/action must be fully paid for using AP available in the current turn. AP does not normally accumulate across turns.
+## 2. Casting Styles and tier prerequisites
 
-**🔄 CLEAN multi-round casting using negative AP counters is superseded as a default rule.**
+**✅ CONFIRMED**
 
-**✅ Explicit exceptions are allowed:** a specific Magic Component may permit AP expenditure across turns. This preserves a meaningful special capability without making multi-turn accumulation universal.
+Magic uses three Casting Styles:
 
-**✅ Maintenance is separate:** AP spent on later turns to maintain an effect that has already been enacted is not multi-turn enactment.
+- **Charisma:** force of will, command, projection, and imposition.
+- **Intelligence:** deliberate understanding, formula, calculation, and precision.
+- **Insight:** intuition, perception, and instinctive guidance of energy.
 
-**⚠️ Concentration:** remains a maintenance mechanic candidate; CLEAN's escalating 1/2/3... AP schedule should not be assumed final without testing.
+A Specialist designates Charisma, Intelligence, and Insight as Primary, Secondary, and Tertiary Casting Styles.
+
+| Casting Style Rank | Simple | Basic | Intermediate | Advanced | Master |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Primary | 15 | 30 | 45 | 60 | 75 |
+| Secondary | 30 | 45 | 60 | 75 | 90 |
+| Tertiary | 45 | 60 | 75 | 90 | 105 |
+
+The governing Casting Style must fit how the spell is being manipulated. Individual Components may restrict or override the available Style when their nature genuinely requires it.
+
+Magic knowledge is not purchased separately for Charisma, Intelligence, and Insight merely because a caster may approach the same Energy through different Casting Styles.
+
+## 3. Spell construction, Energy, Structure, and AP
+
+**✅ CONFIRMED DIRECTION**
+
+A spell is assembled from **Energy + Structure (+ optional/modifying Components)**.
+
+**Energy determines what magical force exists.**
+
+**Structure determines how that Energy manifests** — target, duration, shape/delivery, range, persistence, movement, control, and similar properties.
+
+### Default spell properties
+
+An otherwise unmodified spell has these inherent defaults:
+
+- **Target:** Single/Defined
+- **Duration:** Instantaneous
+- **Delivery/Shape:** Touch
+
+These defaults are not separately paid Components when used in their default form.
+
+### Energy carries the power
+
+Energy is normally the primary AP-bearing vehicle of a spell.
+
+AP invested in an Energy makes it **more of what it already is**: more potent, intense, forceful, extensive, compelling, destructive, restorative, or otherwise more capable according to that Energy's own rule.
+
+There is no universal numerical AP effect across all Energies. Each Energy defines what additional AP accomplishes.
+
+Tiered Energies unlock qualitatively new capabilities. Investing more AP into a lower-tier Energy never grants a higher-tier Energy capability.
+
+Single-entry Elemental/Primal tier placement remains to be decided.
+
+### Structure shapes the Energy
+
+Structures modify how Energy manifests and are **usually AP-neutral** unless the specific Structure's added capability warrants an AP cost.
+
+A Structure may be a legitimate Component without consuming AP.
+
+An AP-bearing Structure must receive at least 1 AP and define what its AP accomplishes.
+
+A zero-AP Structure still counts when determining the action tier if it materially contributes.
+
+### Conservation Principle
+
+A Structure does not create additional Energy.
+
+It redirects, distributes, constrains, focuses, preserves, extends, or otherwise changes how the Energy manifests.
+
+A Structure that increases total effective output without an inherent tradeoff may require AP, a higher-tier capability, division/dilution of Energy, or another appropriate cost.
+
+**Changing manifestation cannot silently multiply magical output.**
+
+### Multi-Energy spells
+
+The player describes how included Energies are intended to interact.
+
+Each Energy must materially contribute.
+
+Each AP-bearing Energy receives its own AP investment.
+
+The described interaction cannot spontaneously grant a capability possessed by none of the included Energies.
+
+Boundless does not attempt to enumerate every possible Energy combination. Emergent interactions are adjudicated from the actual Energy rules, the Structures used, and the player's stated intent.
+
+### Spell rolls
+
+Magic uses the same universal success-counting engine as Martial, but there is no universal rule that every AP adds +1d10 to a spell roll.
+
+Each Energy and Structure will define whether its AP contributes to Attack, effect strength, area, duration, range, Condition severity, quantity, or another property.
+
+Exact casting dice pools are resolved Energy by Energy during conversion.
+
+### Casting time, multi-turn casting, and maintenance
+
+A normal constructed action must be fully paid using AP available for that action. AP does not normally accumulate across turns.
+
+CLEAN multi-round casting through negative AP counters is superseded as the default rule.
+
+A specific Magic Component may explicitly permit investment across turns.
+
+Maintenance of an effect that has already been enacted is separate from multi-turn construction. Focus/Concentration and interruption remain to be rebuilt.
 
 ## 4. Charged, Conducted, Bestowed
 
