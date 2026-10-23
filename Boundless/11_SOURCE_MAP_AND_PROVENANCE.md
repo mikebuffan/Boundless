@@ -21,20 +21,29 @@ The Markdown companions used here are archival/searchable transcriptions of the 
 
 `Magic Structure and Energies.xlsx` is treated as source material for **names, categories, tier placement, and relationships**. Calculator formulas are intentionally not used to establish current mechanics.
 
-### Non-CLEAN files
+### Later redesign sources
 
-No older non-CLEAN file was necessary for this pass. They remain available as archaeological evidence if a future question cannot be answered from the CLEAN set/current decisions.
+Later redesign material is preserved separately from CLEAN and current canon under `legacy/later-revisions/`.
+
+- `Boundless_Comprehensive_Later_Redesign.docx` — later broad-system redesign evidence, especially useful for reconstructing Martial intent. It is **reference evidence only**, not an automatic override. When it omits a CLEAN entry, omission alone is weak evidence for deletion. Useful redesign concepts should be reconciled with CLEAN and newer explicit decisions.
+- `Boundless_Chapter_6_Magic_Structure_Components_REJECTED.md` — faithful archival transcription of the separate two-page Chapter 6 revision uploaded on 2026-10-15. Mike explicitly rejected this revision as design authority. Preserve it for provenance only; do **not** use it as canon or redesign evidence unless deliberately reopened.
+
+The current chapter files remain authoritative over both later-redesign sources whenever a newer explicit decision exists.
+
+### Other non-CLEAN files
+
+Other non-CLEAN files remain available as archaeological evidence if a future question cannot be answered from the CLEAN set, accepted later-redesign evidence, or current decisions. They do not silently override those sources.
 
 ## Chapter/source crosswalk
 
-| Reconstruction chapter | Principal CLEAN sources |
+| Reconstruction chapter | Principal CLEAN / accepted reconstruction sources |
 | --- | --- |
 | Core | General Rules; Combat; Specialist Basics |
 | Specialist Creation | Specialist Basics; Creature/Traits for creation-economy conflict |
 | Combat | Combat; General Rules; Martial; Magic |
 | Skills | Skills; General Rules; Specialist Basics |
-| Martial | Martial; Combat; Specialist Basics |
-| Magic | Magic; Magic Structure and Energies workbook/transcription; Combat |
+| Martial | Martial; Combat; Specialist Basics; Comprehensive later-redesign evidence where useful |
+| Magic | Magic; Magic Structure and Energies workbook/transcription; Combat; current accepted reconstruction decisions |
 | Creatures & Traits | Creatures WIP; Creature layout; Creature traits; Specialist Basics |
 | Crafting | Crafting and Materials; Skills; General Rules |
 | World/Misc | General Rules; Combat; Specialist Basics |
