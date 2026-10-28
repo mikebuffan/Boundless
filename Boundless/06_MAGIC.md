@@ -145,7 +145,7 @@ Maintenance of an effect that has already been enacted is separate from multi-tu
 
 ## 4. Current reviewed Magic Structures, duration, and maintenance (2026-10-28)
 
-**✅ APPROVED during the current Structure-by-Structure review.** This section supersedes conflicting mechanics in the recovered CLEAN catalog and the older workbook index below. **⚠️ PROVISIONAL / UNRESOLVED** labels are deliberate; do not silently promote proposals into canon. Basic Worn pricing and some interactions still require review.
+**✅ APPROVED during the current Structure-by-Structure review, including completed Basic Structures and Worn pricing (2026-10-28).** This section supersedes conflicting mechanics in the recovered CLEAN catalog and the older workbook index below. **⚠️ PROVISIONAL / UNRESOLVED** labels are deliberate; do not silently promote proposals into canon. Intermediate, Advanced, and Master Structures still require a dedicated review; the existing approved Activated decision is recorded separately.
 
 ### 4.1 Construction and universal principles
 
@@ -169,7 +169,7 @@ Maintenance of an effect that has already been enacted is separate from multi-tu
 
 **Delayed — REMOVED.** The old Delayed Structure is not retained.
 
-**Shield — Simple equipment-manifestation Structure.** Compatible Energy manifests a physical-functioning shield: **Small 1 AP; Medium 2 AP; Large 3 AP; Tower 4 AP**. The Structure's tier remains Simple at all sizes; a 4 AP Tower Shield requires sufficient total action ceiling from another materially contributing higher-tier Component. Manifested shields use ordinary-equivalent handling/load/defensive equipment profiles unless an Energy or Component explicitly changes them. Shield Training and equipment benefits follow the ordinary shield rules; shields can work with any eligible Defense path on **Active Defense**, not automatically Passive Defense. One cannot gain automatic contact damage or retaliation merely because a shield looks fiery. A manifested shield can be passed to another wielder while maintained remotely; possession and Concentration responsibility are independent.
+**Shield — Simple equipment-manifestation Structure.** Compatible Energy manifests a physical-functioning shield: **Small 1 AP; Medium 2 AP; Large 3 AP; Tower 4 AP**. Its Structure cost is fixed; a compatible Energy and legitimate Energy AP investment are still required to form the spell. The Structure's tier remains Simple at all sizes; a 4 AP Tower Shield requires sufficient total action ceiling from another materially contributing higher-tier Component. Manifested shields use ordinary-equivalent defensive equipment profiles and Training/handling requirements. **Weightless Energy manifestations have zero Load**; Energies producing physical mass may have appropriate Load (see §4.7 for the corresponding Worn ruling). Shield Training and equipment benefits follow the ordinary shield rules; shields can work with any eligible Defense path on **Active Defense**, not automatically Passive Defense. One cannot gain automatic contact damage or retaliation merely because a shield looks fiery. A manifested shield can be passed to another wielder while maintained remotely; possession and Concentration responsibility are independent.
 
 ### 4.3 Durations and autonomous temporal modifiers
 
@@ -221,16 +221,37 @@ Maintenance of an effect that has already been enacted is separate from multi-tu
 - The delivered magical effect is not automatically a second complete Attack/damage roll: the hybrid construction must respect ordinary AP allocation and the eventual unified mixed-damage rules. Those damage-allocation details remain under review.
 - **Distinct from Bestowed (Advanced):** Conducted is cast/triggered by the original caster as part of their maneuver. Bestowed conveys a **fixed, preconstructed spell** to another carrier/Specialist who may later choose when to trigger it and select viable targeting under its predetermined Energy/Structures; specific Bestowed release, miss, and targeting timing rules await its Advanced review. Do not confuse transfer of Concentration responsibility for manifested equipment with gifting a preconstructed Bestowed attack.
 
-### 4.7 Basic Optional: Worn — concept and contact locked; costs open
+### 4.7 Basic Optional: Worn — APPROVED (2026-10-28)
 
-**Worn — Basic Optional:** Energy is bound directly to the wearer's body / close personal boundary, follows their movements, and covers worn but not wielded equipment. Its Duration is set separately. Unlike **Emanation**, Worn does not radiate outward as a growing spherical area.
+**Worn — Basic Optional:** Energy binds directly to the wearer's body or close personal boundary, follows their movement, and covers worn (but not wielded) equipment. It does not project a growing radius as Emanation does. **Worn manifestation pricing is fixed; additional AP never increases the Structure cost or automatically upgrades its armor category.** The constructed spell also needs a compatible Energy and its own legitimate AP investment. A manifestation may be Instantaneous for one maneuver, maintained through Concentration, or given a prepaid Extended duration, as appropriate.
 
-Two types (names approved, costs **UNRESOLVED**):
+| Worn manifestation | Fixed Structure AP | Equipment / contact function |
+| --- | ---: | --- |
+| **Offensive Worn** | **2 AP** | Close-contact Energy effect, no equipment Defense dice |
+| **Defensive Worn — Light** | **1 AP** | Standard Light armor equipment bonus **+1d10 Defense** |
+| **Defensive Worn — Medium** | **2 AP** | Standard Medium armor equipment bonus **+2d10 Defense** |
+| **Defensive Worn — Heavy** | **3 AP** | Standard Heavy armor equipment bonus **+3d10 Defense** |
 
-1. **Offensive Worn:** a close-fitting Energy effect (flames, frost, electrical skin, etc.) confers **no armor defense dice**. It exposes an attacker to the spell's **pre-established Energy contact effect** when the attacker makes a **clean melee hit or Glancing Blow from within 5 ft** of the wearer. Swords, fists, shield bashes, etc. can count; no requirement for bare-skin contact, and attacks originating from beyond 5 ft do not trigger Worn contact even with longer-reach weapons. A successful defense/miss never triggers it. **No new retaliatory attack, no extra reaction AP, no independently generated damage/attack dice**; only the original effect's legitimate contact consequences apply. Contact effects resolve before any Concentration check from the incoming damage can terminate the spell.
-2. **Defensive Worn:** a compatible Energy manifests magical armor/clothing with standard **Light / Medium / Heavy armor profiles** and equipment load/handling; its appearance does not change the category's mechanics. Light **+1d10 equipment defense, load 1**; Medium **+2d10, load 2**; Heavy **+3d10, load 4**. The established Armor/Training Defense rules apply. Manifestation is not automatically weightless or easier to wear. Not all Energies can create defensive equipment.
+**Offensive Worn — APPROVED:**
 
-Offensive and Defensive Worn may be combined in a justified constructed spell **only if each distinct ongoing function is actually supported and paid for**; fiery-looking armor alone never grants free contact damage, nor does offensive fire automatically supply armor. Neither form creates an independent retaliatory attack. Prices for Defensive armor categories and for Offensive Worn are **NOT YET LOCKED**; do not guess them from Shield.
+- Can be manifested **over existing armor**. It never adds armor equipment Defense dice merely because it appears armored.
+- A melee attacker **within 5 feet** whose attack achieves a **clean hit or Glancing Blow** against the wearer makes qualifying contact and experiences the original spell's established Energy contact consequence. Contact can be through a sword, fist, shield bash, or another melee implement; bare-skin contact is not necessary. Attacks from farther than 5 feet do not trigger it, even if a reach weapon contacts the wearer. A defended miss does not trigger it.
+- There is **no automatic retaliation attack**, new attack roll, reaction AP, or independent attack action. On qualifying contact, the determined Energy contact effect occurs directly; it resolves **before** a damage-triggered Concentration check can end the Worn spell.
+- **Damaging Energy used for Offensive Worn contact:** each **1 AP invested into that damaging Energy's contact function** yields **1d10 contact damage** on a qualifying trigger. This is a **Worn-specific contact consequence**, not a universal conversion for Energy AP, and the same AP cannot independently purchase another full Energy function. A non-damaging Energy uses its appropriate separately reviewed Energy effect, rather than automatically converting to damage.
+- Offensive Worn's **2 AP stays fixed**, regardless of Energy investment. Example: **2 AP Offensive Worn + 1 AP damaging Energy = 3 AP initial construction for 1d10 contact damage**, before any additional Duration investment. A 2 AP Energy investment would cause 2d10 contact damage.
+- Multiple qualifying contact events during an ongoing spell can each apply the already-established contact consequence; Worn does not automatically create separately resolved magical attacks. This is a deliberately strong, situational contact deterrent and should be stress-tested against Glancing Blows, multiattacks, grappling, and forced-target mechanics.
+
+**Defensive Worn — APPROVED:**
+
+- A compatible Energy manifests a **Light / Medium / Heavy protective armor or clothing profile**. **The armor category is purchased entirely through the fixed Worn cost** and determines equipment Defense dice; additional Energy AP are **not needed merely to improve or sustain that armor category's Defense dice**. A legitimate base Energy investment is still required to manifest the effect.
+- **Defensive Worn cannot manifest over armor already being worn.** It does not stack armor equipment bonuses with mundane armor or a second magical armor. **Offensive Worn may coexist over armor**, provided it is separately constructed and appropriately supported.
+- Normal **Armor Training requirements and relevant Defense path rules** still govern effective use; magically manifested equipment does not grant Armor Training. There is no free bonus from the Energy's visual appearance.
+- **Weightless or insubstantial Energy manifestations have zero Load**, regardless of Light/Medium/Heavy category; genuine physical or massive manifestations may have appropriate Load based on their Energy. This principle also applies to **manifested Shields**. Weightlessness does not confer free Training, shield eligibility, extra Defense dice, or permission to combine multiple armor profiles.
+- Armor and shield equipment functions remain distinct. A manifested shield may contribute on an eligible **Active Defense**, not Passive Defense, while worn armor follows the **Armored Defense** path and applicable equipment rules.
+- Two separately maintained manifested equipment spells occupy two Concentration spell slots and have their own upkeep; a single justified constructed spell with multiple ongoing functions pays upkeep for **each** function. A Specialist can prepare equipment ahead of combat; losing Concentration ends their maintained gear, requiring a new construction to replace it.
+- **Initial cost examples (not complete character builds):** Light Worn 1 AP + at least 1 AP compatible Energy = at least **2 AP**; Small Shield 1 AP + at least 1 AP compatible Energy = at least **2 AP**; Offensive Worn 2 AP + 1 AP damaging Energy = **3 AP**. Two separately constructed Light Worn and Small Shield spells together require at least **4 initial AP**. The full action ceiling, AP refresh, and optional Duration costs still apply.
+
+**OPEN / TESTING:** Whether some non-damaging Energies generate special contact effects; mixed armor-Energy interactions beyond fixed equipment dice; hybrid damage allocation; and final handling for unusual physically massive manifestations. The **Worn costs and default contact/defense behavior above are locked**.
 
 ### 4.8 Intermediate Optional: Activated — approved
 
@@ -242,7 +263,7 @@ Offensive and Defensive Worn may be combined in a justified constructed spell **
 
 ### 4.9 Review queue remaining
 
-- **Next:** assign and test AP pricing for Defensive Worn (Light / Medium / Heavy) and Offensive Worn, using manifested Shield costs as a comparison without copying them blindly.
+- **Next:** Intermediate Structure review (Burst, Emanation, Fog, Group, Arcing); **Activated's explicitly approved prior decisions remain in §4.8**, but do not use historical CLEAN limitations in preference to them. **No new Intermediate mechanics are approved by the planning review.**
 - Finish the hybrid mixed-damage allocation rule; review ranged penalties and their application to magic.
 - Spell-specific rules for Dispel, Counterspell, Bestowed; non-damage magical disruption threshold; exact Projectile range and physical delivery.
 - Intermediate Shapes/Optionals next: Burst, Emanation, Fog, Group, Activated, Arcing; higher-tier Structures after that.

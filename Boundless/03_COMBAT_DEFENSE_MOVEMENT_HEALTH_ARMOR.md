@@ -38,7 +38,9 @@
 
 ## 3. Defense paths
 
-**✅ CONFIRMED architecture**
+**✅ LATER DEFENSE-PATH OVERRIDE:** The current three paths are **Unarmored** (Agility + Unarmored Training), **Armored** (Stamina + Armor Training and eligible armor equipment dice), and **Ward** (the Specialist's single chosen Casting Stat—Charisma, Intelligence, or Insight—for Ward + Ward Training). **Evasion is retired.** Choose only one path per defense; shields can be added on eligible Active Defense, never automatically Passive Defense. This passage supersedes the older Evasion table preserved below. Concentration instead uses the Specialist's **highest** Casting Stat, which is a different mechanic; see Chapter 6 §4.4.
+
+**🔄 Older defense-path table preserved below for source comparison (superseded where contradictory)**
 
 A Specialist may know multiple defensive approaches, but **only one path contributes to any one defense roll**:
 
@@ -58,7 +60,9 @@ The chosen Stat contributes (1 + floor(Stat/10))d10. The chosen Training contrib
 
 ## 4. Armor, shields, natural armor, and mitigation
 
-**⚠️ MAJOR REVIEW PACKAGE**
+**✅ LATER DECISION / OVERRIDE (2026-10-28, Chapter 6 §§4.2, 4.7):** The modern combat engine **does not use ordinary damage mitigation**. The older CLEAN mitigation material preserved below is historical and does not override later decisions. Manifested Shields keep fixed Structure AP by size (1/2/3/4); Defensive Worn manifests Light/Medium/Heavy magical armor for fixed 1/2/3 Structure AP respectively, while Offensive Worn costs 2 AP plus applicable Energy AP. An appropriate Energy and Energy AP investment are required for each magical construction. **Weightless Energy manifestations have zero Load**, while physically massive manifestations may have Load. Training and the corresponding eligibility for equipment Defense dice remain; manifested equipment grants no Training for free. Defensive Worn cannot layer over existing worn armor; Offensive Worn can. Shields apply to eligible **Active Defense**, not ordinary Passive Defense. For full operational detail, use the approved Chapter 6 rules.
+
+**⚠️ MAJOR REVIEW PACKAGE (legacy notes preserved below)**
 
 Mitigation must **not** be silently deleted. CLEAN and later-integrated Martial content use armor rolls, shield rolls, armor mitigation, shield mitigation, penetration, favored shields, Rhino Hide, and related mechanics in multiple places. The whole ecosystem must be reviewed together before deciding what survives.
 
