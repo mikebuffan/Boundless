@@ -141,16 +141,112 @@ CLEAN multi-round casting through negative AP counters is superseded as the defa
 
 A specific Magic Component may explicitly permit investment across turns.
 
-Maintenance of an effect that has already been enacted is separate from multi-turn construction. Focus/Concentration and interruption remain to be rebuilt.
+Maintenance of an effect that has already been enacted is separate from multi-turn construction. Concentration, duration, interruption, and maintenance transfer are now defined in §4.3–4.4 below; this newer approved review supersedes older CLEAN rules.
 
-## 4. Charged, Conducted, Bestowed
+## 4. Current reviewed Magic Structures, duration, and maintenance (2026-10-28)
 
-**✅ / ⚠️ Current decisions**
+**✅ APPROVED during the current Structure-by-Structure review.** This section supersedes conflicting mechanics in the recovered CLEAN catalog and the older workbook index below. **⚠️ PROVISIONAL / UNRESOLVED** labels are deliberate; do not silently promote proposals into canon. Basic Worn pricing and some interactions still require review.
 
-- **Charged:** enacted effect can be held until resolved or dismissed.
-- **Conducted:** held through a nonstationary object; losing contact dissipates it. If the object's own melee attack is the delivery vehicle, resolve as a Martial+Magic hybrid; otherwise it behaves like touch-style delivery.
-- **Bestowed:** effect is transferred/persists on the carrier; energy/structure remain fixed. The carrier may use the resulting effect according to the Bestowed rules.
-- Current working trigger for Conducted/Bestowed attack delivery: **hit or Glancing Blow triggers; miss does not.**
+### 4.1 Construction and universal principles
+
+- Unmodified spell defaults: **Single** target, **Instantaneous** duration, **Touch** delivery. These defaults cost no separate Structure AP. The name `Single/Defined` is provisionally shortened to **Single**.
+- Energy creates the effect and its power; Structure controls manifestation and delivery. Structure AP does not inherently create attack dice or free independent functions. AP assigned to one function cannot independently buy the full benefit of another.
+- Every AP-bearing Component in a construction must receive at least 1 AP and materially contribute. The **entire action** remains under the 3/6/9/12/15 AP ceiling of its highest-tier materially contributing Component, even when lower-tier Components receive larger investments.
+- For one offensive action targeting several creatures (such as Line or Spread), make **one Attack roll**; each affected target defends separately. The original attack result is not divided among defenders.
+- An attack is a miss if Defense wins, a **Glancing Blow** on a tie (1 damage die), and a clean hit if Attack wins (net successes become damage dice). No ordinary damage mitigation survives the current combat engine.
+
+### 4.2 Simple defaults and Structures
+
+**Instantaneous — Simple, default Duration, 0 AP.** The magical effect exists only long enough to resolve the current maneuver; it cannot persist or be maintained. Its nonmagical consequences can persist naturally. For example, an Instantaneous manifested shield lasts for the single block/maneuver in which it is used, not the whole combat.
+
+**Single — Simple, default Targeting, 0 AP.** One eligible target; no special purchase is needed.
+
+**Touch — Simple, default delivery, 0 AP.** Contact with the target or its worn/wielded equipment can deliver the Energy. The normal eligible opposing Defense still applies, including Ward when appropriate. Whether any armor equipment dice apply when the Energy bypasses physical armor requires Energy/combat review.
+
+**Projectile — Simple, replaces the older Projected + Thrown split.** The Energy can be propelled magically/mentally using the relevant Casting Stat, or physically using an appropriate martial Stat (Toughness or Proficiency, as fits the action). Compatible Martial Components may participate in a constructed action; no equipment advantage is conferred by merely describing a projectile. Exact reach and cost dependencies remain to review.
+
+**Charged — Simple Optional.** A successfully constructed spell may be held for later release. Its **original construction AP remains committed** and unavailable while held; committed AP cannot exceed the Specialist's capacity, and multiple Charged spells are possible within that capacity. Release ordinarily takes place on the caster's turn unless a specific Component permits an out-of-turn release. Releasing it does not grant immediate reuse of the committed AP; those AP become available upon the next normal refresh. This is distinct from maintaining a spell that has already manifested. Charged may be voluntarily dismissed.
+
+**Delayed — REMOVED.** The old Delayed Structure is not retained.
+
+**Shield — Simple equipment-manifestation Structure.** Compatible Energy manifests a physical-functioning shield: **Small 1 AP; Medium 2 AP; Large 3 AP; Tower 4 AP**. The Structure's tier remains Simple at all sizes; a 4 AP Tower Shield requires sufficient total action ceiling from another materially contributing higher-tier Component. Manifested shields use ordinary-equivalent handling/load/defensive equipment profiles unless an Energy or Component explicitly changes them. Shield Training and equipment benefits follow the ordinary shield rules; shields can work with any eligible Defense path on **Active Defense**, not automatically Passive Defense. One cannot gain automatic contact damage or retaliation merely because a shield looks fiery. A manifested shield can be passed to another wielder while maintained remotely; possession and Concentration responsibility are independent.
+
+### 4.3 Durations and autonomous temporal modifiers
+
+| Structure / modifier | Tier | Locked operation |
+| --- | --- | --- |
+| **Instantaneous** | Simple default Duration | No persistence or maintenance. |
+| **Concentration** | Simple regular Duration | Maintains existing effects; upkeep 1 AP per ongoing magical **function** per subsequent turn, counted by function rather than raw Component count. |
+| **Extended** | Basic regular Duration | **1 AP purchases 2 rounds** of predetermined persistence, self-sustaining and without upkeep. |
+| **Scale** | Intermediate Optional temporal modifier | **2 AP per additional round**; autonomous Building or Diminishing sequence, changing the **AP-derived attack dice** by 1d10 each interval. The weakest attack must retain **at least 1 AP-derived attack die**. |
+| **Recurring** | Advanced Optional temporal modifier | **3 AP per additional round**; autonomous repetition of the same full original attack each purchased round. |
+
+- Concentration and Extended are alternative regular Durations (or neither, leaving Instantaneous); Scale and Recurring are **temporal modifiers**, not regular Durations. They purchase additional independently resolved offensive intervals rather than upkeep.
+- **Scale:** For base offensive AP-derived attack dice `N` and `k` purchased extra rounds, Building attacks with `N-k, N-k+1, ..., N`; Diminishing attacks with `N, N-1, ..., N-k`. Each interval adjusts the **attack pool's AP-derived dice**, **not damage dice or Energy intensity**. Stat and Training contributions are unaffected. No interval may begin with zero AP-derived dice.
+- **Recurring:** All `k+1` scheduled attacks use the full original attack pool/strength. A 6 AP base attack with 2 purchased extra rounds has 12 AP total construction cost (6 + 2×3), subject to the entire action ceiling; its attacks occur across 3 rounds.
+- Scale and Recurring sequences continue automatically after release; they cannot be terminated early or refunded. The caster may select a viable target for each scheduled attack subject to the spell's existing range/target constraints. An interval without a viable target is lost. Incapacitated-caster target selection is **UNRESOLVED**.
+- Persistence by itself does **not** grant unlimited fresh attack rolls. Already established consequences of contact with a persistent hazard may occur; additional independently resolved attacks require a suitable purchased function or modifier.
+- Fixed-duration round-count edge cases and timing details remain to be finalized.
+
+### 4.4 Concentration, disruption, and saving / resistance checks
+
+**✅ Approved:**
+
+- A Specialist can maintain **1 spell** by default. **Concentration Training** grants **+1 simultaneous maintained spell per degree**: Simple 2 total, Basic 3, Intermediate 4, Advanced 5, Master 6. It also contributes its normal **+1d10 per degree to Concentration checks**, not to ordinary spell attacks.
+- At the beginning of the Specialist's turn, choose maintained effects and pay **1 AP per ongoing magical function**; functions that have ended do not keep costing AP. The full original construction AP is paid upon casting. A Specialist may continue using Martial, Magic, and Defense Components normally while concentrating.
+- One check occurs **per disruptive event**, regardless of how many spells are maintained. Taking damage triggers a check; specifically disruptive effects can also call for one. The governing stat is the **highest of Intelligence, Charisma, Insight**, irrespective of the individual spell's casting style.
+- **Concentration dice pool:** `1 + floor(highest Casting Stat / 10) + Concentration Training dice - total current maintenance AP load`. Each d10 succeeds on 6–10. **There is no minimum pool**; zero or fewer dice automatically fail a check requiring at least one success.
+- On a damage-caused Concentration check, the target number of successes equals the **physical number of damage dice produced by the successful attack**, **not** successes shown on those damage dice and not total damage rolled. A Glancing Blow therefore sets a 1-success threshold. Damage dice are not re-rolled to determine Concentration difficulty. There is **no damage mitigation** in the modern engine.
+- Failure breaks Concentration and terminates **all spells maintained by that Specialist immediately**. Voluntarily ending an individual maintained spell ends it immediately, including out of turn, with no upkeep refund. If required upkeep cannot be paid when due, the affected spell ends.
+- **General checks/saves:** use the universal d10 success-counting engine. Active opposition uses opposed rolls; static tasks, environmental obstacles, crafting, climbing, locks, etc. use predetermined success thresholds, met or beaten by successes. Existing tiered Skill thresholds are **2/3/4/5/6** successes for Simple/Basic/Intermediate/Advanced/Master, unless a specific subsystem defines another threshold. There is no separate saving-throw dice engine. Dispel and Counterspell require their own future resolution rules, not an automatic blanket loss of Concentration.
+- **Transfer of manifested equipment:** passing an item to another Specialist on **either the caster's or recipient's turn** requires no roll absent meaningful environmental interference. The original caster may continue maintaining it remotely without contact. Merely transferring possession does not transfer upkeep.
+- **Voluntary transfer of Concentration/control:** between willing Specialists during **either participant's turn**, without a roll. The recipient must have enough Concentration capacity and AP to assume the spell; if they assume it without enough upkeep AP, **it expires immediately**. No refund to the former maintainer and no duplicate upkeep solely because of a handoff within the same round. Original spell construction, Energy, and Structures remain fixed.
+- **Overlapping spells:** each maintainer checks separately for disruptions to their own Concentration, and failure ends only their maintained spells. But if a target or required magical support **ceases to be a valid target**, every dependent spell ends, regardless of maintainer. Example: A maintains a manifested shield; B maintains its enhancement. If A's shield ends, B's enhancement also ends; if B's Concentration ends first, A's shield persists. Death invalidates only spells that actually require a living target, not every spell attached to remains or equipment.
+
+### 4.5 Basic Shapes — approved
+
+**Line — Basic Shape:** **1 AP** purchases a straight line **5 ft wide and 10 ft long**; each additional AP extends length **10 ft**, never width. The line begins at the caster; every eligible intersected target may be affected. One Attack roll, separate Defenses. It stops at the first solid obstructing barrier (not automatically wall-penetrating). Range and other Components must fit the construction ceiling.
+
+**Ray — Basic Distance Shape:** **1 AP per 25 ft** of range, with a 1 AP minimum. Extremely narrow, straight, first object/target or solid intervening obstruction is struck; an invalid Energy target or intervening barrier blocks the ray rather than allowing it to pass through. **Ray grants no attack or damage dice or accuracy bonus.** Existing general range penalties may apply, but their exact rules and applicability to spells remain **UNRESOLVED**.
+
+**Spread — Basic Shape:** **1 AP** starts a directional fan **45° wide, 5 ft long** from the caster. Each additional AP adds **either 45° of angle or 5 ft of reach**. The angle caps at **180°**; the range has no independent fixed cap beyond purchased AP and the whole construction ceiling. One Attack roll, separate Defenses for eligible targets. Solid barriers block the portions of the spread they obstruct.
+
+### 4.6 Basic Optional: Conducted — approved
+
+**Conducted — Basic Optional, fixed 1 AP.** A Specialist channels a spell through a suitable weapon or movable held object as part of a **single constructed maneuver**; the caster is the one who casts and controls its immediate attack/delivery. Conducted itself grants no bonus dice, free reach, free extra attacks, or independent doubled damage.
+
+- Applies to **melee and ranged** attacks. For a ranged attack, Energy travels with the projectile as part of that fired/thrown maneuver; separation during the projectile's flight does not invalidate the delivery.
+- **One spell is carried within one constructed maneuver**, even if Martial Components produce multiple attacks. The spell activates and is expended **on the first clean hit or Glancing Blow** achieved by any attack in that maneuver. Missed individual attacks leave it available for later attacks **within the same maneuver**. If no attack makes contact, the spell expires **at the end of that maneuver**; it cannot be carried into a later attack/maneuver.
+- Example: a 12 AP constructed maneuver makes three melee attacks. Attack 1 misses; attack 2 hits, triggering and expending the Conducted spell; attack 3 hits and is Martial-only. The whole 12 AP action requires a materially contributing Advanced-or-higher Component; Conducted's Basic tier does not supply that ceiling.
+- The delivered magical effect is not automatically a second complete Attack/damage roll: the hybrid construction must respect ordinary AP allocation and the eventual unified mixed-damage rules. Those damage-allocation details remain under review.
+- **Distinct from Bestowed (Advanced):** Conducted is cast/triggered by the original caster as part of their maneuver. Bestowed conveys a **fixed, preconstructed spell** to another carrier/Specialist who may later choose when to trigger it and select viable targeting under its predetermined Energy/Structures; specific Bestowed release, miss, and targeting timing rules await its Advanced review. Do not confuse transfer of Concentration responsibility for manifested equipment with gifting a preconstructed Bestowed attack.
+
+### 4.7 Basic Optional: Worn — concept and contact locked; costs open
+
+**Worn — Basic Optional:** Energy is bound directly to the wearer's body / close personal boundary, follows their movements, and covers worn but not wielded equipment. Its Duration is set separately. Unlike **Emanation**, Worn does not radiate outward as a growing spherical area.
+
+Two types (names approved, costs **UNRESOLVED**):
+
+1. **Offensive Worn:** a close-fitting Energy effect (flames, frost, electrical skin, etc.) confers **no armor defense dice**. It exposes an attacker to the spell's **pre-established Energy contact effect** when the attacker makes a **clean melee hit or Glancing Blow from within 5 ft** of the wearer. Swords, fists, shield bashes, etc. can count; no requirement for bare-skin contact, and attacks originating from beyond 5 ft do not trigger Worn contact even with longer-reach weapons. A successful defense/miss never triggers it. **No new retaliatory attack, no extra reaction AP, no independently generated damage/attack dice**; only the original effect's legitimate contact consequences apply. Contact effects resolve before any Concentration check from the incoming damage can terminate the spell.
+2. **Defensive Worn:** a compatible Energy manifests magical armor/clothing with standard **Light / Medium / Heavy armor profiles** and equipment load/handling; its appearance does not change the category's mechanics. Light **+1d10 equipment defense, load 1**; Medium **+2d10, load 2**; Heavy **+3d10, load 4**. The established Armor/Training Defense rules apply. Manifestation is not automatically weightless or easier to wear. Not all Energies can create defensive equipment.
+
+Offensive and Defensive Worn may be combined in a justified constructed spell **only if each distinct ongoing function is actually supported and paid for**; fiery-looking armor alone never grants free contact damage, nor does offensive fire automatically supply armor. Neither form creates an independent retaliatory attack. Prices for Defensive armor categories and for Offensive Worn are **NOT YET LOCKED**; do not guess them from Shield.
+
+### 4.8 Intermediate Optional: Activated — approved
+
+**Activated — Intermediate Optional.** The caster completes a prepared, self-sustaining spell and defines an activation condition that the spell can actually detect with its established capabilities. On a matching event the spell triggers automatically without upkeep or further AP from the original caster; **by default it is single-use and consumed** when triggered. Other expressly compatible Structures may grant repeated triggering if their own rules support it.
+
+- Broad physical/contact/pressure/creature-category triggers may be valid; sophisticated identity or situational judgments require appropriate Energy or other capability rather than free omniscience.
+- Multiple Activated spells may be prepared independently and may trigger from the same event. **No arbitrary hard numerical cap** is imposed simply because they are Activated; preparation, AP at original construction, and available mechanics govern what can be achieved.
+- This is separate from the removed **Delayed** Structure and separate from Concentration upkeep.
+
+### 4.9 Review queue remaining
+
+- **Next:** assign and test AP pricing for Defensive Worn (Light / Medium / Heavy) and Offensive Worn, using manifested Shield costs as a comparison without copying them blindly.
+- Finish the hybrid mixed-damage allocation rule; review ranged penalties and their application to magic.
+- Spell-specific rules for Dispel, Counterspell, Bestowed; non-damage magical disruption threshold; exact Projectile range and physical delivery.
+- Intermediate Shapes/Optionals next: Burst, Emanation, Fog, Group, Activated, Arcing; higher-tier Structures after that.
+- Old workbook records and CLEAN prose below remain **historical evidence** wherever contradicted by this approved section.
 
 ## 5. Counterspelling
 
