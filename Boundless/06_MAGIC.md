@@ -261,13 +261,79 @@ Maintenance of an effect that has already been enacted is separate from multi-tu
 - Multiple Activated spells may be prepared independently and may trigger from the same event. **No arbitrary hard numerical cap** is imposed simply because they are Activated; preparation, AP at original construction, and available mechanics govern what can be achieved.
 - This is separate from the removed **Delayed** Structure and separate from Concentration upkeep.
 
-### 4.9 Review queue remaining
+### 4.9 Intermediate Structures — APPROVED (reviewed through 2026-10-30)
 
-- **Next:** Intermediate Structure review (Burst, Emanation, Fog, Group, Arcing); **Activated's explicitly approved prior decisions remain in §4.8**, but do not use historical CLEAN limitations in preference to them. **No new Intermediate mechanics are approved by the planning review.**
-- Finish the hybrid mixed-damage allocation rule; review ranged penalties and their application to magic.
-- Spell-specific rules for Dispel, Counterspell, Bestowed; non-damage magical disruption threshold; exact Projectile range and physical delivery.
-- Intermediate Shapes/Optionals next: Burst, Emanation, Fog, Group, Activated, Arcing; higher-tier Structures after that.
-- Old workbook records and CLEAN prose below remain **historical evidence** wherever contradicted by this approved section.
+**Authority:** These approved decisions override conflicting historical CLEAN and workbook descriptions preserved later in this chapter. Each construction still requires appropriate Energy AP, Structure AP, Duration where needed, and available AP under the highest materially contributing Component's whole-action ceiling (Intermediate: 9 AP). Unspecified formulas and special-case interactions remain **OPEN**, not automatically canonical.
+
+#### Burst — Intermediate Shape
+
+- **Instantaneous only.** An explosion fills a spherical area; it cannot be continuously sustained. Scale or Recurring can purchase additional **separate instantaneous explosions**, not a persistent single explosion.
+- **1 Burst AP buys a 10 ft diameter; each additional Burst AP increases the diameter by 10 ft.** Structure AP buys area; Energy AP buys specific effect/potency.
+- Origin is at the caster by default, but a compatible separately purchased delivery Structure can place its origin remotely. Burst itself does not confer free range. One attack roll, separate applicable defenses; barriers obstruct appropriate portions of the effect.
+
+#### Aura — Intermediate Shape (replaces legacy Emanation)
+
+- **1 Aura AP buys a 10 ft diameter sphere; each additional Aura AP increases diameter by 5 ft.** Aura is centered on and follows its originating creature without Controlled; the originating creature is exempt from its own Aura. Other creatures are not automatically exempt.
+- Persistent Aura requires an appropriate Duration. The originating Energy determines effects and potency; **do not automatically apply Offensive Worn's unique 1d10 per damaging-Energy-AP conversion**. No hostile exposure produces automatic damage: use the appropriate opposed magical attack/Defense roll.
+- **At most one exposure from each particular Aura per target per individual character's turn; a target may be exposed on multiple different turns in the same round.** Exposure occurs if a target starts its turn inside, voluntarily enters from outside, or the originating creature moves its Aura over a previously outside target. Exit and reentry on the same character's turn do not grant a second exposure from that Aura. Separate Auras track exposure independently.
+- **Forced movement INTO Aura does not immediately trigger exposure**, no matter which side caused the movement. If a forcibly moved target starts its later turn still inside, the start-of-turn exposure occurs normally. Crossing an Aura is not automatically equivalent to being struck: a successful applicable Defense negates that exposure's hostile effect.
+- Solid obstacles block relevant Energies. Specialized forced-movement and out-of-turn timing interactions can be stress-tested later without overriding the approved limit.
+
+#### Atmospheric — Intermediate Shape (merges Fog, Mist, and Cloud)
+
+- **One Structure replaces the historical Fog (Intermediate), Mist and Cloud (Advanced) Structures.** 1 Atmospheric AP creates a cylindrical area with a **20 ft starting diameter and fixed 10 ft height**; each additional Atmospheric AP adds **10 ft diameter**, not height. The footprint is circular. Structure AP buys coverage, Energy AP buys the actual effect.
+- **Caster chooses behavior at construction:** *Settling* (Fog, tends downward and follows low terrain), *Suspended* (Mist, roughly neutral buoyancy), or *Rising* (Cloud, tends upward). The chosen behavior does not change after release. **Energy type does not determine or restrict the choice**; describe the manifestation coherently enough to make magical sense. The Energy's substantive effects remain governed by Energy rules.
+- **Caster-directed repositioning requires Controlled**. Environmental wind can move atmospheric Energy without giving the caster control. The automatic historical height-halving/diameter-doubling formulas and automatic half/quarter damage multipliers are superseded.
+- **Wind dispersal is all-or-nothing.** A force genuinely capable of dispersing the effect can attempt a contest; if it succeeds, the **entire atmospheric spell ends**. No partial-area bookkeeping, gradual diameter reduction, or free regeneration. Replacing a dispersed effect requires a new spell construction.
+- **Concentration atmospheric effect:** active maintainer opposes a qualifying dispersal effect through an appropriate opposed success roll. Losing disperses the atmospheric effect but does **not** automatically break the maintainer's Concentration on other independent spells.
+- **Extended/unattended atmospheric effect:** no remote active caster roll. A qualifying opponent must **meet or exceed a fixed resistance-success threshold** established by the original spell's caster/build parameters. **OPEN:** universal threshold formula, to design alongside unattended enchantments, locks, traps, and other persistent effects; avoid double-crediting AP already spent on area and Energy.
+- Ordinary movement/displacement by wind is distinct from a successful dispersal contest; neither grants free caster-directed control.
+
+#### Group — Intermediate Targeting Structure
+
+- Normal Single/Touch supplies the **first eligible recipient**. **Each additional creature costs 1 Group AP.** At casting, included targets must be in direct physical contact or continuously linked by a physical connector (rope, chain, stick, etc.) with no more than **5 ft between successive linked recipients**. Sharing the same body of water is not sufficient.
+- For connected object collections, the working purchase is **1 cubic foot of additional material per Group AP**. No arbitrary 20-object cap. Exact measurement of unusual irregular collections is a later adjudication detail.
+- Recipients can separate after casting without forfeiting the already established common spell; no continuing distance limit is imposed by Group itself.
+- **ONE Group spell means the same constructed effect, the same Duration, and the same activation event for all still-valid recipients.** With Activated, a qualifying trigger involving **any** recipient triggers **all remaining valid recipients simultaneously**, even if they are widely separated. This applies equally to invisibility, healing, and an explosive effect. Group does not separately grant every object its own trigger schedule, bonus Energy function, or independent attack construction.
+- If one recipient/object becomes invalid before triggering (e.g. an enchanted arrow is destroyed), **only that recipient loses the effect**; the remaining Group recipients remain valid and linked by the shared activation rule. Actual release capability and effect still require the other purchased Energy/Structures.
+
+#### Activated — Intermediate Optional (supplements §4.8)
+
+- Completed Activated spells **wait indefinitely without upkeep or Concentration**, until a qualifying trigger occurs or their required anchor becomes invalid. **Purchased Duration starts only upon activation**, not while dormant. Single-use by default, except when a separately compatible mechanism supports repetition.
+- Anchors may be locations, objects, or creatures. Ordinary movement of a portable anchored object/creature does **not** invalidate it; the spell follows it. A fixed-location anchor stays at its established place. Genuine anchor invalidation expires the spell.
+- Trigger conditions must be actually detectable by the spell; **Divination Energies** may enable more sophisticated recognition. Construction fixes Energy, Structure and permitted targeting; the triggering event can identify the actual eligible target when supported. Ordinary/magical perception and concealment determine detectability; no universal invisibility or omniscience.
+- Multiple separately constructed Activated spells may coexist and trigger on the same event. With **Group**, one trigger activates all remaining valid Group recipients simultaneously.
+- **OPEN:** simultaneous reaction/trigger ordering and edge-case anchor validity; no new priority rule invented here.
+
+#### Arcing — Intermediate Optional
+
+- **1 Arcing AP** reaches the first eligible target within **10 ft**. Each additional Arcing AP purchases **one additional target**, not greater range; each hop reaches a new eligible target within **10 ft of the preceding target** unless another legitimate purchased Structure extends its reach.
+- The current jumps to the **nearest unused eligible target**, potentially friend or foe without a suitable targeting capability. A target is never visited twice by the same chain. **One attack roll, separate defenses.** Successful Defense protects that individual but does **not** interrupt the chain. The chain stops on reaching purchased target count or finding no other eligible target.
+- **OPEN:** ties between equally near next targets and specialized Counterspell that could interrupt the Energy (ordinary successful Defense does not).
+
+#### Scale — Intermediate Optional (previously approved)
+
+- Scale's existing rules in §4.3 remain unchanged: **2 AP per additional round** for automatic Building/Diminishing attack sequence, changing AP-derived attack dice by one each interval, never below 1 AP-derived die. Do not revive the superseded historical Diminishing Structure.
+
+### 4.10 Wall — Advanced Shape, APPROVED (2026-10-30)
+
+- **1 Wall Structure AP buys exactly one full, indivisible 10 × 10 ft planar panel**. Each further AP purchases another complete 10 × 10 ft panel. **No cutting panels into smaller pieces, diagonal triangles, or arbitrary area fragments.** No geometry calculation beyond counting complete panels.
+- Panels in a **single Wall construction** form **one connected arrangement of flat panels**. Panels can connect at **any straight angle**, not just 90 degrees, allowing straight walls, corners, angled barriers, and simple partial enclosures. Curves, tunnels, intricate branching, ornamental stars, and complex sculpted shapes are not part of Wall; reserve genuinely elaborate geometric work for later Sculpted review.
+- **The free ends of an individual Wall spell may not touch or connect to form a closed loop.** This is a restriction on **one spell's own ends**, not a universal prohibition against enclosing a target. A **second separately paid Wall casting may complete an enclosure** by bridging the gap between previous Walls; creative multi-casting geometry is valid and not a loophole to prohibit.
+- **No Wall, whether solid or nonsolid, may manifest into a space already occupied by a creature or solid obstacle.** It may appear near or around a creature when every panel's placement is otherwise legal. **There is no resistance/Defense roll merely to prevent legal Wall placement**, including surrounding someone with an open arrangement or multiple separately constructed Walls.
+- A victim may still make the **appropriate opposed Defense against hostile Energy effects** from Wall (Fire, Cold, etc.). The legacy CLEAN blanket rule that entering a Wall bypasses Ward is removed. Defending against an Energy effect does not automatically permit walking through a physically solid barrier.
+- **Origin:** at the caster unless an appropriate separately purchased delivery Structure permits remote placement. **Energy** determines solidity, physical behavior, contact effects, and durability; the Wall Structure sets geometry. A one-inch-thick manifestation suffices for most applicable Energies. Some inherently solid/massive Energies may manifest walls **up to one foot thick** when appropriate. **Thickness does not automatically translate into increased durability, bonus Defense dice, or additional power.**
+- Standard compatible Duration applies: Instantaneous Wall exists for its instant maneuver, Concentration persists with the usual upkeep/disruption rules, and Extended persists for purchased rounds. Manifesting temporary physical material does **not** automatically create permanently remaining material when Instantaneous or another Duration ends.
+- Distinguish **magical disruption** (unraveling the construction) from **physical breaching** (breaking/penetrating its manifested substance). A physically breached part does not automatically dispel the entire remaining Wall. Material/physical durability and what can pass through are primarily established by each Energy; the universal unattended-effect resistance formula is still **OPEN**, not a new Wall-specific hit-point system.
+- Wall may create strong battlefield positions and clever multi-spell enclosures. Do not add a special anti-trapping roll, arbitrary restriction on combining spells, or automatic crushing when legally created panels surround a creature.
+
+### 4.11 Remaining Magic review queue
+
+- **NEXT: Advanced Bestowed**, particularly transferred release authority, recipient/caster AP accounting, storage versus Charged/Activated, and its interactions with Group's shared event. Review the recovered CLEAN description, not obsolete numerical restrictions.
+- **Advanced Recurring** remains approved (§4.3). Historical Advanced Mist/Cloud are now subsumed into Intermediate Atmospheric; do not count them as surviving separate Advanced Structures.
+- Future **Master** review: Ball, Sculpted, Selective, Sphere, Controlled, Seeking. Check Sphere/Sculpted against Wall's intentionally simple planar-only geometry.
+- Unresolved **system-wide** issues: fixed resistance-success thresholds for unattended effects; physical durability by Energy; advanced spell-specific Dispel/Counterspell; Energy effects; hybrid mixed-damage allocation; exact Projectile delivery/range and general range penalties; simultaneous triggers and eligible interruption timing; object collection measurements in Group.
+- The subsequent CLEAN catalog/workbook text is **historical evidence** and is superseded wherever it conflicts with the reviewed rules above.
 
 ## 5. Counterspelling
 
