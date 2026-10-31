@@ -339,9 +339,28 @@ Maintenance of an effect that has already been enacted is separate from multi-tu
 - **Distinctions:** Charged holds the original construction's AP while the caster personally awaits release; Conducted is delivered by its original caster during a single maneuver and expires after that maneuver; Activated is released automatically by a preset detectable event and also reserves its own 1 AP while dormant. Bestowed passes deliberate release authority and a prepared construction to an authorized recipient.
 - **OPEN universal edge cases:** what occurs when the original caster's maximum AP drops below outstanding reservations; contested simultaneous release timing; specific Counterspell compatibility; unusual loss of caster or anchor; interaction of any separately purchased multiple-release mechanism. Do not silently invent a rule for these cases.
 
-### 4.12 Remaining Magic review queue
+### 4.12 Master Shapes: Ball and Sphere — approved core (2026-10-30)
 
-- **NEXT: Master Structures — Ball and Sphere**, followed by the remaining Master Structures. Bestowed has been reviewed and approved in section 4.11.
+**Common geometry and movement**
+- **Ball and Sphere are distinct Master Shapes.** Each starts at **10 ft diameter for 1 Structure AP**; **each additional Structure AP increases its diameter by 5 ft**. Appropriate Energy AP and any independent Components must also be purchased, without using AP twice.
+- Neither Shape grants **caster-directed movement** for free. Deliberate repositioning requires **Controlled** or another expressly capable Structure. An Energy manifestation may still move naturally under **gravity or other physical forces when its particular properties make that possible**; that movement is not equivalent to free steering. Casting a Spell at a given origin is distinct from later moving it.
+- In either case **Energy determines solidity, permeability, damage, effects, and material behavior**. Shape alone does not award extra damage or prevent all passage. Applicable hostile Energy effects still permit the ordinary Defense; no obsolete rule that voluntarily entering forfeits Ward.
+
+**Ball — Master Shape**
+- A **fully filled spherical volume** of the chosen Energy, as opposed to a hollow shell. May be solid, semipermeable, or otherwise physically interactive in accordance with the Energy. Creatures/objects inside its volume can be exposed to its legitimate Energy effects.
+- A Ball may be **persistent** under a compatible Duration such as Concentration or Extended; neither Recurring nor any other extra repeated-attack capability is mandatory merely to sustain it. **Recurring is explicitly compatible in principle**: when separately purchased it may make the existing Ball execute additional full attacks at the purchased intervals, subject to normal Recurring AP, resolution, and fixed-construction rules. Maintaining a passive volume and purchasing new discrete attacks are not automatically identical functions.
+- **OPEN:** ordinary exposure cadence for creatures occupying/entering the Ball, and its interaction with separately paid Recurring attacks; caster-safe initial manifestation and exact default origin, particularly when the Ball is solid or harmful. Do not borrow Aura's exact exposure rule or create automatic bonus attacks until reviewed.
+
+**Sphere — Master Shape**
+- A **hollow, continuous spherical shell**, rather than a filled volume. **By default its center is the caster**, so the shell forms around the caster, not through the caster's body. It may **completely enclose creatures and objects in one casting**, unlike the no-self-closing restriction on one Advanced Wall.
+- **Energy determines whether passage through the shell is blocked, possible with resistance, or freely permeable, and whether crossing/contact produces damage or other effects.** No automatic hostile Energy effect without the appropriate normal resolution. Empty interior space is not automatically exposed to the shell's effect merely for being inside.
+- Sphere's placement is not automatic crushing, instant displacement or an exemption from ordinary manifestation legality. Default placement is around the caster; separate compatible delivery capabilities may enable other lawful origins.
+- Use standard compatible Duration. **Sphere does not automatically follow the caster** after casting; if the Energy and environment permit gravity-driven movement, that can occur naturally. Otherwise intentional repositioning remains Controlled's job.
+- **OPEN:** exact contact/exposure cadence for a sustained shell and other Edge interactions; Energy-specific durability and physical breakage under the universal disruption system remain in their respective reviews.
+
+### 4.13 Remaining Magic review queue
+
+- **NEXT: finish Ball's normal exposure cadence and interaction with Recurring**, then continue the remaining Master reviews (Sculpted, Selective, Controlled, Seeking). Ball and Sphere's approved geometry and core behavior are recorded in section 4.12.
 - **Advanced Recurring** remains approved (§4.3). Historical Advanced Mist/Cloud are now subsumed into Intermediate Atmospheric; do not count them as surviving separate Advanced Structures.
 - Future **Master** review: Ball, Sculpted, Selective, Sphere, Controlled, Seeking. Check Sphere/Sculpted against Wall's intentionally simple planar-only geometry.
 - Unresolved **system-wide** issues: fixed resistance-success thresholds for unattended effects; physical durability by Energy; advanced spell-specific Dispel/Counterspell; Energy effects; hybrid mixed-damage allocation; exact Projectile delivery/range and general range penalties; simultaneous triggers and eligible interruption timing; object collection measurements in Group.
