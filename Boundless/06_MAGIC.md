@@ -187,6 +187,7 @@ Maintenance of an effect that has already been enacted is separate from multi-tu
 - When a Shape limits each target to **one Energy effect application per individual character's turn**, beneficial or harmful, that limit includes exposures and any separately paid Recurring attack from **the same spell** on that same turn. Recurring can still strike on another character's turn in the same round, if its scheduled attack and other eligibility requirements are met.
 - **Scale:** For base offensive AP-derived attack dice `N` and `k` purchased extra rounds, Building attacks with `N-k, N-k+1, ..., N`; Diminishing attacks with `N, N-1, ..., N-k`. Each interval adjusts the **attack pool's AP-derived dice**, **not damage dice or Energy intensity**. Stat and Training contributions are unaffected. No interval may begin with zero AP-derived dice.
 - **Recurring:** All `k+1` scheduled attacks use the full original attack pool/strength. A 6 AP base attack with 2 purchased extra rounds has 12 AP total construction cost (6 + 2×3), subject to the entire action ceiling; its attacks occur across 3 rounds.
+- **Intensifying — REMOVED.** Its historical Master Duration progressively added free attack/damage dice beyond the AP invested in the spell, incompatible with the approved AP-derived attack pool, opposed-damage rules, and no-double-dipping principle. Scale and Recurring provide separately priced progression and repetition without restoring this bonus-dice mechanic. The original CLEAN description is preserved below solely as historical evidence.
 - Scale and Recurring sequences continue automatically after release; they cannot be terminated early or refunded. The caster may select a viable target for each scheduled attack subject to the spell's existing range/target constraints. An interval without a viable target is lost. Incapacitated-caster target selection is **UNRESOLVED**.
 - Persistence by itself does **not** grant unlimited fresh attack rolls. Already established consequences of contact with a persistent hazard may occur; additional independently resolved attacks require a suitable purchased function or modifier.
 - Fixed-duration round-count edge cases and timing details remain to be finalized.
@@ -403,7 +404,7 @@ Maintenance of an effect that has already been enacted is separate from multi-tu
 
 ### 4.17 Remaining Magic review queue
 
-- **NEXT:** review Projectile's speed/reach and Seeking interaction with Ray, alongside historical Master Intensifying versus the approved Intermediate Scale mechanic. **Mobile Concentration is REMOVED** as unnecessary duplication of Concentration (and optional Controlled when steering is needed). Seeking's Targeting role, simple homing and provisional 2 AP cost are recorded in §4.16; earlier Master reviews are retained.
+- **NEXT:** finalize Projectile's AP-based reach (working discussion: shorter increments than Ray), single-maneuver flight resolution, and Seeking/Ray compatibility. **Intensifying is REMOVED:** the historical version grants extra attack/damage dice beyond invested AP, violating the modern construction economy; Scale and Recurring remain the paid progression/repetition options. **Mobile Concentration remains REMOVED** as redundant. Seeking's Targeting role, simple homing and provisional 2 AP cost are recorded in §4.16; earlier Master reviews are retained.
 - Ball and Sphere (§4.12) remain unchanged. Advanced Recurring and Intermediate Atmospheric remain in force under previous decisions.
 - Unresolved system-wide matters include fixed resistance thresholds for unattended effects, physical durability by Energy, Dispel/Counterspell, hybrid damage allocation, general range rules, and simultaneous trigger ordering.
 - The historical CLEAN catalog/workbook text below is preserved as evidence and is superseded wherever it conflicts with these approved review decisions.
@@ -425,7 +426,7 @@ The source workbook contains extensive calculators. Per explicit instruction, th
 - **Building** — Basic
 - **Diminishing** — Intermediate
 - **Extended** — Advanced
-- **Intensifying** — Master
+- **Intensifying** — Master (**historical workbook index only; REMOVED in current rules**)
 - **Touch** — Simple
 - **Thrown** — Simple
 - **Projected** — Simple
