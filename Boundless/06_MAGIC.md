@@ -392,9 +392,18 @@ Maintenance of an effect that has already been enacted is separate from multi-tu
 - **Obstacles and Energy:** Movement must respect existing physical obstructions and the Energy's legitimate permeability/solidity. Controlled does not automatically phase a solid creation through walls or creatures, nor override normal application/defense/exposure limits when the effect moves across a target. Natural movement due to gravity or other physical forces is distinct from intentional Controlled movement and grants no free steering.
 - **OPEN for later playtesting:** special interactions between commanded movement, hostile exposure, simultaneous effects, separately maintained dependencies and moving occupied spaces; these remain subject to ordinary established rules rather than automatic new attacks or free displacement.
 
-### 4.16 Remaining Magic review queue
+### 4.16 Seeking — Master Targeting, reviewed
 
-- **NEXT:** review Master **Seeking**. Controlled's AP-based movement and lifetime are approved in §4.15; Selective's **1 AP per explicitly identified recipient** is approved in §4.14; Sculpted's approximate **2-foot-per-AP** sizing remains locked in §4.13.
+**Seeking** is a Master **Targeting** Structure, replacing Single. Its cost is provisionally **2 AP**. The caster designates one specific eligible target at construction.
+
+- **Simple homing:** Seeking automatically corrects its flight toward its designated target. It follows basic turns where a traversable route exists, but it does not perform sophisticated pathfinding, navigate elaborate detours, or change targets.
+- **Speed and reach:** The selected **Distance/Delivery Structure** determines travel speed and maximum distance. Seeking does not use Controlled's movement rate or purchase additional speed with its own AP. Seeking is intended for rapid projectile-like travel. Exact numerical Projectile speed and range are still **OPEN** in the Distance review.
+- **Barriers and resolution:** Solid obstacles and completely sealed spaces block Seeking as usual for the Energy and Delivery chosen. Seeking grants no automatic success, extra attack dice, damage, independent casting range, or additional attacks. Normal opposed Defense applies.
+- **OPEN:** compatibility with inherently straight-line Distance types such as Ray; timing of flight across turns; and related Delivery rules. These are separate from Seeking's agreed Targeting function. Legacy CLEAN movement-unit figures remain historical evidence, not modern speed rules.
+
+### 4.17 Remaining Magic review queue
+
+- **NEXT:** resolve Distance/Delivery, especially Projectile's speed and reach, plus Seeking's interaction with straight-line Ray. Seeking's Master Targeting role, simple homing and provisional 2 AP cost are recorded in §4.16; earlier Master reviews are retained.
 - Ball and Sphere (§4.12) remain unchanged. Advanced Recurring and Intermediate Atmospheric remain in force under previous decisions.
 - Unresolved system-wide matters include fixed resistance thresholds for unattended effects, physical durability by Energy, Dispel/Counterspell, hybrid damage allocation, general range rules, and simultaneous trigger ordering.
 - The historical CLEAN catalog/workbook text below is preserved as evidence and is superseded wherever it conflicts with these approved review decisions.
