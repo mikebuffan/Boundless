@@ -182,7 +182,7 @@ Maintenance of an effect that has already been enacted is separate from multi-tu
 | **Scale** | Intermediate Optional temporal modifier | **2 AP per additional round**; autonomous Building or Diminishing sequence, changing the **AP-derived attack dice** by 1d10 each interval. The weakest attack must retain **at least 1 AP-derived attack die**. |
 | **Recurring** | Advanced Optional temporal modifier | **3 AP per additional round**; autonomous repetition of the same full original attack each purchased round. |
 
-- Concentration and Extended are alternative regular Durations (or neither, leaving Instantaneous); Scale and Recurring are **temporal modifiers**, not regular Durations. They purchase additional independently resolved offensive intervals rather than upkeep.
+- Concentration and Extended are alternative regular Durations (or neither, leaving Instantaneous); Scale and Recurring are **temporal modifiers**, not regular Durations. They purchase additional independently resolved offensive intervals rather than upkeep. **Mobile Concentration is REMOVED as redundant**: ordinary Concentration already maintains a spell; compatible Controlled may be purchased when the caster wants to steer that maintained manifestation. No extra mobile-maintenance subcategory or special upkeep rules exist.
 - **Concentration + Recurring may coexist within one constructed spell**: Concentration is its sole selected Duration, maintaining the persistent manifestation; Recurring remains a separately paid Optional that schedules additional full attacks. Recurring is paid at construction and has **no separate Concentration upkeep** merely for being attached. The maintained manifestation pays its ordinary function upkeep. Scheduled attacks require the spell to remain valid when their interval occurs; losing Concentration ends the underlying manifestation and prevents further attacks by that vanished spell. Ending the maintained spell does not refund spent Recurring AP.
 - When a Shape limits each target to **one Energy effect application per individual character's turn**, beneficial or harmful, that limit includes exposures and any separately paid Recurring attack from **the same spell** on that same turn. Recurring can still strike on another character's turn in the same round, if its scheduled attack and other eligibility requirements are met.
 - **Scale:** For base offensive AP-derived attack dice `N` and `k` purchased extra rounds, Building attacks with `N-k, N-k+1, ..., N`; Diminishing attacks with `N, N-1, ..., N-k`. Each interval adjusts the **attack pool's AP-derived dice**, **not damage dice or Energy intensity**. Stat and Training contributions are unaffected. No interval may begin with zero AP-derived dice.
@@ -403,7 +403,7 @@ Maintenance of an effect that has already been enacted is separate from multi-tu
 
 ### 4.17 Remaining Magic review queue
 
-- **NEXT:** resolve Distance/Delivery, especially Projectile's speed and reach, plus Seeking's interaction with straight-line Ray. Seeking's Master Targeting role, simple homing and provisional 2 AP cost are recorded in §4.16; earlier Master reviews are retained.
+- **NEXT:** review Projectile's speed/reach and Seeking interaction with Ray, alongside historical Master Intensifying versus the approved Intermediate Scale mechanic. **Mobile Concentration is REMOVED** as unnecessary duplication of Concentration (and optional Controlled when steering is needed). Seeking's Targeting role, simple homing and provisional 2 AP cost are recorded in §4.16; earlier Master reviews are retained.
 - Ball and Sphere (§4.12) remain unchanged. Advanced Recurring and Intermediate Atmospheric remain in force under previous decisions.
 - Unresolved system-wide matters include fixed resistance thresholds for unattended effects, physical durability by Energy, Dispel/Counterspell, hybrid damage allocation, general range rules, and simultaneous trigger ordering.
 - The historical CLEAN catalog/workbook text below is preserved as evidence and is superseded wherever it conflicts with these approved review decisions.
@@ -451,7 +451,7 @@ The source workbook contains extensive calculators. Per explicit instruction, th
 - **Bestowed** — Advanced
 - **Seeking** — Master
 - **Controlled** — Master
-- **Mobile Concentration** — Master
+- **Mobile Concentration** — Master (**historical workbook index only; REMOVED in current rules**)
 
 ## 7. Workbook-derived Energy index — formulas intentionally ignored
 
