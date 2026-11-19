@@ -330,7 +330,7 @@ Imbuement is a prospective magical crafting process, distinct from constructing 
 
 - **Arcing occupies the one primary Shape slot**, replacing Point. It cannot be combined in a single spell with another primary Shape (such as Ball, Group, or Line). **1 Arcing AP** reaches the first eligible target within **10 ft**. Each additional Arcing AP purchases **one additional target**, not greater range; each hop reaches a new eligible target within **10 ft of the preceding target** unless another legitimate purchased Structure extends its reach.
 - The current jumps to the **nearest unused eligible target**, potentially friend or foe without a suitable targeting capability. A target is never visited twice by the same chain. **One attack roll, separate defenses.** Successful Defense protects that individual but does **not** interrupt the chain. The chain stops on reaching purchased target count or finding no other eligible target.
-- **OPEN:** ties between equally near next targets and specialized Counterspell that could interrupt the Energy (ordinary successful Defense does not).
+- **APPROVED — Arcing tie and Counterspell resolution:** When multiple unused eligible next targets are equally near, determine which receives the arc randomly among those tied targets; the caster does not choose merely because distances tie. Arcing is subject to the ordinary qualifying Counterspell window at its initial trigger/release, before manifestation. Once successfully manifested, successive jumps are parts of resolving the same spell, not separate castings, and do not create additional Counterspell windows. Ordinary successful Defense protects that target without interrupting the arc.
 
 #### Scale — Intermediate Duration (reclassified 2026-11-02)
 
