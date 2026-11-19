@@ -23,7 +23,9 @@
 6. Reactions/active defenses may consume AP reserved within the round.
 7. Unused AP does not carry into the next turn.
 
-**⚠️ REVIEW:** reaction priority, multiple reactions, exact tie-breaking for Initiative, delay/ready behavior, and simultaneous effects still need a formal timing section.
+**✅ APPROVED (2026-11-19) — sequential defensive commitment:** Where multiple eligible defensive responses can independently interrupt or address the same pending action, each responder decides whether to commit AP when their legal response opportunity arises; no advance AP payment is required from every potential responder. If an earlier response removes the need for later responses, uncommitted responders retain their AP. A committed defensive action expends its AP even if it fails or is successfully interrupted. This principle does not allow a defense after the relevant resolution has completed, grant additional reactions, or override action-specific restrictions. See Chapter 6 §5 for Counterspell ordering.
+
+**⚠️ REVIEW:** general reaction priority, other multiple-reaction interactions, exact tie-breaking for Initiative, delay/ready behavior, and simultaneous effects still need a formal timing section.
 
 ## 2. Attack and damage
 
